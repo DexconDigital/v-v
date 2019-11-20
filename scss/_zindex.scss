@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+body { 
+
+}
+
+.margen_contenedores_index {
+    margin: 0 8%;
+}
+
+
+#header_numeros{
+    background-color:#111111;
+    width: 100%;
+    height: 37px;
+    color: white; 
+    font-size: 13px;
+    
+    a{
+        text-decoration: none;
+        color: #aaaaaa;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+    .telefonos, .whatsapp {
+        div {
+        padding: 0 20px;
+        }
+    
+      }
+
+  } 
+
+  
+#logo_y_navbar {
+    a {
+    
+        &:hover {
+            color: blue;
+        }
+    }
+
+    .margin_logo {
+        width: 160px;
+        height: 65px;
+        margin: 0 25px;
+    }
+
+    .logo_pse {
+        width: 60px; 
+        height: 60px; cursor: pointer; 
+        margin: 0px 50px 0 0;
+        transition: all 250ms ease-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    li {
+        position: relative;
+    }
+
+    ul li:hover::before {
+        content:"";
+        position: absolute;
+        width: 100%; 
+        height: 5px;
+        margin-top: -26px;
+        background-color: blue;
+    }
+
+  }
+
+#imagenes_principales {
+
+    .carousel-item {
+        transition: transform 1s ease, opacity .5s ease-out
+    }
+
+    .boton_imagen {
+        width: 30px;
+        height: 30px;
+        border-radius: 15%;
+    }
+
+    h5 {
+        font-style: italic;
+        font-size: 50px;
+        color: RGB(255,255,255);
+    }
+
+    img {
+        filter: brightness(0.5);
+    }
+
+    .animacion1 {
+        margin-bottom: 35%;
+        animation: texto_animado1 2s ease-out both;
+        opacity: 0;
+
+
+        @keyframes texto_animado1 {
+            0%{
+
+            }
+            100%{
+                margin-bottom: 30%;
+                opacity: 1;
+            }
+        }
+    }
+
+    .animacion2 {
+        margin-bottom: 35%;
+        animation: texto_animado2 2s ease-in-out both;
+        opacity: 0;
+    
+        @keyframes texto_animado2 {
+            0%{
+    
+            }
+            100%{
+                margin-bottom: 30%;
+                opacity: 1;
+            }
+        }
+    
+    }
+
+    
+
+    .animacion3 {
+        margin-bottom: 25%;
+        animation: texto_animado3 2s ease-in-out both;
+        opacity: 0;
+
+        @keyframes texto_animado3 {
+            0%{
+                
+            }
+            100%{
+                margin-bottom:30%;
+                opacity: 1;
+            }
+        }
+    }
+
+}
+
+
+#formulario {
+
+    background-color: #e6e6e6;
+    padding: 50px;
+
+    div {
+        div {
+            margin-bottom: 20px;
+        }
+    }
+
+}
+
+#propiedades_destacadas_menu {
+    text-align: center;
+
+
+    div {
+        input {
+            margin: 0 10px;
+        }
+    }
+}
+
+#propiedades_destacadas_imagenes {
+
+}
