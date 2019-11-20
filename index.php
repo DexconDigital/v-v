@@ -181,42 +181,158 @@
         </form>
     </section>
 
-    <section id="propiedades_destacadas_menu">
-
-        <div> <h2 class="mb-5 mt-5"> <b> Propiedades destacadas </b> </h2> </div>
-
-        <div class="mb-5 d-flex justify-content-center">
-                <input type="button" class="btn btn-outline-primary" value="Tipo de inmueble">
-                <input type="button" class="btn btn-outline-primary" value="Tipo de gestion">
-                <input type="button" class="btn btn-outline-primary" value="Ubicación">
-                <input type="button" class="btn btn-outline-primary" value="Precio">
-                <input type="button" class="btn btn-outline-primary" value="Código">
-                <input type="button" class="btn btn-outline-primary" value="Área">
-                <input type="button" class="btn btn-outline-primary" value="Baños">
-                <input type="button" class="btn btn-outline-primary" value="Alcobas">
-                <input type="button" class="btn btn-outline-primary" value="Garajes">   
-        </div>
-    </section>
-
     <section id="propiedades_destacadas_imagenes" class="margen_contenedores_index">
-        <div class="container">
-            <div class="col-12">    
-                <div class="row">
-                    <div class="mb-5 col-4">
-                        <div class="card" style="width: 22rem;">
-                            <img src="images/no_image.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>              
-                </div>
-            </div>
-        </div>  
-    </section>
 
+        <h2 class="mt-5 mb-5 text-center"> Propiedades destacadas </h2>
+
+      <div class="card-group">
+            <div class="container">
+                <div class="col-12">
+                    <div class="row">
+                        
+                       <!-- <div class="owl-carousel owl-theme" id=> -->
+                           
+                            <div class="col-4 mb-5">
+                                <div class="card" style="width: 22rem;">
+                                    <img src="images/no_image.png" class="card-img-top" alt="...">
+                                        <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
+                                        <p class="tipo_de_renta card-text"> Estado </p>
+                                        <p class="precio_inmueble card-text"> $1.500.000 </p>
+                                    <div style="margin: 0 1%;" class="card-body">
+    
+                                        <h5 class="card-title"> Titulo de propiedad </h5>
+                                        <li class="mt-3 mb-3 centrar_v d-flex"> <i class="fas fa-map-marker-alt"></i> <span class="ml-2"> Dirección </span> </li>
+    
+                                        <ul class="padding_left_0 d-flex flex-wrap align-items-center justify-content-around">
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> 0 </span> </li>
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fas fa-chart-area"></i> <span class="ml-2"> 0 </span> </li>
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fa fa-bed"></i> <span class="ml-2"> 0 </span> </li> 
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fa fa-car"></i> <span class="ml-2"> 0 </span> </li>
+                                        </ul>
+    
+                                    </div>  
+                                </div>
+                            </div>
+
+                            <div class="col-4 mb-5">
+                                <div class="card" style="width: 22rem;">
+                                    <img src="images/no_image.png" class="card-img-top" alt="...">
+                                        <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
+                                        <p class="tipo_de_renta card-text"> Estado </p>
+                                        <p class="precio_inmueble card-text"> $1.500.000 </p>
+                                    <div style="margin: 0 1%;" class="card-body">
+    
+                                        <h5 class="card-title"> Titulo de propiedad </h5>
+                                        <li class="mt-3 mb-3 centrar_v d-flex"> <i class="fas fa-map-marker-alt"></i> <span class="ml-2"> Dirección </span> </li>
+    
+                                        <ul class="padding_left_0 d-flex flex-wrap align-items-center justify-content-around">
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> 0 </span> </li>
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fas fa-chart-area"></i> <span class="ml-2"> 0 </span> </li>
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fa fa-bed"></i> <span class="ml-2"> 0 </span> </li> 
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fa fa-car"></i> <span class="ml-2"> 0 </span> </li>
+                                        </ul>
+    
+                                    </div>  
+                                </div>
+                            </div>
+
+                            <div class="col-4 mb-5">
+                                <div class="card" style="width: 22rem;">
+                                    <img src="images/no_image.png" class="card-img-top" alt="...">
+                                        <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
+                                        <p class="tipo_de_renta card-text"> Estado </p>
+                                        <p class="precio_inmueble card-text"> $1.500.000 </p>
+                                    <div style="margin: 0 1%;" class="card-body">
+    
+                                        <h5 class="card-title"> Titulo de propiedad </h5>
+                                        <li class="mt-3 mb-3 centrar_v d-flex"> <i class="fas fa-map-marker-alt"></i> <span class="ml-2"> Dirección </span> </li>
+    
+                                        <ul class="padding_left_0 d-flex flex-wrap align-items-center justify-content-around">
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> 0 </span> </li>
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fas fa-chart-area"></i> <span class="ml-2"> 0 </span> </li>
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fa fa-bed"></i> <span class="ml-2"> 0 </span> </li> 
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fa fa-car"></i> <span class="ml-2"> 0 </span> </li>
+                                        </ul>
+    
+                                    </div>  
+                                </div>
+                            </div>
+
+                            <div class="col-4 mb-5">
+                                <div class="card" style="width: 22rem;">
+                                    <img src="images/no_image.png" class="card-img-top" alt="...">
+                                        <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
+                                        <p class="tipo_de_renta card-text"> Estado </p>
+                                        <p class="precio_inmueble card-text"> $1.500.000 </p>
+                                    <div style="margin: 0 1%;" class="card-body">
+    
+                                        <h5 class="card-title"> Titulo de propiedad </h5>
+                                        <li class="mt-3 mb-3 centrar_v d-flex"> <i class="fas fa-map-marker-alt"></i> <span class="ml-2"> Dirección </span> </li>
+    
+                                        <ul class="padding_left_0 d-flex flex-wrap align-items-center justify-content-around">
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> 0 </span> </li>
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fas fa-chart-area"></i> <span class="ml-2"> 0 </span> </li>
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fa fa-bed"></i> <span class="ml-2"> 0 </span> </li> 
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fa fa-car"></i> <span class="ml-2"> 0 </span> </li>
+                                        </ul>
+    
+                                    </div>  
+                                </div>
+                            </div>
+
+                            <div class="col-4 mb-5">
+                                <div class="card" style="width: 22rem;">
+                                    <img src="images/no_image.png" class="card-img-top" alt="...">
+                                        <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
+                                        <p class="tipo_de_renta card-text"> Estado </p>
+                                        <p class="precio_inmueble card-text"> $1.500.000 </p>
+                                    <div style="margin: 0 1%;" class="card-body">
+    
+                                        <h5 class="card-title"> Titulo de propiedad </h5>
+                                        <li class="mt-3 mb-3 centrar_v d-flex"> <i class="fas fa-map-marker-alt"></i> <span class="ml-2"> Dirección </span> </li>
+    
+                                        <ul class="padding_left_0 d-flex flex-wrap align-items-center justify-content-around">
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> 0 </span> </li>
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fas fa-chart-area"></i> <span class="ml-2"> 0 </span> </li>
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fa fa-bed"></i> <span class="ml-2"> 0 </span> </li> 
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fa fa-car"></i> <span class="ml-2"> 0 </span> </li>
+                                        </ul>
+    
+                                    </div>  
+                                </div>
+                            </div>
+
+                            <div class="col-4 mb-5">
+                                <div class="card" style="width: 22rem;">
+                                    <img src="images/no_image.png" class="card-img-top" alt="...">
+                                        <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
+                                        <p class="tipo_de_renta card-text"> Estado </p>
+                                        <p class="precio_inmueble card-text"> $1.500.000 </p>
+                                    <div style="margin: 0 1%;" class="card-body">
+    
+                                        <h5 class="card-title"> Titulo de propiedad </h5>
+                                        <li class="mt-3 mb-3 centrar_v d-flex"> <i class="fas fa-map-marker-alt"></i> <span class="ml-2"> Dirección </span> </li>
+    
+                                        <ul class="padding_left_0 d-flex flex-wrap align-items-center justify-content-around">
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> 0 </span> </li>
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fas fa-chart-area"></i> <span class="ml-2"> 0 </span> </li>
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fa fa-bed"></i> <span class="ml-2"> 0 </span> </li> 
+                                            <li class="mr-2 d-flex align-items-center"> <i class="fa fa-car"></i> <span class="ml-2"> 0 </span> </li>
+                                        </ul>
+    
+                                    </div>  
+                                </div>
+                            </div>
+
+
+
+                       
+                        </div>
+                    </div>
+            </div>
+      </div>
+        
+    </section>
 
 
 

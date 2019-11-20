@@ -248,7 +248,7 @@ $iconos_servicios = [
 	"avaluos" => "fas fa-balance-scale",
 	"asesoria" => "fas fa-gavel",
 	"corretaje" => "fas fa-handshake",
-	"reparaciones" => "<fas fa-toolbox",
+	"reparaciones" => "fas fa-toolbox",
 ];
 	
 //textos servicios

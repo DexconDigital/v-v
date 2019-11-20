@@ -7612,6 +7612,9 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus {
 .margen_contenedores_index {
   margin: 0 8%; }
 
+.centrar_v {
+  align-items: center; }
+
 #header_numeros {
   background-color: #111111;
   width: 100%;
@@ -7696,5 +7699,38 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus {
   text-align: center; }
   #propiedades_destacadas_menu div input {
     margin: 0 10px; }
+
+#propiedades_destacadas_imagenes img {
+  filter: brightness(0.8);
+  transition: all 250ms ease-out; }
+  #propiedades_destacadas_imagenes img:hover {
+    filter: brightness(0.6); }
+#propiedades_destacadas_imagenes .tipo_de_inmueble {
+  position: absolute;
+  margin: 5% 0 0 5%;
+  background-color: #007bff6e;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+  width: 120px;
+  font-size: 12px; }
+#propiedades_destacadas_imagenes .tipo_de_renta {
+  position: absolute;
+  background-color: #00000052;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+  width: 94px;
+  font-size: 12px;
+  margin: 62% 0 0 68%; }
+#propiedades_destacadas_imagenes .precio_inmueble {
+  color: white;
+  position: absolute;
+  margin: 62% 0 0 5%;
+  font-size: 22px; }
+#propiedades_destacadas_imagenes li {
+  list-style: none; }
+#propiedades_destacadas_imagenes .padding_left_0 {
+  padding-left: 0px; }
 
 /*# sourceMappingURL=style.css.map */
