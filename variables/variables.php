@@ -45,8 +45,8 @@ $datos_contacto = [
 			"icono" => "fas fa-phone",
 		],
 		"celular" => [
-			"link"=> "+5731338709",
-			"imprimir" => "313 387 09",
+			"link"=> "+573133870927",
+			"imprimir" => "313 387 0927",
 			"icono" => "fas fa-mobile-alt",
 		],
 		"celular2" => [
@@ -123,17 +123,17 @@ $logos_aliados = [
 $formularios_aseguradoras = [
 	0 => [
 		'nombre' => 'El Libertador',
-		'imagan' => 'images/libertador.png',
+		'imagen' => 'images/libertador.png',
 		'ruta' => 'http://www.ellibertador.co/wps/portal/el-libertador/home'
 	],
 	1 => [
 		'nombre' => 'Afiansa',
-		'imagan' => 'images/afiansa.png',
+		'imagen' => 'images/afiansa.png',
 		'ruta' => 'https://www.afiansa.com/solicitudes_arrendamiento2/consultar_requisitos'
 	],
 	2 => [
 		'nombre' => 'FianzaCrédito',
-		'imagan' => 'images/fianzacredito.png',
+		'imagen' => 'images/fianzacredito.png',
 		'ruta' => 'https://fianzacredito.com/#formatos'
 	],
 ];
@@ -266,10 +266,6 @@ $texto_servicios = [
 			1 => "Promocionamos los inmuebles de nuestros clientes en diferentes portales inmobiliarios como Finca Raíz y Ciencuadras,  en otras plataformas como OLX y Mercado Libre y en nuestras redes sociales y página web.",
 		],	
 	],
-	"corretaje" =>[
-		"titulo" => "Corretaje",
-		"parrafo" => "Ayudamos a nuestros clientes a encontrar su inmueble soñado en Bogotá, Ibagué y Santa Marta.",
-	],	
 	"avaluos" =>[
 		"titulo" => "Avalúos de Inmuebles",
 		"parrafos" => [
@@ -281,9 +277,13 @@ $texto_servicios = [
 		"titulo" => "Asesoría Jurídica",
 		"parrafo" => "Junto a nuestro aliado Pre Legal Assist, ofrecemos el servicio de asesoría jurídica para nuestros clientes para apoyarlos en lo que necesiten.",
 		],
+	"corretaje" =>[
+			"titulo" => "Corretaje",
+			"parrafo" => "Ayudamos a nuestros clientes a encontrar su inmueble soñado en Bogotá, Ibagué y Santa Marta.",
+		],	
 	"reparaciones" =>[
 		"titulo" => "Reparaciones Locativas",
-		"parrafos" => "Ofrecemos servicio de reparaciones, mantenimientos y mantenimientos preventivos que requieran nuestros clientes. Contamos con nuestros técnicos certificados para garantizarles mayor seguridad y confianza.",
+		"parrafo" => "Ofrecemos servicio de reparaciones, mantenimientos y mantenimientos preventivos que requieran nuestros clientes. Contamos con nuestros técnicos certificados para garantizarles mayor seguridad y confianza.",
 	],
 ];
 ?>
