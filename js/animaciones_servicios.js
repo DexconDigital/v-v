@@ -1,7 +1,3 @@
-$('.cycle').carousel({
-    interval: 200
-  })
-
 window.addEventListener('scroll', animarServicios)
 
 function animarServicios(){

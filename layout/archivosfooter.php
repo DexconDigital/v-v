@@ -3,6 +3,6 @@
 <script src="js/swiper.min.js"> </script>
 <script src="js/all.js"> </script>
 <script src="js/slick.min.js"></script>
-<script src="js/script.js"> </script>
+<script src="js/sripts.js"> </script>
 <script src="js/animaciones_servicios.js"></script>
 

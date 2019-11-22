@@ -7588,20 +7588,6 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  overflow-x: hidden;
-  padding: 0;
-  margin: 0; }
-
-body .body {
-  flex: 1;
-  padding: 0;
-  overflow-x: hidden;
-  margin: 0; }
-
 textarea:focus, textarea[type]:focus, input:focus, input[type]:focus {
   border-color: #B58D10 !important;
   box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px #B58D10 !important;
@@ -7631,6 +7617,8 @@ li {
   height: 37px;
   color: white;
   font-size: 13px; }
+  #header_numeros .barra_navegadora1 {
+    padding: 0 6%; }
   #header_numeros a {
     text-decoration: none;
     color: #aaaaaa; }
@@ -7639,8 +7627,10 @@ li {
   #header_numeros .telefonos div, #header_numeros .whatsapp div {
     padding: 0 20px; }
 
+#logo_y_navbar .barra_navegadora2 {
+  margin: 0 5%; }
 #logo_y_navbar a:hover {
-  color: #017BFF; }
+  color: #010D5A; }
 #logo_y_navbar .margin_logo {
   width: 160px;
   height: 65px;
@@ -7661,7 +7651,7 @@ li {
   width: 100%;
   height: 5px;
   margin-top: -26px;
-  background-color: #017BFF; }
+  background-color: #010D5A; }
 
 #imagenes_principales .carousel-item {
   transition: transform 1s ease, opacity 0.5s ease-out; }
@@ -7817,5 +7807,49 @@ footer {
   footer .copyright {
     position: absolute;
     width: 100%; }
+
+.subir {
+  width: 25px !important;
+  display: none;
+  background-color: #010D5A;
+  color: #CDCDCE;
+  font-size: 12px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  height: 25px;
+  right: 20px;
+  box-shadow: -1px 0px 15px 1px #CDCDCE;
+  z-index: 2; }
+
+p {
+  text-align: justify; }
+
+.margen_contenedores_index {
+  margin: 0 10%; }
+
+#imagen_nosotros {
+  background-image: url("../images/banner_quienes_somos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: gray;
+  width: 100%;
+  height: 280px;
+  filter: brightness(0.6); }
+  #imagen_nosotros h1 {
+    color: #DADADA; }
+
+#nosotros img {
+  width: 100%; }
+
+#contador_estadisticas {
+  background-image: url("../images/banner_estadisticas.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 300px;
+  margin-top: 150px;
+  filter: brightness(0.6); }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,49 @@
+p {
+    text-align: justify;
+}
+
+.margen_contenedores_index {
+    margin: 0 10%;
+}
+
+#imagen_nosotros {
+
+    h1{
+        color: #DADADA;
+    }
+
+    background-image: url('../images/banner_quienes_somos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: gray;
+    width: 100%;
+    height: 280px;
+    filter: brightness(0.6);
+}
+
+#nosotros {
+
+
+    
+    img {
+        width: 100%;
+    }
+
+}
+
+#contador_estadisticas {
+
+    background-image: url("../images/banner_estadisticas.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+    filter: brightness(0.6);
+
+    
+
+
+
+}
