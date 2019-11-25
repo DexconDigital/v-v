@@ -32,19 +32,19 @@
                 <div class="carousel-item active">
                     <img src="images/slide_3.jpg" class="d-block w-100" alt="Imagen carrusel principal">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 class="animacion1"> BIENVENIDO A NUESTRO SITIO WEB </h5>
+                        <h5 class="animacion1 text-uppercase"> Bienvenido a nuestro sitio web </h5>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/slide_2.jpg" class="d-block w-100" alt="Imagen carrusel principal">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 class="animacion2">  El mejor lugar para encontrar tu Inmueble Ideal </h5>
+                        <h5 class="animacion2 text-uppercase">  El mejor lugar para encontrar tu Inmueble Ideal </h5>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/slide_1.jpg" class="d-block w-100" alt="Imagen carrusel principal">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 class="animacion3"> V&V Su mejor opción en finca raíz </h5>
+                        <h5 class="animacion3 text-uppercase"> V&V Su mejor opción en finca raíz </h5>
                     </div>
                 </div>
                 </div>
@@ -61,11 +61,11 @@
     </section>
 
     <section id="formulario">
-        <form action="">
+        <form action="" class="margen_contenedores_index">
             <div class="text-center row">
 
                 <div class="col-3"> 
-                    <input class="input-group" type="text" placeholder="Código"> 
+                    <input class="codigo_input input-group" type="text" placeholder="Código"> 
                 </div>
 
                 <div class="col-3"> 
@@ -135,7 +135,7 @@
                 </div>
 
                 <div class="col-12"> 
-                    <input class="btn btn-outline-primary" type="button" value="Buscar">
+                    <input class="boton_buscar btn" type="button" value="Buscar">
                 </div>
 
             </div>
@@ -152,7 +152,7 @@
                         <div class="d-flex justify-content-around row">
                        
                             <div>
-                                <div class="card" style="width: 22rem;">
+                                <div class="card" style="width: 20rem;">
                                     <img src="images/no_image.png" class="card-img-top" alt="...">
                                         <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
                                         <p class="tipo_de_renta card-text"> Estado </p>
@@ -174,7 +174,7 @@
                             </div>
 
                             <div>
-                                <div class="card" style="width: 22rem;">
+                                <div class="card" style="width: 20rem;">
                                     <img src="images/no_image.png" class="card-img-top" alt="...">
                                         <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
                                         <p class="tipo_de_renta card-text"> Estado </p>
@@ -196,7 +196,7 @@
                             </div>
 
                             <div>
-                                <div class="card" style="width: 22rem;">
+                                <div class="card" style="width: 20rem;">
                                     <img src="images/no_image.png" class="card-img-top" alt="...">
                                         <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
                                         <p class="tipo_de_renta card-text"> Estado </p>
@@ -230,40 +230,40 @@
 
         <div id="animacion_servicios" class="animacion_servicios d-flex justify-content-around flex-wrap">
 
-            <div class="d-flex flex-column align-items-center">
+            <div class="mb-5 d-flex flex-column align-items-center order-2">
                 <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['arriendos']?>"> </i> <br>
                 <span class="titulo_servicios"><?php echo $texto_servicios ['arriendos']['titulo']?></span>
                 <p class="texto_servicios"> <?php echo $texto_servicios ['arriendos']['0'] ?> </p>
                 <a href="servicios.php" class="boton_leer_mas"> Leer más </a>
             </div>
 
-            <div class="d-flex flex-column align-items-center">
+            <div class="mb-5 d-flex flex-column align-items-center order-4">
                 <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['ventas']?>"> </i> <br>
                 <span class="titulo_servicios"><?php echo $texto_servicios ['ventas']['titulo']?></span>
                 <p class="texto_servicios"> <?php echo $texto_servicios ['ventas']['parrafos']['0'] ?> </p>
                 <a href="servicios.php" class="boton_leer_mas"> Leer más </a>
             </div>
 
-            <div class="d-flex flex-column align-items-center">
+            <div class="mb-5 d-flex flex-column align-items-center order-6">
                 <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['avaluos']?>"> </i> <br>
                 <span class="titulo_servicios"> <?php echo $texto_servicios ['avaluos']['titulo']?> </span>
                 <p class="texto_servicios"> <?php echo $texto_servicios ['avaluos']['parrafos']['0'] ?> </p>
                 <a href="servicios.php" class="boton_leer_mas"> Leer más </a>
             </div>
 
-            <div class="mt-5 d-flex flex-column align-items-center">
+            <div class="mb-5 d-flex flex-column align-items-center order-1">
                 <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['asesoria']?>"> </i> <br>
                 <span class="titulo_servicios"><?php echo $texto_servicios ['asesoria']['titulo']?></span>
                 <p class="texto_servicios"> <?php echo $texto_servicios ['asesoria']['parrafo']?> </p>
             </div>
 
-            <div class="mt-5 d-flex flex-column align-items-center">
+            <div class="mb-5 d-flex flex-column align-items-center order-3">
                 <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['corretaje']?>"> </i> <br>
                 <span class="titulo_servicios"><?php echo $texto_servicios ['corretaje']['titulo']?></span>
                 <p class="texto_servicios"> <?php echo $texto_servicios ['corretaje']['parrafo']?> </p>                
             </div>
 
-            <div class="mt-5 d-flex flex-column align-items-center">
+            <div class="mb-5 d-flex flex-column align-items-center order-5">
                 <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['reparaciones']?>"> </i> <br>
                 <span class="titulo_servicios"> <?php echo $texto_servicios ['reparaciones']['titulo']?></span>
                 <p class="texto_servicios"> <?php echo $texto_servicios ['reparaciones']['parrafo']?> </p>
@@ -302,7 +302,7 @@
 
     <section id="propiedades_destacadas_imagenes" class="margen_contenedores_index">
 
-        <h2 class="mt-5 mb-5 text-center"> Propiedades destacadas </h2>
+        <h2 class="mt-5 mb-5 text-center"> Últimas noticias </h2>
 
         <div class="card-group">
         <div class="container-fluid aling-items-center">
@@ -310,7 +310,7 @@
                     <div class="d-flex justify-content-around row">
                 
                         <div>
-                            <div class="card" style="width: 22rem;">
+                            <div class="card" style="width: 20rem;">
                                 <img src="images/no_image.png" class="card-img-top" alt="...">
                                     <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
                                     <p class="tipo_de_renta card-text"> Estado </p>
@@ -332,7 +332,7 @@
                         </div>
 
                         <div>
-                            <div class="card" style="width: 22rem;">
+                            <div class="card" style="width: 20rem;">
                                 <img src="images/no_image.png" class="card-img-top" alt="...">
                                     <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
                                     <p class="tipo_de_renta card-text"> Estado </p>
@@ -354,7 +354,7 @@
                         </div>
 
                         <div>
-                            <div class="card" style="width: 22rem;">
+                            <div class="card" style="width: 20rem;">
                                 <img src="images/no_image.png" class="card-img-top" alt="...">
                                     <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
                                     <p class="tipo_de_renta card-text"> Estado </p>

@@ -8,10 +8,6 @@ p {
 
 #imagen_nosotros {
 
-    h1{
-        color: #DADADA;
-    }
-
     background-image: url('../images/banner_quienes_somos.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,9 +18,12 @@ p {
     filter: brightness(0.6);
 }
 
+    h1{
+        color: white;
+        filter: none;
+    }
+
 #nosotros {
-
-
     
     img {
         width: 100%;
@@ -34,16 +33,6 @@ p {
 
 #contador_estadisticas {
 
-    background-image: url("../images/banner_estadisticas.jpg");
-    background-size: cover;
-    background-position: center center;
-    width: 100%;
-    height: 300px;
-    margin-top: 150px;
-    filter: brightness(0.6);
-
     
-
-
 
 }

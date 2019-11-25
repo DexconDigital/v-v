@@ -7,6 +7,14 @@
     margin: 0 10%;
 }
 
+.margen_contenedores_index2 {
+    margin: 0 2%;
+}
+
+.color_negro {
+    color: black;
+}
+
 .centrar_v {
     align-items: center;
 }
@@ -43,16 +51,16 @@ li {
         }
     }
 
-    .telefonos, .whatsapp {
-        div {
-        padding: 0 20px;
+    @media (max-width: 890px) {
+        
+        .celular1 {
+            display: none;
         }
-    
-      }
 
-  } 
+    }
 
-  
+}
+ 
 #logo_y_navbar {
 
     .barra_navegadora2{
@@ -60,7 +68,11 @@ li {
     }
 
     a {
-    
+
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+
         &:hover {
             color: $color_azul;
         }
@@ -69,13 +81,12 @@ li {
     .margin_logo {
         width: 160px;
         height: 65px;
-        margin: 0 25px;
     }
 
     .logo_pse {
-        width: 60px; 
-        height: 60px; cursor: pointer; 
-        margin: 0px 50px 0 0;
+        width: 50px; 
+        height: 50px; 
+        cursor: pointer; 
         transition: all 250ms ease-out;
 
         &:hover {
@@ -87,13 +98,13 @@ li {
         position: relative;
     }
 
-    ul li:hover::before {
+    li:hover::before {
         content:"";
         position: absolute;
         width: 100%; 
         height: 5px;
-        margin-top: -26px;
-        background-color: $color_azul;
+        margin-top: -20px;
+        background-color: $color_rojo;
     }
 }
 
@@ -173,8 +184,51 @@ li {
 
 }
 
+.boton_buscar {
+    background-color: $color_azul;
+    color: white; 
+    width: 120px;
+
+    &:hover {
+        background-color: $color_rojo;
+        border-color: $color_rojo;
+        color: white;
+    }
+
+    &:active {
+        background-color: green;
+        border-color: green;
+        color: white;
+    }
+
+    &:focus {
+        background-color: $color_rojo;
+        border-color: $color_rojo;
+        color: white;
+    }
+
+    
+
+
+}
+
+
 
 #formulario {
+
+    .codigo_input {
+
+        border: 1px solid white;
+        border-radius: 5px;
+        text-align: center;
+
+        &:focus {
+            border-color: #010d5a40 !important;
+            box-shadow: 0 1px 1px #010d5a73 inset, 0 0 8px #010d5a40 !important;
+            outline: 0 none;
+        }
+       
+    }
 
     background-color: #e6e6e6;
     padding: 50px;
@@ -212,17 +266,19 @@ li {
     .tipo_de_inmueble {
         position: absolute;
         margin: 5% 0 0 5%;
-        background-color: #007bff6e;
         padding: 5px;
         border-radius: 3px;
         text-align: center;
         width: 120px;
         font-size: 12px;
+        color: white;
+        background-color: $color_azul;
     }
     
     .tipo_de_renta {
         position: absolute;
-        background-color: #00000052;
+        background-color: $color_rojo;
+        color: white;
         padding: 5px;
         border-radius: 3px;
         text-align: center;
@@ -250,19 +306,24 @@ li {
 
 #nuestros_servicios{
 
-    .boton_leer_mas {
+    a {
+        text-decoration: none;
+        color: gray;
 
+        &:hover {
+            filter: brightness(0.5);
+        }
     }
-
     .tamaño_iconos_servicios {
         width: 30px; 
         height: 30px;
+        color: $color_azul
     }
 
 
     .titulo_servicios {
         font-weight: bold;
-        color: #007BFF;
+        color: $color_rojo;
     }
 
     .texto_servicios {
@@ -289,6 +350,7 @@ li {
 
 
 }
+
 
 #fomulario_aseguradoras {
 
@@ -376,8 +438,8 @@ footer {
         text-align: justify;
     }
 
-    .margenx_50 {
-        margin: 0 25px;
+    .margenx {
+        margin: 0 5px;
     }
 
     .margen_flecha {
@@ -407,16 +469,11 @@ footer {
     right: 20px;
     box-shadow: -1px 0px 15px 1px #CDCDCE;
     z-index: 2;
+    border-radius: 4px;
+
+    &:active {
+        background-color: $color_rojo;
+        border-color: $color_rojo;
+    }
  }
-
-
-
-
-
-
-
-
-
-
-
 

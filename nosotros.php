@@ -69,15 +69,36 @@
 </section>
 
 <section id="contador_estadisticas">
+
+   <div>
+        <div class="">
+            <div class="col-12 row">
     
+                <div class="col-3"> 
+                    <h2> 0 </h2>
+                    <p> Contador </p> 
+                </div>
+                <div class="col-3"> 
+                    <h2> 0 </h2>
+                    <p> Contador </p> 
+                </div>
+                <div class="col-3"> 
+                    <h2> 0 </h2>
+                    <p> Contador </p> 
+                </div>
+                <div class="col-3"> 
+                    <h2> 0 </h2>
+                    <p> Contador </p> 
+                </div>
+    
+            </div>
+        </div>
+    
+        <div> <img src="images/banner_estadisticas.jpg" alt=""> </div>
+        
+   </div>
+
 </section>
-
-
-
-
-
-
-
 
 
 

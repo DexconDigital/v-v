@@ -7599,6 +7599,12 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus {
 .margen_contenedores_index {
   margin: 0 10%; }
 
+.margen_contenedores_index2 {
+  margin: 0 2%; }
+
+.color_negro {
+  color: black; }
+
 .centrar_v {
   align-items: center; }
 
@@ -7624,34 +7630,37 @@ li {
     color: #aaaaaa; }
     #header_numeros a:hover {
       opacity: 0.7; }
-  #header_numeros .telefonos div, #header_numeros .whatsapp div {
-    padding: 0 20px; }
+  @media (max-width: 890px) {
+    #header_numeros .celular1 {
+      display: none; } }
 
 #logo_y_navbar .barra_navegadora2 {
   margin: 0 5%; }
-#logo_y_navbar a:hover {
-  color: #010D5A; }
+#logo_y_navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px; }
+  #logo_y_navbar a:hover {
+    color: #010D5A; }
 #logo_y_navbar .margin_logo {
   width: 160px;
-  height: 65px;
-  margin: 0 25px; }
+  height: 65px; }
 #logo_y_navbar .logo_pse {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   cursor: pointer;
-  margin: 0px 50px 0 0;
   transition: all 250ms ease-out; }
   #logo_y_navbar .logo_pse:hover {
     transform: scale(1.1); }
 #logo_y_navbar li {
   position: relative; }
-#logo_y_navbar ul li:hover::before {
+#logo_y_navbar li:hover::before {
   content: "";
   position: absolute;
   width: 100%;
   height: 5px;
-  margin-top: -26px;
-  background-color: #010D5A; }
+  margin-top: -20px;
+  background-color: #A11216; }
 
 #imagenes_principales .carousel-item {
   transition: transform 1s ease, opacity 0.5s ease-out; }
@@ -7689,9 +7698,34 @@ li {
   100% {
     margin-bottom: 30%;
     opacity: 1; } }
+.boton_buscar {
+  background-color: #010D5A;
+  color: white;
+  width: 120px; }
+  .boton_buscar:hover {
+    background-color: #A11216;
+    border-color: #A11216;
+    color: white; }
+  .boton_buscar:active {
+    background-color: green;
+    border-color: green;
+    color: white; }
+  .boton_buscar:focus {
+    background-color: #A11216;
+    border-color: #A11216;
+    color: white; }
+
 #formulario {
   background-color: #e6e6e6;
   padding: 50px; }
+  #formulario .codigo_input {
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center; }
+    #formulario .codigo_input:focus {
+      border-color: #010d5a40 !important;
+      box-shadow: 0 1px 1px #010d5a73 inset, 0 0 8px #010d5a40 !important;
+      outline: 0 none; }
   #formulario div div {
     margin-bottom: 20px; }
 
@@ -7708,15 +7742,17 @@ li {
 #propiedades_destacadas_imagenes .tipo_de_inmueble, #ultimas_noticias .tipo_de_inmueble {
   position: absolute;
   margin: 5% 0 0 5%;
-  background-color: #007bff6e;
   padding: 5px;
   border-radius: 3px;
   text-align: center;
   width: 120px;
-  font-size: 12px; }
+  font-size: 12px;
+  color: white;
+  background-color: #010D5A; }
 #propiedades_destacadas_imagenes .tipo_de_renta, #ultimas_noticias .tipo_de_renta {
   position: absolute;
-  background-color: #00000052;
+  background-color: #A11216;
+  color: white;
   padding: 5px;
   border-radius: 3px;
   text-align: center;
@@ -7733,12 +7769,18 @@ li {
 #propiedades_destacadas_imagenes .padding_left_0, #ultimas_noticias .padding_left_0 {
   padding-left: 0px; }
 
+#nuestros_servicios a {
+  text-decoration: none;
+  color: gray; }
+  #nuestros_servicios a:hover {
+    filter: brightness(0.5); }
 #nuestros_servicios .tamaño_iconos_servicios {
   width: 30px;
-  height: 30px; }
+  height: 30px;
+  color: #010D5A; }
 #nuestros_servicios .titulo_servicios {
   font-weight: bold;
-  color: #007BFF; }
+  color: #A11216; }
 #nuestros_servicios .texto_servicios {
   width: 410px;
   text-align: justify;
@@ -7800,8 +7842,8 @@ footer {
     padding: 20px 0px; }
   footer .justificar {
     text-align: justify; }
-  footer .margenx_50 {
-    margin: 0 25px; }
+  footer .margenx {
+    margin: 0 5px; }
   footer .margen_flecha {
     margin-left: 100px; }
   footer .copyright {
@@ -7820,7 +7862,11 @@ footer {
   height: 25px;
   right: 20px;
   box-shadow: -1px 0px 15px 1px #CDCDCE;
-  z-index: 2; }
+  z-index: 2;
+  border-radius: 4px; }
+  .subir:active {
+    background-color: #A11216;
+    border-color: #A11216; }
 
 p {
   text-align: justify; }
@@ -7837,19 +7883,12 @@ p {
   width: 100%;
   height: 280px;
   filter: brightness(0.6); }
-  #imagen_nosotros h1 {
-    color: #DADADA; }
+
+h1 {
+  color: white;
+  filter: none; }
 
 #nosotros img {
   width: 100%; }
-
-#contador_estadisticas {
-  background-image: url("../images/banner_estadisticas.jpg");
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 300px;
-  margin-top: 150px;
-  filter: brightness(0.6); }
 
 /*# sourceMappingURL=style.css.map */

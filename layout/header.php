@@ -47,58 +47,75 @@
 </script>
 <!-- Fin de codigo preloader -->
 
-<header id="header_numeros" class="d-flex justify-content-around align-items-center">
+<header id="header_numeros">
             
-    <div class="container-fluid">
-        <div class="col-12">
-            <div class="container-fluid barra_navegadora1 row d-flex justify-content-between">
-
-                <div class="col-3 d-flex justify-content-around">
-                    <div> <a href="tel:<?php echo $datos_contacto ['bogota'] ['telefono_fijo']['link']?>"> <i class="mr-2 <?php echo $datos_contacto ['bogota']['telefono_fijo']['icono'] ?>"> </i><?php echo $datos_contacto ['bogota'] ['telefono_fijo']['imprimir']?></a> </div>     
-                    <div> <a href="tel:<?php echo $datos_contacto ['bogota'] ['celular']['link']?>"> <i class="mr-2 <?php echo $datos_contacto ['bogota']['celular']['icono'] ?>"> </i><?php echo $datos_contacto ['bogota'] ['celular']['imprimir']?></a> </div>     
-                    <div> <a href="tel:<?php echo $datos_contacto ['bogota'] ['celular2']['link']?>"> <i class="mr-2 <?php echo $datos_contacto ['bogota']['celular2']['icono'] ?>"> </i><?php echo $datos_contacto ['bogota'] ['celular2']['imprimir']?></a> </div>    
+   <div style="margin: 0 4%;" class=""> 
+       <div style="height: 37px;" class="d-flex align-items-center container-fluid">
+            <div class="col-12">
+                <div class="row justify-content-between">
+                    <div class="col-6 d-flex align-items-center justify-content-between">
+                        <div class="mr-3"> 
+                            <a class="d-flex align-items-center" href="tel:<?php echo $datos_contacto ['bogota'] ['telefono_fijo']['link']?>"> 
+                            <i class="mr-2 <?php echo $datos_contacto ['bogota']['telefono_fijo']['icono'] ?>"> </i> 
+                            <div class="celular1"> <?php echo $datos_contacto ['bogota'] ['telefono_fijo']['imprimir']?> </div> 
+                            </a> 
+                        </div>     
+                        <div class="mr-3"> <a class="d-flex align-items-center" href="tel:<?php echo $datos_contacto ['bogota'] ['celular']['link']?>"> <i class="mr-2 <?php echo $datos_contacto ['bogota']['celular']['icono'] ?>"> </i><div class="celular1"><?php echo $datos_contacto ['bogota'] ['celular']['imprimir']?></div></a> </div>     
+                        <div class="mr-3"> <a class="d-flex align-items-center" href="tel:<?php echo $datos_contacto ['bogota'] ['celular2']['link']?>"> <i class="mr-2 <?php echo $datos_contacto ['bogota']['celular2']['icono'] ?>"> </i> <div class="celular1"> <?php echo $datos_contacto ['bogota'] ['celular2']['imprimir']?> </div> </a> </div>    
+                        <div> </div>     
+                        <div> </div>
+                        <div> </div>
+                        <div> </div>     
+                        <div> </div>
+                        <div> </div>
+                    </div>
+                        
+                    <div class="col-6 d-flex justify-content-between">
+                        <div> </div>     
+                        <div> </div>
+                        <div> </div>
+                        <div> </div>     
+                        <div> </div>
+                        <div> </div>
+                        <div class="mr-3"> <a class="d-flex align-items-center" target="_blank" href="<?php echo $datos_contacto ['bogota'] ['whatsapp']['link']?>"> <i class="mr-2 <?php echo $datos_contacto ['bogota']['whatsapp']['icono'] ?>"> </i> <div class="celular1"> <?php echo $datos_contacto ['bogota'] ['whatsapp']['imprimir']?></div></a> </div>
+                        <div class="mr-3"> <a class="d-flex align-items-center" href="mailto:<?php echo $datos_contacto ['bogota'] ['correo']['correo']?>"> <i class="mr-2 <?php echo $datos_contacto ['bogota']['correo']['icono'] ?>"> </i> <div class="celular1"> <?php echo $datos_contacto ['bogota'] ['correo']['correo']?> </div> </a> </div>     
+                    </div>
                 </div>
-                 
-                <div class="col-3 d-flex justify-content-around">
-                    <div> <a target="_blank" href="<?php echo $datos_contacto ['bogota'] ['whatsapp']['link']?>"> <i class="mr-2 <?php echo $datos_contacto ['bogota']['whatsapp']['icono'] ?>"> </i><?php echo $datos_contacto ['bogota'] ['whatsapp']['imprimir']?></a> </div>     
-                    <div> <a href="mailto:<?php echo $datos_contacto ['bogota'] ['correo']['correo']?>"> <i class="mr-2 <?php echo $datos_contacto ['bogota']['correo']['icono'] ?>"> </i><?php echo $datos_contacto ['bogota'] ['correo']['correo']?></a> </div>     
-                </div>
-
             </div>
-        </div>
-    </div>
+   </div>
+   </div>
      
 </header>
 
-<section id="logo_y_navbar">
-        <nav class="barra_navegadora2 navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.php"> <img class="margin_logo" src="images/logo.png" alt="Logo V&V Inmobiliaria"> </div></a>
+<section id="logo_y_navbar" class="py-4">
+        <nav class="barra_navegadora2 margen_contenedores_index navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.php"> <img class="margin_logo" src="images/logo.png" alt="Logo V&V Inmobiliaria"> </div=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php">Inicio <span class="sr-only">  </span></a>
+                <ul class="navbar-nav mr-auto font-weight-bold ">
+                    <li class="mx-3 nav-item">
+                        <a class=" nav-link " href="index.php">Inicio <span class="sr-only">  </span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="nosotros.php"> Nosotros </a>
+                    <li class="mx-3 nav-item">
+                        <a class=" nav-link" href="nosotros.php"> Nosotros </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="servicios.php"> Servicios </a>
+                    <li class="mx-3 nav-item">
+                        <a class=" nav-link" href="servicios.php"> Servicios </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="inmuebles.php"> Inmuebles </a>
+                    <li class="mx-3 nav-item">
+                        <a class=" nav-link" href="inmuebles.php"> Inmuebles </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="clientes.php"> Clientes </a>
+                    <li class="mx-3 nav-item">
+                        <a class=" nav-link" href="clientes.php"> Clientes </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.php"> Blog </a>
+                    <li class="mx-3 nav-item">
+                        <a class=" nav-link" href="blog.php"> Blog </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contactanos.php"> Contáctanos </a>
+                    <li class="mx-3 nav-item">
+                        <a class=" nav-link" href="contactanos.php"> Contáctanos </a>
                     </li>
                 </ul>
                 <a href="<?php?>"><img class="logo_pse" src="images/logopse.png" alt="Pagos PSE"></a>

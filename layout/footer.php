@@ -1,14 +1,13 @@
 <i class="fas fa-angle-double-up subir"></i>
 <footer class="d-flex flex-column">
         
-    
         <div>
             <h2 class="text-center"> Contáctanos </h2>
         </div>
 
         <div class="text-center container-fluid">
-        <button type="button" class=" btn btn-primary"> Bogotá </button>
-        <button type="button" class="botones btn btn-primary"> Ibagué </button>
+        <button type="button" class="boton_buscar btn"> Bogotá </button>
+        <button type="button" class="boton_buscar botones btn"> Ibagué </button>
         </div>
 
         <div class="justificar d-flex">
@@ -19,14 +18,13 @@
         <div class="padding_copyright justify-content-around align-items-center d-flex">
             <div></p> Diseñado y Desarrollado por <a target="_blank" href="https://www.dexcondigital.com/"> Dexcon Digital </a> ©Copyright 2019 para V&V Inmobiliaria. Todos los derechos reservados. </p></div>
             <div class="text-align-center d-flex">
-                <div class="margenx_50"> <a target="_blank" href="<?php echo $redes_sociales ['facebook']['link']?>"><i class="<?php echo $redes_sociales ['facebook']['icono'] ?>"></i></a>
+                <div class="margenx"> <a target="_blank" href="<?php echo $redes_sociales ['facebook']['link']?>"><i class="<?php echo $redes_sociales ['facebook']['icono'] ?>"></i></a>
                 </div>
 
-                <div class="margenx_50"> <a target="_blank" href="<?php echo $redes_sociales ['instagram']['link']?>"><i class="<?php echo $redes_sociales ['instagram']['icono'] ?>"></i></a>
+                <div class="margenx"> <a target="_blank" href="<?php echo $redes_sociales ['instagram']['link']?>"><i class="<?php echo $redes_sociales ['instagram']['icono'] ?>"></i></a>
                 </div>
             </div>
         </div>
-
 
 
 </footer>
