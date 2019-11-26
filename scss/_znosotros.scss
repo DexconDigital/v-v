@@ -8,20 +8,22 @@ p {
 
 #imagen_nosotros {
 
-    background-image: url('../images/banner_quienes_somos.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-color: gray;
-    width: 100%;
-    height: 280px;
-    filter: brightness(0.6);
-}
+    position: relative;
+
+    .imagen {
+        width: 100%;
+        height: 280px;
+        filter: brightness(0.5);
+    }
+    
 
     h1{
         color: white;
-        filter: none;
+        position: absolute;
+        z-index: 100;
     }
+
+}
 
 #nosotros {
     
@@ -33,6 +35,28 @@ p {
 
 #contador_estadisticas {
 
-    
+    position: relative; height: 400px;
+
+    .c1 {
+        z-index: 100;
+        position: absolute;
+        color: white;
+    }
+
+    .imagen {
+        height: 350px; 
+        width: 100%;
+        filter: brightness(0.6); 
+    }
 
 }
+
+#valores_corporativos {
+
+    .carrusel_indicadores {
+
+    }
+
+}
+
+  

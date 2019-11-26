@@ -1,6 +1,5 @@
-@font-face {
-    font-family: 'Roboto', sans-serif;
-    src: url("../fonts/Roboto-Regular.ttf");
+body {
+    font-family: Roboto;
 }
 
 .margen_contenedores_index {
@@ -62,6 +61,8 @@ li {
 }
  
 #logo_y_navbar {
+
+    
 
     .barra_navegadora2{
         margin: 0 5%;

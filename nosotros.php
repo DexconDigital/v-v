@@ -20,6 +20,7 @@
 
 <section id="imagen_nosotros" class="d-flex justify-content-center align-items-center">
     <h1> Sobre Nosotros </h1>
+    <img class="imagen" src="images/banner_quienes_somos.jpg" alt="">
 </section>
 
 <section id="nosotros" class="py-5 align-items-center justify-content-around margen_contenedores_index">
@@ -68,52 +69,80 @@
 
 </section>
 
-<section id="contador_estadisticas" class="" style="
-    position: relative; height: 400px;
-">
+<section id="contador_estadisticas">
 
-   <div class="align-items-center d-flex justify-content-center" style="
-    /* position: absolute; */
-">
-        <div class="container-fluid" style="
-    z-index: 1;
-    position: absolute;
-    color: white;
-">
-            <div class="col-12 row" style="
-">
-    
-                <div class="col-3"> 
-                    <h2 class="text-center"> 0 </h2>
-                    <p class="text-center"> Contador </p> 
-                </div>
-                <div class="col-3"> 
-                    <h2 class="text-center"> 0 </h2>
-                    <p class="text-center"> Contador </p> 
-                </div>
-                <div class="col-3 text-center"> 
-                    <h2 class="text-center"> 0 </h2>
-                    <p class="text-center"> Contador </p> 
-                </div>
-                <div class="col-3 text-center"> 
-                    <h2 class="text-center"> 0 </h2>
-                    <p class="text-center"> Contador </p> 
-                </div>
-    
-            </div>
-        </div>
-    
-        <div> <img src="images/banner_estadisticas.jpg" alt="" style="
-    filter: brightness(0.6); height: 350px; width: 100%;
-"> </div>
+    <div class="align-items-center d-flex justify-content-center">
+            <div class="c1 container-fluid">
+                <div class="col-12 row">
         
-   </div>
+                    <div class="col-3"> 
+                        <h2 class="text-center"> 0 </h2>
+                        <p class="text-center"> Contador </p> 
+                    </div>
+                    <div class="col-3"> 
+                        <h2 class="text-center"> 0 </h2>
+                        <p class="text-center"> Contador </p> 
+                    </div>
+                    <div class="col-3 text-center"> 
+                        <h2 class="text-center"> 0 </h2>
+                        <p class="text-center"> Contador </p> 
+                    </div>
+                    <div class="col-3 text-center"> 
+                        <h2 class="text-center"> 0 </h2>
+                        <p class="text-center"> Contador </p> 
+                    </div>
+        
+                </div>
+            </div>
+        
+            <div> <img class="imagen" src="images/banner_estadisticas.jpg"> </div>
+            
+    </div>
 
 </section>
 
+<section id="valores_corporativos" class="margen_contenedores_index">
 
+    <div class="my-5 bd-example">
 
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            
+            <div class="carousel-inner">
 
+            <div class="container-fluid carousel-item active">
+                <div class="col-12 row p-0 m-0 align-items-center text-center">
+                    <div class="my-3 col-xl-4 col-sm-12"> <h2> Valores corporativos </h2> </div>
+                    <div class="my-3 col-xl-4 col-sm-12"> <h3>*Nombre de valor 1*</h3> </div>
+                    <div class="my-3 col-xl-4 col-sm-12"> <p>*Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid animi distinctio quisquam dolor nostrum ullam molestias ex in, repudiandae, nisi dignissimos laborum quia labore. Magni totam nam mollitia facere omnis deleniti, quidem voluptates, dicta amet repudiandae possimus necessitatibus enim illo, nemo inventore! Eum nulla totam sed quam ipsum animi repudiandae!*</p> </div>
+                </div>
+            </div>
+
+            <div class="container-fluid carousel-item">
+                <div class="col-12 row p-0 m-0 align-items-center text-center">
+                    <div class="my-3 col-xl-4 col-sm-12"> <h2> Valores corporativos </h2> </div>
+                    <div class="my-3 col-xl-4 col-sm-12"> <h3>*Nombre de valor 2*</h3> </div>
+                    <div class="my-3 col-xl-4 col-sm-12"> <p>*Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid animi distinctio quisquam dolor nostrum ullam molestias ex in, repudiandae, nisi dignissimos laborum quia labore. Magni totam nam mollitia facere omnis deleniti, quidem voluptates, dicta amet repudiandae possimus necessitatibus enim illo, nemo inventore! Eum nulla totam sed quam ipsum animi repudiandae!*</p> </div>
+                </div>
+            </div>
+
+            <div class="container-fluid carousel-item">
+                <div class="col-12 row p-0 m-0 align-items-center text-center">
+                    <div class="my-3 col-xl-4 col-sm-12"> <h2> Valores corporativos </h2> </div>
+                    <div class="my-3 col-xl-4 col-sm-12"> <h3>*Nombre de valor 3*</h3> </div>
+                    <div class="my-3 col-xl-4 col-sm-12"> <p>*Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid animi distinctio quisquam dolor nostrum ullam molestias ex in, repudiandae, nisi dignissimos laborum quia labore. Magni totam nam mollitia facere omnis deleniti, quidem voluptates, dicta amet repudiandae possimus necessitatibus enim illo, nemo inventore! Eum nulla totam sed quam ipsum animi repudiandae!*</p> </div>
+                </div>
+            </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+</section>
+
+<section>
+
+</section>
 
 
 

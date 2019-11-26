@@ -302,7 +302,7 @@
 
     <section id="propiedades_destacadas_imagenes" class="margen_contenedores_index">
 
-        <h2 class="mt-5 mb-5 text-center"> Últimas noticias </h2>
+        <h2 class="mt-5 mb-5 text-center">  Últimas Noticias </h2>
 
         <div class="card-group">
         <div class="container-fluid aling-items-center">
@@ -382,53 +382,46 @@
 
     </section>
 
-    <section id="nuestros_aliados">
+    <section id="nuestros_aliados" class="margen_contenedores_index">
 
-            <h2 class="mt-5 mb-5 text-center"> Nuestros aliados </h2>
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                
+                <div class="carousel-inner">
 
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-
-            <div class="margin_top carousel-inner">
-
-                <div class="carousel-item  active">
-                <a href="#"><img src="images/libertador.png" class="margin_left" alt="..."></a>
+                <div data-interval="5000" class="carousel-item active">
+                    <div class="col-12 row p-0 m-0 align-items-center text-center">
+                        <div class="col-4 text-center "> <a href="#"><img src="images/libertador.png" alt="..."></a> </div>
+                        <div class="col-4 text-center "> <a href="#"><img src="images/afiansa.png" alt="..."></a> </div>
+                        <div class="col-4 text-center "> <a href="#"><img src="images/fianzacredito.png" alt="..."></a> </div>
+                    </div>
+                    
                 </div>
 
-                <div class="carousel-item ">
-                <a href="#"><img src="images/afiansa.png" class="margin_left" alt="..."></a>
+                <div data-interval="5000" class="carousel-item">
+                    <div class="col-12 row p-0 m-0 align-items-center text-center">
+                        <div class="col-4 text-center "> <a href="#"><img src="images/simi.png" alt="..."></a>  </div>
+                        <div class="col-4 text-center "> <a href="#"><img src="images/olx.png" alt="..."></a> </div>
+                        <div class="col-4 text-center "> <a href="#"><img src="images/ciencuadras.png" alt="..."></a>  </div>
+                    </div>
+                    
                 </div>
 
-                <div class="carousel-item ">
-                <a href="#"><img src="images/fianzacredito.png" class="margin_left" alt="..."></a>
-                </div>
-
-                <div class="carousel-item ">
-                <a href="#"><img src="images/simi.png" class="margin_left" alt="..."></a>
-                </div>
-
-                <div class="carousel-item ">
-                <a href="#"><img src="images/olx.png" class="margin_left" alt="..."></a>
-                </div>
-
-                <div class="carousel-item ">
-                <a href="#"><img src="images/ciencuadras.png" class="margin_left" alt="..."></a>
-                </div>
-
-                <div class="carousel-item ">
-                <a href="#"><img src="images/mercadolibre.png" class="margin_left" alt="..."></a>
-                </div>
-
-                <div class="carousel-item ">
-                <a href="#"><img src="images/prelegalassist.png" class="margin_left" alt="..."></a>
-                </div>
+                <div data-interval="5000" class="carousel-item">
+                    <div class="col-12 row p-0 m-0 align-items-center text-center">
+                        <div class="col-6"> <a href="#"><img src="images/mercadolibre.png" alt="..."></a> </div>
+                        <div class="col-6"> <a href="#"><img src="images/prelegalassist.png" alt="..."></a> </div>
+                    </div>
+                
             </div>
+        </div>
 
-            </div>
     </section>
 
 
     <section>
      <?php include 'layout/footer.php' ?> 
+     <script src="js/animaciones_servicios.js"></script>
     </section>
 
 
