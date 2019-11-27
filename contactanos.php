@@ -25,23 +25,27 @@
 
 <section id="Contactanos_body" class="my-5 margen_contenedores_index">
 
-    <h2 class="my-5 text-center"> Contáctanos </h2>
+    <h2 class="my-5 a123 text-center"> Contáctanos </h2>
 
     <div class="container">
         <div class="col-12">
             <div class="row">
 
                 <div class="col-4">
-                    <input type="text">
-                    <input type="text">
-                    <input type="text">
-                    <input type="text">
+                    <div>
+                        <input type="text">
+                        <input type="text">
+                        <input type="text">
+                        <input type="text">
+                    </div>
                 </div>
 
                 <div class="col-4">
-                    <i class="" ></i>
-                    <i class="" ></i>
-                    <i class="" ></i>
+                    <div>
+                        <i class="<?php echo $datos_contacto ['bogota']['direccion']['icono'] ?>" ></i>
+                        <i class="<?php echo $datos_contacto ['bogota']['telefono_fijo']['icono'] ?>" ></i>
+                        <i class="<?php echo $datos_contacto ['bogota']['correo']['icono'] ?>" ></i>
+                    </div>
                 </div>
 
             </div>
