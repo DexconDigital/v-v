@@ -1,5 +1,19 @@
 body {
     font-family: Roboto;
+
+    p {
+        font-size: 16px !important;
+    }
+
+}
+
+
+.color_azul {
+    color: $color_azul;
+}
+
+.color_rojo {
+    color: $color_rojo
 }
 
 .margen_contenedores_index {
@@ -217,9 +231,12 @@ li {
 
 #formulario {
 
+    background-color: #e6e6e6;
+    padding: 50px;
+
     .codigo_input {
 
-        border: 1px solid white;
+        border: 1px solid #80808075;
         border-radius: 5px;
         text-align: center;
 
@@ -231,8 +248,7 @@ li {
        
     }
 
-    background-color: #e6e6e6;
-    padding: 50px;
+    
 
     div {
         div {
@@ -325,6 +341,7 @@ li {
     .titulo_servicios {
         font-weight: bold;
         color: $color_rojo;
+        font-size: 20px;
     }
 
     .texto_servicios {

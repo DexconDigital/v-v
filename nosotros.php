@@ -111,27 +111,41 @@
 
             <div class="container-fluid carousel-item active">
                 <div class="col-12 row p-0 m-0 align-items-center text-center">
-                    <div class="my-3 col-xl-4 col-sm-12"> <h2> Valores corporativos </h2> </div>
-                    <div class="my-3 col-xl-4 col-sm-12"> <h3>*Nombre de valor 1*</h3> </div>
-                    <div class="my-3 col-xl-4 col-sm-12"> <p>*Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid animi distinctio quisquam dolor nostrum ullam molestias ex in, repudiandae, nisi dignissimos laborum quia labore. Magni totam nam mollitia facere omnis deleniti, quidem voluptates, dicta amet repudiandae possimus necessitatibus enim illo, nemo inventore! Eum nulla totam sed quam ipsum animi repudiandae!*</p> </div>
+                    <div class="my-3 col-xl-4 col-sm-12"> <h2> <b> <?php echo $texto_quienes_somos ['mision']['valores']['titulo'] ?></b> </h2> </div>
+                    <div class="my-3 col-xl-4 col-sm-12"> <h4> <i class="color_azul"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['0']['titulo'] ?></i> </h4> </div>
+                    <div class="my-3 col-xl-4 col-sm-12"> <p> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['0']['parrafo']?></p>  </div>
+                    
                 </div>
             </div>
 
             <div class="container-fluid carousel-item">
                 <div class="col-12 row p-0 m-0 align-items-center text-center">
-                    <div class="my-3 col-xl-4 col-sm-12"> <h2> Valores corporativos </h2> </div>
-                    <div class="my-3 col-xl-4 col-sm-12"> <h3>*Nombre de valor 2*</h3> </div>
-                    <div class="my-3 col-xl-4 col-sm-12"> <p>*Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid animi distinctio quisquam dolor nostrum ullam molestias ex in, repudiandae, nisi dignissimos laborum quia labore. Magni totam nam mollitia facere omnis deleniti, quidem voluptates, dicta amet repudiandae possimus necessitatibus enim illo, nemo inventore! Eum nulla totam sed quam ipsum animi repudiandae!*</p> </div>
+                    <div class="my-3 col-xl-4 col-sm-12"> <h2> <b> <?php echo $texto_quienes_somos ['mision']['valores']['titulo'] ?></b> </h2> </div>
+                    <div class="my-3 col-xl-4 col-sm-12"> <h4> <i class="color_azul"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['1']['titulo'] ?></i> </h4> </div>
+                    <div class="my-3 col-xl-4 col-sm-12"> <p> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['1']['parrafo']?></p>  </div>
+                    
                 </div>
             </div>
 
             <div class="container-fluid carousel-item">
                 <div class="col-12 row p-0 m-0 align-items-center text-center">
-                    <div class="my-3 col-xl-4 col-sm-12"> <h2> Valores corporativos </h2> </div>
-                    <div class="my-3 col-xl-4 col-sm-12"> <h3>*Nombre de valor 3*</h3> </div>
-                    <div class="my-3 col-xl-4 col-sm-12"> <p>*Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid animi distinctio quisquam dolor nostrum ullam molestias ex in, repudiandae, nisi dignissimos laborum quia labore. Magni totam nam mollitia facere omnis deleniti, quidem voluptates, dicta amet repudiandae possimus necessitatibus enim illo, nemo inventore! Eum nulla totam sed quam ipsum animi repudiandae!*</p> </div>
+                    <div class="my-3 col-xl-4 col-sm-12"> <h2> <b> <?php echo $texto_quienes_somos ['mision']['valores']['titulo'] ?></b> </h2> </div>
+                    <div class="my-3 col-xl-4 col-sm-12"> <h4> <i class="color_azul"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['2']['titulo'] ?></i> </h4> </div>
+                    <div class="my-3 col-xl-4 col-sm-12"> <p> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['2']['parrafo']?></p>  </div>
+                    
                 </div>
             </div>
+
+            <div class="container-fluid carousel-item">
+                <div class="col-12 row p-0 m-0 align-items-center text-center">
+                    <div class="my-3 col-xl-4 col-sm-12"> <h2> <b> <?php echo $texto_quienes_somos ['mision']['valores']['titulo'] ?></b> </h2> </div>
+                    <div class="my-3 col-xl-4 col-sm-12"> <h4> <i class="color_azul"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['3']['titulo'] ?></i> </h4> </div>
+                    <div class="my-3 col-xl-4 col-sm-12"> <p> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['3']['parrafo']?></p>  </div>
+                    
+                </div>
+            </div>
+
+    
 
             </div>
             

@@ -22,88 +22,91 @@
     <img class="imagen" src="images/banner_inmuebles.jpg" alt="">
 </section>
 
-<section id="propiedades_destacadas_imagenes" class="my-5 margen_contenedores_index">
+<section id="formulario">
+    <form action="" class="margen_contenedores_index">
+        <div class="text-center row">
 
-    <form action="" class="mx-5 my-5margen_contenedores_index">
-        <div class="my-5 text-center row">
-
-            <div class="my-2 col-3"> 
+            <div class="col-3"> 
                 <input class="codigo_input input-group" type="text" placeholder="Código"> 
             </div>
 
-            <div class="my-2 col-3"> 
+            <div class="col-3"> 
                 <select class="row custom-select custom-select-sm" name="" id="">
                     <option value="0" selected disabled> Tipo de Inmueble </option>
                 </select>
             </div>
 
-            <div class="my-2 col-3"> 
+            <div class="col-3"> 
                 <select class="row custom-select custom-select-sm" name="" id="">
                     <option value="0" selected disabled> Tipo de Gestion </option>
                 </select>
             </div>
 
-            <div class="my-2 col-3"> 
+            <div class="col-3"> 
                 <select class="row custom-select custom-select-sm" name="" id="">
                     <option value="0" selected disabled> Ciudad </option>
                 </select>
             </div>
 
-            <div class="my-2 col-3"> 
+            <div class="col-3"> 
                 <select class="row custom-select custom-select-sm" name="" id="">
                     <option value="0" selected disabled> Barrio </option>
                 </select>
             </div>
 
-            <div class="my-2 col-3"> 
+            <div class="col-3"> 
                 <select class="row custom-select custom-select-sm" name="" id="">
                     <option value="0" selected disabled> Precio Mínimo </option>
                 </select>
             </div>
 
-            <div class="my-2 col-3"> 
+            <div class="col-3"> 
                 <select class="row custom-select custom-select-sm" name="" id="">
                     <option value="0" selected disabled> Precio Máximo </option>
                 </select>
             </div>
 
-            <div class="my-2 col-3"> 
+            <div class="col-3"> 
                 <select class="row custom-select custom-select-sm" name="" id="">
                     <option value="0" selected disabled> Área Mínima </option>
                 </select>
             </div>
 
-            <div class="my-2 col-3"> 
+            <div class="col-3"> 
                 <select class="row custom-select custom-select-sm" name="" id="">
                     <option value="0" selected disabled> Área Máxima </option>
                 </select>
             </div>
 
-            <div class="my-2 col-3"> 
+            <div class="col-3"> 
                 <select class="row custom-select custom-select-sm" name="" id="">
                     <option value="0" selected disabled> Baños </option>
                 </select>
             </div>
 
-            <div class="my-2 col-3"> 
+                            <div class="col-3"> 
                 <select class="row custom-select custom-select-sm" name="" id="">
                     <option value="0" selected disabled> Alcobas </option>
                 </select>
             </div>
 
-            <div class="my-2 col-3"> 
+            <div class="col-3"> 
                 <select class="row custom-select custom-select-sm" name="" id="">
                     <option value="0" selected disabled> Garajes </option>
                 </select>
             </div>
 
-            <div class="my-2 col-12"> 
+            <div class="col-12"> 
                 <input class="boton_buscar btn" type="button" value="Buscar">
             </div>
 
         </div>
     </form>
+</section>
 
+<section id="propiedades_destacadas_imagenes" class="my-5 margen_contenedores_index">
+
+    
 
 
     <div class="card-group">
@@ -114,7 +117,7 @@
                         <div>
                             <div class="my-3 card" style="width: 20rem;">
                                 <img src="images/no_image.png" class="card-img-top" alt="...">
-                                    <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
+                                    <p class="tipo_de_inmueble card-text"> Tipo Inmueble </p>
                                     <p class="tipo_de_renta card-text"> Estado </p>
                                     <p class="precio_inmueble card-text"> $1.500.000 </p>
                                 <div style="margin: 0 1%;" class="card-body">
@@ -136,7 +139,7 @@
                         <div>
                             <div class="my-3 card" style="width: 20rem;">
                                 <img src="images/no_image.png" class="card-img-top" alt="...">
-                                    <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
+                                    <p class="tipo_de_inmueble card-text"> Tipo Inmueble </p>
                                     <p class="tipo_de_renta card-text"> Estado </p>
                                     <p class="precio_inmueble card-text"> $1.500.000 </p>
                                 <div style="margin: 0 1%;" class="card-body">
@@ -158,7 +161,7 @@
                         <div>
                             <div class="my-3 card" style="width: 20rem;">
                                 <img src="images/no_image.png" class="card-img-top" alt="...">
-                                    <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
+                                    <p class="tipo_de_inmueble card-text"> Tipo Inmueble </p>
                                     <p class="tipo_de_renta card-text"> Estado </p>
                                     <p class="precio_inmueble card-text"> $1.500.000 </p>
                                 <div style="margin: 0 1%;" class="card-body">
@@ -180,7 +183,7 @@
                         <div>
                             <div class="my-3 card" style="width: 20rem;">
                                 <img src="images/no_image.png" class="card-img-top" alt="...">
-                                    <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
+                                    <p class="tipo_de_inmueble card-text"> Tipo Inmueble </p>
                                     <p class="tipo_de_renta card-text"> Estado </p>
                                     <p class="precio_inmueble card-text"> $1.500.000 </p>
                                 <div style="margin: 0 1%;" class="card-body">
@@ -202,7 +205,7 @@
                         <div>
                             <div class="my-3 card" style="width: 20rem;">
                                 <img src="images/no_image.png" class="card-img-top" alt="...">
-                                    <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
+                                    <p class="tipo_de_inmueble card-text"> Tipo Inmueble </p>
                                     <p class="tipo_de_renta card-text"> Estado </p>
                                     <p class="precio_inmueble card-text"> $1.500.000 </p>
                                 <div style="margin: 0 1%;" class="card-body">
@@ -224,7 +227,7 @@
                         <div>
                             <div class="my-3 card" style="width: 20rem;">
                                 <img src="images/no_image.png" class="card-img-top" alt="...">
-                                    <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
+                                    <p class="tipo_de_inmueble card-text"> Tipo Inmueble </p>
                                     <p class="tipo_de_renta card-text"> Estado </p>
                                     <p class="precio_inmueble card-text"> $1.500.000 </p>
                                 <div style="margin: 0 1%;" class="card-body">
@@ -246,7 +249,7 @@
                         <div>
                             <div class="my-3 card" style="width: 20rem;">
                                 <img src="images/no_image.png" class="card-img-top" alt="...">
-                                    <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
+                                    <p class="tipo_de_inmueble card-text"> Tipo Inmueble </p>
                                     <p class="tipo_de_renta card-text"> Estado </p>
                                     <p class="precio_inmueble card-text"> $1.500.000 </p>
                                 <div style="margin: 0 1%;" class="card-body">
@@ -268,7 +271,7 @@
                         <div>
                             <div class="my-3 card" style="width: 20rem;">
                                 <img src="images/no_image.png" class="card-img-top" alt="...">
-                                    <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
+                                    <p class="tipo_de_inmueble card-text"> Tipo Inmueble </p>
                                     <p class="tipo_de_renta card-text"> Estado </p>
                                     <p class="precio_inmueble card-text"> $1.500.000 </p>
                                 <div style="margin: 0 1%;" class="card-body">
@@ -290,7 +293,7 @@
                         <div>
                             <div class="my-3 card" style="width: 20rem;">
                                 <img src="images/no_image.png" class="card-img-top" alt="...">
-                                    <p class="tipo_de_inmueble card-text"> Tipo de Inmueble </p>
+                                    <p class="tipo_de_inmueble card-text"> Tipo Inmueble </p>
                                     <p class="tipo_de_renta card-text"> Estado </p>
                                     <p class="precio_inmueble card-text"> $1.500.000 </p>
                                 <div style="margin: 0 1%;" class="card-body">
