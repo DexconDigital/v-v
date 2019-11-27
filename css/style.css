@@ -7835,6 +7835,24 @@ li {
 footer {
   background-color: #111111;
   color: #C4C4C4; }
+  footer .parrafo_bogota {
+    transition: all 500ms ease-in-out;
+    position: relative;
+    opacity: 0;
+    bottom: -140px; }
+@keyframes animacion_parrafo_bogota {
+  100% {
+    opacity: 1;
+    bottom: 0; } }
+@keyframes animacion_parrafo_bogota2 {
+  100% {
+    opacity: 0;
+    bottom: -140px; } }
+  footer .parrafo_ibague {
+    transition: all 500ms ease-in-out;
+    opacity: 0;
+    position: relative;
+    bottom: -140px; }
   footer h2 {
     margin: 50px 0; }
   footer .padding_copyright {
@@ -7922,5 +7940,29 @@ p {
     border-color: #010d5a40 !important;
     box-shadow: 0 1px 1px #010d5a73 inset, 0 0 8px #010d5a40 !important;
     outline: 0 none; }
+
+#blog_body {
+  margin: 100px 10%; }
+  #blog_body .card_hover {
+    transition: all 250ms 0s ease-in-out; }
+    #blog_body .card_hover:hover {
+      box-shadow: 0px 2px 7px -1px grey; }
+  #blog_body .boton_ver_mas {
+    text-decoration: none;
+    color: gray;
+    transition: all 250ms 0 ease-in-out; }
+    #blog_body .boton_ver_mas:hover {
+      filter: brightness(0.5); }
+
+#selector_paginas .item_lista {
+  color: black;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  box-shadow: 1px 1px 4px 0px grey;
+  transition: all 250ms 0 ease-in-out; }
+  #selector_paginas .item_lista:hover {
+    background-color: #010D5A;
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */
