@@ -23,11 +23,6 @@
     <section id="imagenes_principales">
         <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                </ol>
                 <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="images/slide_3.jpg" class="d-block w-100" alt="Imagen carrusel principal">
@@ -44,12 +39,12 @@
                 <div class="carousel-item">
                     <img src="images/slide_1.jpg" class="d-block w-100" alt="Imagen carrusel principal">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 class="animacion3 text-uppercase"> V&V Su mejor opción en finca raíz </h5>
+                        <h5 class="animacion3 text-uppercase"> V&V Tu mejor opción en finca raíz </h5>
                     </div>
                 </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                <span class="boton_imagen carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="boton_imagen_siguiente carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
@@ -62,66 +57,67 @@
 
     <section id="formulario">
         <form action="" class="margen_contenedores_index">
+
             <div class="text-center row">
 
-            <div class="col-3"> 
-                    <input class="codigo_input input-group" type="text" placeholder="Código"> 
+                <div class="my-3 col-3"> 
+                   <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Código">
                 </div>
 
                 
-                <div class="col-3"> 
-                    <select class="row custom-select custom-select-sm" name="" id="">
-                        <option class="h-100" value="0" selected disabled> Tipo de Inmueble </option>
+                <div class="my-3 col-3"> 
+                    <select class="codigo_input text_align_last_center form-control" id="exampleFormControlSelect1" select>
+                        <option value=""> Tipo de Inmueble </option>
                     </select>
                 </div>
 
-                <div class="col-3"> 
-                    <select class="row custom-select custom-select-sm" name="" id="">
-                        <option class="h-100" value="0" selected disabled> Tipo de Gestion </option>
+                <div class="my-3 col-3"> 
+                    <select class="codigo_input text_align_last_center form-control" id="exampleFormControlSelect1" select>
+                        <option value=""> Tipo de Gestión </option>
                     </select>
                 </div>
 
-                <div class="col-3"> 
-                    <select class="row custom-select custom-select-sm" name="" id="">
-                        <option class="h-100" value="0" selected disabled> Ciudad </option>
+                <div class="my-3 col-3"> 
+                    <select class="codigo_input text_align_last_center form-control" id="exampleFormControlSelect1" select>
+                        <option value=""> Ciudad </option>
                     </select>
                 </div>
 
-                <div class="col-3"> 
-                    <select class="row custom-select custom-select-sm" name="" id="">
-                        <option class="h-100" value="0" selected disabled> Barrio
+                <div class="my-3 col-3"> 
+                    <select class="codigo_input text_align_last_center form-control" id="exampleFormControlSelect1" select>
+                        <option value=""> Barrio </option>
                     </select>
                 </div>
 
-                <div class="col-3"> 
-                    <input class="codigo_input input-group" type="text" placeholder="Precio Minimo"> 
+                <div class="my-3 col-3"> 
+                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Precio Mínimo"> 
                 </div>
 
-                <div class="col-3"> 
-                    <input class="h-100 codigo_input input-group" type="text" placeholder="Precio Máximo"> 
+                <div class="my-3 col-3"> 
+                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Precio Máximo"> 
                 </div>
 
-                <div class="col-3"> 
-                    <input class="h-100 codigo_input input-group" type="text" placeholder="Área Mínima"> 
+                <div class="my-3 col-3"> 
+                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Área Mínima"> 
                 </div>
 
-                <div class="col-3"> 
-                    <input class="h-100 codigo_input input-group" type="text" placeholder="Área máxima"> 
+                <div class="my-3 col-3"> 
+                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Área Máxima"> 
                 </div>
 
-                <div class="col-3"> 
-                    <input class="h-100 codigo_input input-group" type="text" placeholder="Baños"> 
+                <div class="my-3 col-3"> 
+                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Baños"> 
                 </div>
 
-                <div class="col-3"> 
-                    <input class="h-100 codigo_input input-group" type="text" placeholder="Alcobas"> 
+                <div class="my-3 col-3"> 
+                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Alcobas"> 
                 </div>
 
-                <div class="col-3"> 
-                    <input class="h-100 codigo_input input-group" type="text" placeholder="Garajes"> 
+                <div class="my-3 col-3"> 
+                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Garajes"> 
                 </div>
 
-                <div class="col-12"> 
+                <div class="my-3 col-12"> 
                     <input class="boton_buscar btn" type="button" value="Buscar">
                 </div>
 
@@ -131,7 +127,7 @@
 
     <section id="propiedades_destacadas_imagenes" class="margen_contenedores_index">
 
-        <h2 class="mt-5 mb-5 text-center"> Propiedades destacadas </h2>
+        <h2 class="mt-5 mb-5 text-center"> Propiedades Destacadas </h2>
 
       <div class="card-group">
             <div class="container-fluid aling-items-center">
@@ -139,7 +135,7 @@
                         <div class="d-flex justify-content-around row">
                        
                             <div>
-                                <div class="card" style="width: 20rem;">
+                                <div class="mb-5 card" style="width: 20rem;">
                                     <img src="images/no_image.png" class="card-img-top" alt="...">
                                         <p class="tipo_de_inmueble card-text"> Tipo Mueble </p>
                                         <p class="tipo_de_renta card-text"> Estado </p>
@@ -161,7 +157,7 @@
                             </div>
 
                             <div>
-                                <div class="card" style="width: 20rem;">
+                                <div class="mb-5 card" style="width: 20rem;">
                                     <img src="images/no_image.png" class="card-img-top" alt="...">
                                         <p class="tipo_de_inmueble card-text"> Tipo Mueble </p>
                                         <p class="tipo_de_renta card-text"> Estado </p>
@@ -183,7 +179,7 @@
                             </div>
 
                             <div>
-                                <div class="card" style="width: 20rem;">
+                                <div class="mb-5 card" style="width: 20rem;">
                                     <img src="images/no_image.png" class="card-img-top" alt="...">
                                         <p class="tipo_de_inmueble card-text"> Tipo Mueble </p>
                                         <p class="tipo_de_renta card-text"> Estado </p>
@@ -217,40 +213,40 @@
 
         <div id="animacion_servicios" class="animacion_servicios d-flex justify-content-around flex-wrap">
 
-            <div class="mb-5 d-flex flex-column align-items-center order-2">
+            <div class="mx-3 mb-5 d-flex flex-column align-items-center order-sm-4 order-2">
                 <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['arriendos']?>"> </i> <br>
                 <span class="titulo_servicios"><?php echo $texto_servicios ['arriendos']['titulo']?></span>
                 <p class="texto_servicios"> <?php echo $texto_servicios ['arriendos']['0'] ?> </p>
                 <a href="servicios.php" class="boton_leer_mas"> Leer más </a>
             </div>
 
-            <div class="mb-5 d-flex flex-column align-items-center order-4">
+            <div class="mx-3 mb-5 d-flex flex-column align-items-center order-sm-5 order-4">
                 <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['ventas']?>"> </i> <br>
                 <span class="titulo_servicios"><?php echo $texto_servicios ['ventas']['titulo']?></span>
                 <p class="texto_servicios"> <?php echo $texto_servicios ['ventas']['parrafos']['0'] ?> </p>
                 <a href="servicios.php" class="boton_leer_mas"> Leer más </a>
             </div>
 
-            <div class="mb-5 d-flex flex-column align-items-center order-6">
+            <div class="mx-3 mb-5 d-flex flex-column align-items-center order-sm-6 order-6">
                 <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['avaluos']?>"> </i> <br>
                 <span class="titulo_servicios"> <?php echo $texto_servicios ['avaluos']['titulo']?> </span>
                 <p class="texto_servicios"> <?php echo $texto_servicios ['avaluos']['parrafos']['0'] ?> </p>
                 <a href="servicios.php" class="boton_leer_mas"> Leer más </a>
             </div>
 
-            <div class="mb-5 d-flex flex-column align-items-center order-1">
+            <div class="mx-3 mb-5 d-flex flex-column align-items-center order-sm-1 order-1">
                 <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['asesoria']?>"> </i> <br>
                 <span class="titulo_servicios"><?php echo $texto_servicios ['asesoria']['titulo']?></span>
                 <p class="texto_servicios"> <?php echo $texto_servicios ['asesoria']['parrafo']?> </p>
             </div>
 
-            <div class="mb-5 d-flex flex-column align-items-center order-3">
+            <div class="mx-3 mb-5 d-flex flex-column align-items-center order-sm-2 order-3">
                 <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['corretaje']?>"> </i> <br>
                 <span class="titulo_servicios"><?php echo $texto_servicios ['corretaje']['titulo']?></span>
                 <p class="texto_servicios"> <?php echo $texto_servicios ['corretaje']['parrafo']?> </p>                
             </div>
 
-            <div class="mb-5 d-flex flex-column align-items-center order-5">
+            <div class="mx-3 mb-5 d-flex flex-column align-items-center order-sm-3 order-5">
                 <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['reparaciones']?>"> </i> <br>
                 <span class="titulo_servicios"> <?php echo $texto_servicios ['reparaciones']['titulo']?></span>
                 <p class="texto_servicios"> <?php echo $texto_servicios ['reparaciones']['parrafo']?> </p>
@@ -262,12 +258,12 @@
 
     <section id="fomulario_aseguradoras" class="margen_contenedores_index" >
 
-        <h2 class="margin_100px text-center"> Formulario Aseguradoras </h2>
+        <h2 class="margin_100px text-center"> Descargar formulario de aseguradoras </h2>
 
-       <div class="text-center justify-content-center container-fluid">
-           <div class="row">
+       <div class="text-center container-fluid">
+           <div class="row justify-content-center">
 
-                <div class="aseguradoras_div col"> 
+                <div class="p-0 mx-3 aseguradoras_div col"> 
                     <a target="_blank" href="<?php echo $formularios_aseguradoras ['0']['ruta'] ?>"> <img src="images/libertador.png" alt=""> </a>
                 </div>
 
@@ -275,7 +271,7 @@
                     <a target="_blank" href="<?php echo $formularios_aseguradoras ['2']['ruta'] ?>"> <img src="images/fianzacredito.png" alt=""> </a>
             </div>
 
-            <div style="margin-top: -1%;" class="aseguradoras_div col"> 
+            <div style="margin-top: -1%;" class="seguradoras_div col"> 
                 <div> 
                     <a target="_blank" href="<?php echo $formularios_aseguradoras ['1']['ruta'] ?>"> <img src="images/afiansa.png" alt=""> </a> 
                 </div>  
@@ -345,14 +341,14 @@
 
 <section id="nuestros_aliados" class="margen_contenedores_index">
 
-    <h2 class="text-center"> Nuestros Aliados </h2>
+    <h2 class="text-center margin_100px"> Nuestros Aliados </h2>
 
-    <div class="bd-example">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <div class="my_100px bd-example">
+        <div class="row" id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             
             <div class="carousel-inner">
 
-            <div data-interval="5000" class="carousel-item active">
+            <div class="carousel-item active" data-interval="5000">
                 <div class="col-12 row p-0 m-0 align-items-center text-center">
                     <div class="col-4 text-center "> <a href="#"><img src="images/libertador.png" alt="..."></a> </div>
                     <div class="col-4 text-center "> <a href="#"><img src="images/afiansa.png" alt="..."></a> </div>
@@ -361,7 +357,7 @@
                 
             </div>
 
-            <div data-interval="5000" class="carousel-item">
+            <div class="carousel-item" data-interval="5000">
                 <div class="col-12 row p-0 m-0 align-items-center text-center">
                     <div class="col-4 text-center "> <a href="#"><img src="images/simi.png" alt="..."></a>  </div>
                     <div class="col-4 text-center "> <a href="#"><img src="images/olx.png" alt="..."></a> </div>
@@ -370,7 +366,7 @@
                 
             </div>
 
-            <div data-interval="5000" class="carousel-item">
+            <div class="carousel-item" data-interval="5000">
                 <div class="col-12 row p-0 m-0 align-items-center text-center">
                     <div class="col-6"> <a href="#"><img src="images/mercadolibre.png" alt="..."></a> </div>
                     <div class="col-6"> <a href="#"><img src="images/prelegalassist.png" alt="..."></a> </div>

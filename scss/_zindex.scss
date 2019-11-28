@@ -7,6 +7,14 @@ body {
 
 }
 
+.my_100px {
+    margin: 100px 0;
+}
+
+.text_align_last_center {
+    text-align-last: center;
+}
+
 
 .color_azul {
     color: $color_azul;
@@ -64,7 +72,7 @@ li {
         }
     }
 
-    @media (max-width: 890px) {
+    @media (max-width: 992px) {
         
         .celular1 {
             display: none;
@@ -76,7 +84,7 @@ li {
  
 #logo_y_navbar {
 
-    
+    transition: all 250ms ease-in-out;
 
     .barra_navegadora2{
         margin: 0 5%;
@@ -99,8 +107,7 @@ li {
     }
 
     .logo_pse {
-        width: 50px; 
-        height: 50px; 
+       
         cursor: pointer; 
         transition: all 250ms ease-out;
 
@@ -248,14 +255,6 @@ li {
        
     }
 
-    
-
-    div {
-        div {
-            margin-bottom: 20px;
-        }
-    }
-
 }
 
 #propiedades_destacadas_menu {
@@ -379,7 +378,6 @@ li {
     img {
         transition: all 500ms ease-out;
         cursor: pointer;
-        width: 75%;
 
         &:hover {
             transform: scale(1.05);
@@ -443,8 +441,8 @@ footer {
     .parrafo_bogota {   
         transition: all 500ms ease-in-out; 
         position: relative;
-        opacity: 0;
-        bottom: -140px;        
+        /* display: none; */
+        /* bottom: -140px;   */      
     }
 
     @keyframes animacion_parrafo_bogota {
@@ -472,9 +470,9 @@ footer {
 
     .parrafo_ibague {
         transition: all 500ms ease-in-out;
-        opacity: 0;
+        /* display: none; */
         position: relative;
-        bottom: -140px;  
+        /* bottom: -140px;   */
     }
 
 
@@ -521,7 +519,7 @@ footer {
     font-size: 12px;
     cursor: pointer;
     position: fixed;
-    bottom: 20px;
+    bottom: 90px;
     height: 25px;
     right: 20px;
     box-shadow: -1px 0px 15px 1px #CDCDCE;

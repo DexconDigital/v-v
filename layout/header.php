@@ -88,37 +88,59 @@
 </header>
 
 <section id="logo_y_navbar" class="py-4">
+
         <nav class="barra_navegadora2 margen_contenedores_index navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="index.php"> <img class="margin_logo" src="images/logo.png" alt="Logo V&V Inmobiliaria"> </div=""></a>
+
+            <div ><a class="navbar-brand" href="index.php"> <img style="width: 160px;" src="images/logo.png" alt="Logo V&V Inmobiliaria"> </a></div>
+            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto font-weight-bold ">
-                    <li class="mx-3 nav-item">
+            <div class="justify-content-around collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto font-weight-bold ">
+
+                    <li class="nav-item">
                         <a class=" nav-link " href="index.php">Inicio <span class="sr-only">  </span></a>
                     </li>
-                    <li class="mx-3 nav-item">
+
+                    <li class="nav-item">
                         <a class=" nav-link" href="nosotros.php"> Nosotros </a>
                     </li>
-                    <li class="mx-3 nav-item">
+
+                    <li class="nav-item">
                         <a class=" nav-link" href="servicios.php"> Servicios </a>
                     </li>
-                    <li class="mx-3 nav-item">
+
+                    <li class="nav-item">
                         <a class=" nav-link" href="inmuebles.php"> Inmuebles </a>
                     </li>
-                    <li class="mx-3 nav-item">
-                        <a class=" nav-link" href="clientes.php"> Clientes </a>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Clientes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#"> Arrendatarios </a>
+                        <a class="dropdown-item" href="#"> Propietarios </a>
+                        <a class="dropdown-item" href="#"> Pagos PSE </a>
+                        <a class="dropdown-item" href="#"> Consignar Inmueble </a>
+                        
                     </li>
-                    <li class="mx-3 nav-item">
+
+                    <li class="nav-item">
                         <a class=" nav-link" href="blog.php"> Blog </a>
                     </li>
-                    <li class="mx-3 nav-item">
+
+                    <li class="nav-item">
                         <a class=" nav-link" href="contactanos.php"> Contáctanos </a>
                     </li>
+
                 </ul>
-                <a href="<?php?>"><img class="logo_pse" src="images/logopse.png" alt="Pagos PSE"></a>
+                <div style="width: 55px; height: 50px; "> <a href="#"> <img class="logo_pse" style="width: 100%;" src="images/logopse.png" alt="Pagos PSE"></a></div>
             </div>
         </nav>
 </section>
+
+
+

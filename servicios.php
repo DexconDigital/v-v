@@ -73,14 +73,16 @@
 
 </section>
 
-<section id="franja_inmueble" class="my-5 position-relative">
-    <div class="d-flex align-items-center justify-content-center">
-        <div class="position-absolute d-flex flex-column">
-            <div class="mb-4 text-white"> <h2> <i>¿Deseas publicar tu inmueble con nosotros?</i> </h2> </div>
-            <a href="#" class="text-white btn btn-primary boton" download="FORMATO DE CONSIGNACION.pdf"> <i> Descargar formulario </i> </a>
-        </div>
-        <div class="franja"> </div>
+<section id="franja_inmueble" class="margen_contenedores_index">
+    <div class="align-items-center d-flex franja justify-content-around my_100px" style="
+    border-radius: 24px;
+">
+        
+        <div class="text-light"> <h2> <i>¿Deseas publicar tu inmueble con nosotros?</i> </h2> </div>
+        <a href="#" class="text-decoration-none text-white" download="FORMATO DE CONSIGNACION.pdf"> <i> Descargar formulario </i> </a>
+
     </div>
+    
 </section>
 
 

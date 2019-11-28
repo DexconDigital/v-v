@@ -1,4 +1,4 @@
-document.getElementById("b_bogota").addEventListener("click", mostrar_pb);
+/* document.getElementById("b_bogota").addEventListener("click", mostrar_pb);
 document.getElementById("b_ibague").addEventListener("click", mostrar_pi);
 
 
@@ -28,7 +28,13 @@ function mostrar_animacioni () {
 function ocultar_animacioni() {
     var ibague = document.getElementById("p_ibague");
     ibague.style.animation = "animacion_parrafo_bogota1 500ms ease-in-out both";
-}
+} */
+
+$(function(){
+    $('.carousel-caption').carousel({
+        interval: 1000
+    });
+});
 
 
 

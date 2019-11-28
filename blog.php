@@ -120,7 +120,7 @@
 
 <section id="selector_paginas" class="my-5 margen_contenedores_index">
 
-            <ul class="d-flex">
+            <ul class="justify-content-center p-0 d-flex">
                 <a class="text-decoration-none activ" href="#">
                     <li class="align-items-center d-flex item_lista justify-content-center">« </li>
                 </a>
@@ -143,6 +143,7 @@
                 
             </ul>
 </section>
+
 
 
 

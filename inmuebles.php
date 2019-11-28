@@ -23,85 +23,73 @@
 </section>
 
 <section id="formulario">
-    <form action="" class="margen_contenedores_index">
-        <div class="text-center row">
+        <form action="" class="margen_contenedores_index">
 
-            <div class="col-3"> 
-                <input class="codigo_input input-group" type="text" placeholder="Código"> 
+            <div class="text-center row">
+
+                <div class="my-3 col-3"> 
+                   <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Código">
+                </div>
+
+                
+                <div class="my-3 col-3"> 
+                    <select class="codigo_input text_align_last_center form-control" id="exampleFormControlSelect1" select>
+                        <option value=""> Tipo de Inmueble </option>
+                    </select>
+                </div>
+
+                <div class="my-3 col-3"> 
+                    <select class="codigo_input text_align_last_center form-control" id="exampleFormControlSelect1" select>
+                        <option value=""> Tipo de Gestión </option>
+                    </select>
+                </div>
+
+                <div class="my-3 col-3"> 
+                    <select class="codigo_input text_align_last_center form-control" id="exampleFormControlSelect1" select>
+                        <option value=""> Ciudad </option>
+                    </select>
+                </div>
+
+                <div class="my-3 col-3"> 
+                    <select class="codigo_input text_align_last_center form-control" id="exampleFormControlSelect1" select>
+                        <option value=""> Barrio </option>
+                    </select>
+                </div>
+
+                <div class="my-3 col-3"> 
+                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Precio Mínimo"> 
+                </div>
+
+                <div class="my-3 col-3"> 
+                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Precio Máximo"> 
+                </div>
+
+                <div class="my-3 col-3"> 
+                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Área Mínima"> 
+                </div>
+
+                <div class="my-3 col-3"> 
+                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Área Máxima"> 
+                </div>
+
+                <div class="my-3 col-3"> 
+                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Baños"> 
+                </div>
+
+                <div class="my-3 col-3"> 
+                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Alcobas"> 
+                </div>
+
+                <div class="my-3 col-3"> 
+                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Garajes"> 
+                </div>
+
+                <div class="my-3 col-12"> 
+                    <input class="boton_buscar btn" type="button" value="Buscar">
+                </div>
+
             </div>
-
-            <div class="col-3"> 
-                <select class="row custom-select custom-select-sm" name="" id="">
-                    <option value="0" selected disabled> Tipo de Inmueble </option>
-                </select>
-            </div>
-
-            <div class="col-3"> 
-                <select class="row custom-select custom-select-sm" name="" id="">
-                    <option value="0" selected disabled> Tipo de Gestion </option>
-                </select>
-            </div>
-
-            <div class="col-3"> 
-                <select class="row custom-select custom-select-sm" name="" id="">
-                    <option value="0" selected disabled> Ciudad </option>
-                </select>
-            </div>
-
-            <div class="col-3"> 
-                <select class="row custom-select custom-select-sm" name="" id="">
-                    <option value="0" selected disabled> Barrio </option>
-                </select>
-            </div>
-
-            <div class="col-3"> 
-                <select class="row custom-select custom-select-sm" name="" id="">
-                    <option value="0" selected disabled> Precio Mínimo </option>
-                </select>
-            </div>
-
-            <div class="col-3"> 
-                <select class="row custom-select custom-select-sm" name="" id="">
-                    <option value="0" selected disabled> Precio Máximo </option>
-                </select>
-            </div>
-
-            <div class="col-3"> 
-                <select class="row custom-select custom-select-sm" name="" id="">
-                    <option value="0" selected disabled> Área Mínima </option>
-                </select>
-            </div>
-
-            <div class="col-3"> 
-                <select class="row custom-select custom-select-sm" name="" id="">
-                    <option value="0" selected disabled> Área Máxima </option>
-                </select>
-            </div>
-
-            <div class="col-3"> 
-                <select class="row custom-select custom-select-sm" name="" id="">
-                    <option value="0" selected disabled> Baños </option>
-                </select>
-            </div>
-
-                            <div class="col-3"> 
-                <select class="row custom-select custom-select-sm" name="" id="">
-                    <option value="0" selected disabled> Alcobas </option>
-                </select>
-            </div>
-
-            <div class="col-3"> 
-                <select class="row custom-select custom-select-sm" name="" id="">
-                    <option value="0" selected disabled> Garajes </option>
-                </select>
-            </div>
-
-            <div class="col-12"> 
-                <input class="boton_buscar btn" type="button" value="Buscar">
-            </div>
-
-        </div>
-    </form>
+        </form>
 </section>
 
 <section id="propiedades_destacadas_imagenes" class="my-5 margen_contenedores_index">
@@ -320,9 +308,33 @@
     </div>
         
 
-            
+                 
+</section>
 
-            
+<section id="selector_paginas" class="my-5 margen_contenedores_index">
+
+            <ul class="justify-content-center p-0 d-flex">
+                <a class="text-decoration-none activ" href="#">
+                    <li class="align-items-center d-flex item_lista justify-content-center">« </li>
+                </a>
+    
+                <a class="text-decoration-none" href="#">
+                    <li class="align-items-center d-flex item_lista justify-content-center"> 1 </li>
+                </a>
+    
+                <a class="text-decoration-none" href="#">
+                    <li class="align-items-center d-flex item_lista justify-content-center"> 2 </li>
+                </a>
+    
+                <a class="text-decoration-none" href="#">
+                    <li class="align-items-center d-flex item_lista justify-content-center"> 3 </li>
+                </a>
+    
+                <a class="text-decoration-none" href="#">
+                    <li class="align-items-center d-flex item_lista justify-content-center"> » </li>
+                </a>
+                
+            </ul>
 </section>
 
 

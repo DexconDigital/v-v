@@ -1,0 +1,21 @@
+quitar barra de imagenes principales
+
+Propiedades Destacadas
+
+parrafos, leer mas:  16px 
+
+sub-titulos: 20px
+
+centrar copyright
+
+titulos nosotros color: azul
+
+barrio>
+
+gestion tilde en la O
+
+últimas noticias cards del blog
+
+descargar formularios
+
+logo pse 55px width
