@@ -76,20 +76,20 @@
                 <div class="col-12 row">
         
                     <div class="col-3"> 
-                        <h2 class="text-center"> 0 </h2>
-                        <p class="text-center"> Contador </p> 
+                        <h2 class="text-center"> 56 </h2>
+                        <p class="text-center"> Total de Inmuebles </p> 
                     </div>
                     <div class="col-3"> 
-                        <h2 class="text-center"> 0 </h2>
-                        <p class="text-center"> Contador </p> 
+                        <h2 class="text-center"> 32 </h2>
+                        <p class="text-center"> Inuebles en Arriendo </p> 
                     </div>
                     <div class="col-3 text-center"> 
-                        <h2 class="text-center"> 0 </h2>
-                        <p class="text-center"> Contador </p> 
+                        <h2 class="text-center"> 19 </h2>
+                        <p class="text-center"> Inmuebles en Venta </p> 
                     </div>
                     <div class="col-3 text-center"> 
-                        <h2 class="text-center"> 0 </h2>
-                        <p class="text-center"> Contador </p> 
+                        <h2 class="text-center"> 5 </h2>
+                        <p class="text-center"> Inmuebles en Arriendo/Venta </p> 
                     </div>
         
                 </div>
@@ -101,7 +101,7 @@
 
 </section>
 
-<section style="padding-bottom:100px;" id="valores_corporativos" class="rounded margen_contenedores_index">
+<section style="padding-bottom:100px;" id="valores_corporativos" class="">
 
     <h2 style="padding: 100px 0;" class="color_azul text-center"> Valores Corporativos </h2>    
 

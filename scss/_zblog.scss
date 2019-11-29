@@ -31,6 +31,36 @@
 
 }
 
+#blog_body2 {
+
+    
+    .card_hover {
+
+        transition: all 250ms 0s ease-in-out;
+
+        &:hover {
+            box-shadow: 0px 2px 7px -1px grey;
+        }
+
+    }
+
+
+    .boton_ver_mas {
+
+        text-decoration: none;
+        color: gray;
+        transition: all 250ms 0 ease-in-out;
+
+        &:hover {
+            filter: brightness(0.5);
+        }
+
+    }
+
+   
+
+}
+
 #selector_paginas {
 
     .item_lista {

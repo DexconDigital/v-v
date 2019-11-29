@@ -117,8 +117,8 @@
                     <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Garajes"> 
                 </div>
 
-                <div class="my-3 col-12"> 
-                    <input class="boton_buscar btn" type="button" value="Buscar">
+                <div class="my-3 w-100 col-12"> 
+                    <input class="boton_buscar col-3 w-100 btn" type="button" value="Buscar">
                 </div>
 
             </div>
@@ -135,7 +135,7 @@
                         <div class="d-flex justify-content-around row">
                        
                             <div>
-                                <div class="mb-5 card" style="width: 20rem;">
+                                <div class="card" style="width: 20rem;">
                                     <img src="images/no_image.png" class="card-img-top" alt="...">
                                         <p class="tipo_de_inmueble card-text"> Tipo Mueble </p>
                                         <p class="tipo_de_renta card-text"> Estado </p>
@@ -157,7 +157,7 @@
                             </div>
 
                             <div>
-                                <div class="mb-5 card" style="width: 20rem;">
+                                <div class="card" style="width: 20rem;">
                                     <img src="images/no_image.png" class="card-img-top" alt="...">
                                         <p class="tipo_de_inmueble card-text"> Tipo Mueble </p>
                                         <p class="tipo_de_renta card-text"> Estado </p>
@@ -179,7 +179,7 @@
                             </div>
 
                             <div>
-                                <div class="mb-5 card" style="width: 20rem;">
+                                <div class="card" style="width: 20rem;">
                                     <img src="images/no_image.png" class="card-img-top" alt="...">
                                         <p class="tipo_de_inmueble card-text"> Tipo Mueble </p>
                                         <p class="tipo_de_renta card-text"> Estado </p>
@@ -227,7 +227,7 @@
                 <a href="servicios.php" class="boton_leer_mas"> Leer más </a>
             </div>
 
-            <div class="mx-3 mb-5 d-flex flex-column align-items-center order-6">
+            <div class="mx-3 d-flex flex-column align-items-center order-6">
                 <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['avaluos']?>"> </i> <br>
                 <span class="titulo_servicios"> <?php echo $texto_servicios ['avaluos']['titulo']?> </span>
                 <p class="texto_servicios"> <?php echo $texto_servicios ['avaluos']['parrafos']['0'] ?> </p>
@@ -246,7 +246,7 @@
                 <p class="texto_servicios"> <?php echo $texto_servicios ['corretaje']['parrafo']?> </p>                
             </div>
 
-            <div class="mx-3 mb-5 d-flex flex-column align-items-center order-5">
+            <div class="mx-3 d-flex flex-column align-items-center order-5">
                 <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['reparaciones']?>"> </i> <br>
                 <span class="titulo_servicios"> <?php echo $texto_servicios ['reparaciones']['titulo']?></span>
                 <p class="texto_servicios"> <?php echo $texto_servicios ['reparaciones']['parrafo']?> </p>
@@ -283,21 +283,21 @@
 
     </section>
 
-    <section id="blog_body">
+    <section id="blog_body2">
 
         <div class="col-12">
 
-            <h2 class="margin_100px text-center"> Últimas Noticias </h2>
+            <h2 style="margin-bottom: 100px" class="text-center"> Últimas noticias </h2>
 
-            <div class="d-flex justify-content-around row">
+            <div class="d-flex justify-content-around margen_contenedores_index row">
                 
                 <div>
-                    <div class="card_hover card_hover mb-5 card" style="width: 20rem;">
+                    <div class="card_hover card_hover card" style="width: 20rem;">
                         <img src="images/no_image.png" class="card-img-top" alt="...">
 
                         <div style="margin: 0 1%;" class="card-body">
                             <a href="#" class="text-decoration-none text-dark"><h5 class="card-title"> Nombre de Blog </h5></a>
-                            <p class="text-muted"> 27/11/2019 </p>
+                            <p class="color_rojo"> 27/11/2019 </p>
                             <p class="card-text"> *Carta de presentacón*... </p>
                             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum porro cumque dolor magnam, pariatur ex. Quis ad voluptate vero commodi! </p>
                             <a href="#" class="boton_ver_mas"> Leer más... </a>
@@ -306,7 +306,7 @@
                 </div>
 
                 <div>
-                    <div class="card_hover mb-5 card" style="width: 20rem;">
+                    <div class="card_hover card" style="width: 20rem;">
                         <img src="images/no_image.png" class="card-img-top" alt="...">
 
                         <div style="margin: 0 1%;" class="card-body">
@@ -320,7 +320,7 @@
                 </div>
 
                 <div>
-                    <div class="card_hover mb-5 card" style="width: 20rem;">
+                    <div class="card_hover card" style="width: 20rem;">
                         <img src="images/no_image.png" class="card-img-top" alt="...">
 
                         <div style="margin: 0 1%;" class="card-body">
@@ -339,41 +339,28 @@
 
 </section>
 
-<section id="nuestros_aliados" class="margen_contenedores_index">
+<section id="nuestros_aliados" class="fondo_gris">
 
-    <h2 class="text-center margin_100px"> Nuestros Aliados </h2>
-
-    <div class="my_100px bd-example">
-        <div class="row" id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            
-            <div class="carousel-inner">
-
-            <div class="carousel-item active" data-interval="5000">
-                <div class="col-12 row p-0 m-0 align-items-center text-center">
-                    <div class="col-4 text-center "> <a href="#"><img src="images/libertador.png" alt="..."></a> </div>
-                    <div class="col-4 text-center "> <a href="#"><img src="images/afiansa.png" alt="..."></a> </div>
-                    <div class="col-4 text-center "> <a href="#"><img src="images/fianzacredito.png" alt="..."></a> </div>
-                </div>
+    <h2 style="padding: 50px 0 0 0; margin-top:50px;" class="text-center"> Nuestros Aliados </h2>
+    
+      <div class="d-flex flex-column margen_contenedores_index">
+           <div class="d-flex justify-content-around">
+                <div class=""> <img style="width:170px;" src="images/libertador.png" alt="..."> </div>
+                <div class=""> <img style="width:170px;" src="images/afiansa.png" alt="..."> </div>
+                <div class=""> <img style="width:170px;" src="images/fianzacredito.png" alt="..."> </div>
+                <div class=""> <img style="width:170px;" src="images/simi.png" alt="...">  </div>
+           </div>
+    
+           <div class="d-flex justify-content-around">
+                <div class=""> <img style="width:170px;" src="images/olx.png" alt="..."> </div>
+                <div class=""> <img style="width:170px;" src="images/ciencuadras.png" alt="...">  </div>
+                <div class=""> <img style="width:170px;" src="images/mercadolibre.png" alt="..."> </div>
+                <div class=""> <img style="width:170px;" src="images/prelegalassist.png" alt="..."> </div>
+           </div>
+      </div>
                 
-            </div>
-
-            <div class="carousel-item" data-interval="5000">
-                <div class="col-12 row p-0 m-0 align-items-center text-center">
-                    <div class="col-4 text-center "> <a href="#"><img src="images/simi.png" alt="..."></a>  </div>
-                    <div class="col-4 text-center "> <a href="#"><img src="images/olx.png" alt="..."></a> </div>
-                    <div class="col-4 text-center "> <a href="#"><img src="images/ciencuadras.png" alt="..."></a>  </div>
-                </div>
-                
-            </div>
-
-            <div class="carousel-item" data-interval="5000">
-                <div class="col-12 row p-0 m-0 align-items-center text-center">
-                    <div class="col-6"> <a href="#"><img src="images/mercadolibre.png" alt="..."></a> </div>
-                    <div class="col-6"> <a href="#"><img src="images/prelegalassist.png" alt="..."></a> </div>
-                </div>
             
-        </div>
-    </div>
+     
 
 </section>
 

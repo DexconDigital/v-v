@@ -49,7 +49,7 @@ $datos_contacto = [
 			"imprimir" => "313 387 0927",
 			"icono" => "fas fa-mobile-alt",
 		],
-		"celular2" => [
+	"celular2" => [
 			"link"=> "+573212046505",
 			"imprimir" => "321 204 6505",
 			"icono" => "fas fa-mobile-alt",
@@ -77,7 +77,7 @@ $datos_contacto = [
 		"telefono_fijo" => [
 			"link"=> "0382741157",
 			"imprimir" => "+57 (8) 274 1157",
-			"icono" => "fas fa-phone-alt",
+			"icono" => "fas fa-phone",
 		],
 		"celular" => [
 			"link"=> "+573134677863",

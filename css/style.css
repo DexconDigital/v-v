@@ -7598,6 +7598,9 @@ body {
   body p {
     font-size: 16px !important; }
 
+.fondo_gris {
+  background-color: #e6e6e6; }
+
 .dropdown-item:hover {
   color: white !important;
   text-decoration: none;
@@ -7616,7 +7619,7 @@ body {
   color: #A11216; }
 
 .margen_contenedores_index {
-  margin: 0 10%; }
+  margin: 0 3%; }
 
 .margen_contenedores_index2 {
   margin: 0 2%; }
@@ -7862,18 +7865,11 @@ li {
   margin: 62% 0 0 5%;
   font-size: 22px; }
 
-#nuestros_aliados .imgagenes_aliados {
-  width: 200px !important;
-  height: 50px !important; }
-#nuestros_aliados .margin_left {
-  margin-left: 44%; }
-#nuestros_aliados .margin_top {
-  margin-top: -85px;
-  margin-left: -2px; }
-
 footer {
   background-color: #111111;
   color: #C4C4C4; }
+  footer a:hover {
+    color: #A11216 !important; }
   footer .parrafo_bogota {
     transition: all 500ms ease-in-out;
     position: relative;
@@ -7929,7 +7925,7 @@ p {
   text-align: justify; }
 
 .margen_contenedores_index {
-  margin: 0 10%; }
+  margin: 0 3%; }
 
 #imagen_nosotros {
   position: relative; }
@@ -8026,6 +8022,17 @@ p {
     transition: all 250ms 0 ease-in-out; }
     #blog_body .boton_ver_mas:hover {
       filter: brightness(0.5); }
+
+#blog_body2 .card_hover {
+  transition: all 250ms 0s ease-in-out; }
+  #blog_body2 .card_hover:hover {
+    box-shadow: 0px 2px 7px -1px grey; }
+#blog_body2 .boton_ver_mas {
+  text-decoration: none;
+  color: gray;
+  transition: all 250ms 0 ease-in-out; }
+  #blog_body2 .boton_ver_mas:hover {
+    filter: brightness(0.5); }
 
 #selector_paginas .item_lista {
   color: black;

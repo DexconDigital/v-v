@@ -29,7 +29,7 @@
 
     <div id="animacion_servicios" class="animacion_servicios2 d-flex justify-content-around flex-wrap">
 
-        <div class="m-3 d-flex flex-column align-items-center">
+        <div class="m-3 d-flex flex-column align-items-center order-3">
             <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['arriendos']?>"> </i> <br>
             <span class="titulo_servicios"><?php echo $texto_servicios ['arriendos']['titulo']?></span>
             <p class="texto_servicios"> <?php echo $texto_servicios ['arriendos']['0'] ?> </p>
@@ -37,33 +37,33 @@
             <p class="texto_servicios"> <?php echo $texto_servicios ['arriendos']['2'] ?> </p>
         </div>
 
-        <div class="m-3 d-flex flex-column align-items-center">
+        <div class="m-3 d-flex flex-column align-items-center order-4">
             <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['ventas']?>"> </i> <br>
             <span class="titulo_servicios"><?php echo $texto_servicios ['ventas']['titulo']?></span>
             <p class="texto_servicios"> <?php echo $texto_servicios ['ventas']['parrafos']['0'] ?> </p>
             <p class="texto_servicios"> <?php echo $texto_servicios ['ventas']['parrafos']['1'] ?> </p>
         </div>
 
-        <div class="m-3 d-flex flex-column align-items-center">
+        <div class="m-3 d-flex flex-column align-items-center order-5">
             <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['avaluos']?>"> </i> <br>
             <span class="titulo_servicios"> <?php echo $texto_servicios ['avaluos']['titulo']?> </span>
             <p class="texto_servicios"> <?php echo $texto_servicios ['avaluos']['parrafos']['0'] ?> </p>
             <p class="texto_servicios"> <?php echo $texto_servicios ['avaluos']['parrafos']['1'] ?> </p>
         </div>
 
-        <div class="m-3 d-flex flex-column align-items-center">
+        <div class="m-3 d-flex flex-column align-items-center order-1">
             <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['asesoria']?>"> </i> <br>
             <span class="titulo_servicios"><?php echo $texto_servicios ['asesoria']['titulo']?></span>
             <p class="texto_servicios"> <?php echo $texto_servicios ['asesoria']['parrafo']?> </p>
         </div>
 
-        <div class="m-3 d-flex flex-column align-items-center">
+        <div class="m-3 d-flex flex-column align-items-center order-2">
             <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['corretaje']?>"> </i> <br>
             <span class="titulo_servicios"><?php echo $texto_servicios ['corretaje']['titulo']?></span>
             <p class="texto_servicios"> <?php echo $texto_servicios ['corretaje']['parrafo']?> </p>                
         </div>
 
-        <div class="m-3 d-flex flex-column align-items-center">
+        <div class="m-3 d-flex flex-column align-items-center order-6">
             <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['reparaciones']?>"> </i> <br>
             <span class="titulo_servicios"> <?php echo $texto_servicios ['reparaciones']['titulo']?></span>
             <p class="texto_servicios"> <?php echo $texto_servicios ['reparaciones']['parrafo']?> </p>
@@ -74,10 +74,10 @@
 </section>
 
 <section id="franja_inmueble">
-    <div class="align-items-center d-flex franja justify-content-around my_100px">
+    <div style="margin-top: 100px" class="align-items-center d-flex franja justify-content-around">
         <img class="imagen" src="images/descarga.png" alt="">
         <div class="color_azul"> <h2> ¿Deseas publicar tu inmueble con nosotros?  </h2> </div>
-        <a href="#" style="width:200px" class="boton_buscar btn text-decoration-none text-white" download="FORMATO DE CONSIGNACION.pdf"> <i> Descargar formulario </i> </a>
+        <a href="#" style="width:200px" class="boton_buscar btn text-decoration-none text-white" download="FORMATO DE CONSIGNACION.pdf">  Descargar formulario  </a>
 
     </div>
     

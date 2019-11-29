@@ -7,6 +7,10 @@ body {
 
 }
 
+.fondo_gris {
+    background-color: #e6e6e6;
+}
+
 .dropdown-item:hover {
     color: white!important;
     text-decoration: none;
@@ -32,7 +36,7 @@ body {
 }
 
 .margen_contenedores_index {
-    margin: 0 10%;
+    margin: 0 3%;
 }
 
 .margen_contenedores_index2 {
@@ -238,6 +242,7 @@ li {
 
     
 }
+
 
 .boton_buscar2 {
 
@@ -455,26 +460,15 @@ li {
 
 }
 
-#nuestros_aliados {
-
-
-    .imgagenes_aliados {
-        width: 200px!important;
-        height: 50px!important;
-    }
-
-    .margin_left {
-        margin-left: 44%;
-    }
-
-    .margin_top {
-        margin-top: -85px;
-        margin-left: -2px;
-    }
-
-}
 
 footer {
+
+    a {
+
+        &:hover {
+            color: $color_rojo!important;
+        }
+    }
 
     .parrafo_bogota {   
         transition: all 500ms ease-in-out; 
@@ -539,9 +533,6 @@ footer {
         margin-left: 100px;
     }
 
-    .botones {
-        
-    }
 
     .copyright {
         position: absolute;
