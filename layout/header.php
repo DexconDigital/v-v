@@ -121,10 +121,10 @@
                         Clientes
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#"> Arrendatarios </a>
-                        <a class="dropdown-item" href="#"> Propietarios </a>
+                        <a class="dropdown-item" href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=116&tipo=2"> Arrendatarios </a>
+                        <a class="dropdown-item" href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=116&tipo=1"> Propietarios </a>
                         <a class="dropdown-item" href="#"> Pagos PSE </a>
-                        <a class="dropdown-item" href="#"> Consignar Inmueble </a>
+                        <a class="dropdown-item" href="#" download="FORMATO DE CONSIGNACION.pdf"> Consignar Inmueble </a>
                         
                     </li>
 
