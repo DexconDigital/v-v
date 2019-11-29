@@ -1,21 +1,8 @@
-quitar barra de imagenes principales
+en nosotros: linea pequeña, after roja
 
-Propiedades Destacadas
+clientes, hover azul letra blanca
 
-parrafos, leer mas:  16px 
+nombre de blog: azul
+fecha en color: rojo
 
-sub-titulos: 20px
-
-centrar copyright
-
-titulos nosotros color: azul
-
-barrio>
-
-gestion tilde en la O
-
-últimas noticias cards del blog
-
-descargar formularios
-
-logo pse 55px width
+border esquinas del paginador

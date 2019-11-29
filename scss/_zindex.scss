@@ -230,8 +230,39 @@ li {
     }
 
     
+}
 
+.boton_buscar2 {
 
+    background-color: $color_azul;
+    
+    color: white; 
+    width: 120px;
+
+    &:hover {
+        background-color: $color_rojo;
+        border-color: $color_rojo;
+        color: white;
+    }
+
+    &:active {
+        background-color: orangered;
+        border-color: orangered;
+        color: white;
+    }
+
+    &:focus {
+        background-color: $color_rojo;
+        border-color: $color_rojo;
+        color: white;
+    }
+    
+}
+
+.list-group-item.active {
+    background-color: $color_rojo!important;
+    border-color: $color_rojo!important;
+    color: white;
 }
 
 

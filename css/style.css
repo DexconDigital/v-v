@@ -9745,36 +9745,63 @@ li {
     border-color: #A11216;
     color: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003235}}
+.boton_buscar2 {
+  background-color: #010D5A;
+  color: white;
+  width: 120px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003242}}
+  .boton_buscar2:hover {
+    background-color: #A11216;
+    border-color: #A11216;
+    color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003248}}
+  .boton_buscar2:active {
+    background-color: orangered;
+    border-color: orangered;
+    color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003254}}
+  .boton_buscar2:focus {
+    background-color: #A11216;
+    border-color: #A11216;
+    color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003262}}
+.list-group-item.active {
+  background-color: #A11216 !important;
+  border-color: #A11216 !important;
+  color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003270}}
 #formulario {
   background-color: #e6e6e6;
   padding: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003275}}
   #formulario .codigo_input {
     border: 1px solid #80808075;
     border-radius: 5px;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003250}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003281}}
     #formulario .codigo_input:focus {
       border-color: #010d5a40 !important;
       box-shadow: 0 1px 1px #010d5a73 inset, 0 0 8px #010d5a40 !important;
       outline: 0 none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003260}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003291}}
 #propiedades_destacadas_menu {
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003296}}
   #propiedades_destacadas_menu div input {
     margin: 0 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003304}}
 #propiedades_destacadas_imagenes img, #ultimas_noticias img {
   filter: brightness(0.8);
   transition: all 250ms ease-out; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003277}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003308}}
   #propiedades_destacadas_imagenes img:hover, #ultimas_noticias img:hover {
     filter: brightness(0.6); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003282}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003313}}
 #propiedades_destacadas_imagenes .tipo_de_inmueble, #ultimas_noticias .tipo_de_inmueble {
   position: absolute;
   margin: 5% 0 0 5%;
@@ -9785,7 +9812,7 @@ li {
   font-size: 12px;
   color: white;
   background-color: #010D5A; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003325}}
 #propiedades_destacadas_imagenes .tipo_de_renta, #ultimas_noticias .tipo_de_renta {
   position: absolute;
   background-color: #A11216;
@@ -9796,59 +9823,59 @@ li {
   width: 94px;
   font-size: 12px;
   margin: 62% 0 0 68%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003337}}
 #propiedades_destacadas_imagenes .precio_inmueble, #ultimas_noticias .precio_inmueble {
   color: white;
   position: absolute;
   margin: 62% 0 0 5%;
   font-size: 22px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003344}}
 #propiedades_destacadas_imagenes li, #ultimas_noticias li {
   list-style: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003348}}
 #propiedades_destacadas_imagenes .padding_left_0, #ultimas_noticias .padding_left_0 {
   padding-left: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003356}}
 #nuestros_servicios a {
   text-decoration: none;
   color: gray; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003360}}
   #nuestros_servicios a:hover {
     filter: brightness(0.5); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003364}}
 #nuestros_servicios .tamaño_iconos_servicios {
   width: 30px;
   height: 30px;
   color: #010D5A; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003371}}
 #nuestros_servicios .titulo_servicios {
   font-weight: bold;
   color: #A11216;
   font-size: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003377}}
 #nuestros_servicios .texto_servicios {
   width: 410px;
   text-align: justify;
   margin-top: 10px;
   font-size: 13px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003384}}
 #nuestros_servicios .animacion_servicios {
   opacity: 0; }
 @keyframes animacion_servicios {
   100% {
     opacity: 1; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003405}}
 #fomulario_aseguradoras a {
   text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003409}}
 #fomulario_aseguradoras img {
   transition: all 500ms ease-out;
   cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003413}}
   #fomulario_aseguradoras img:hover {
     transform: scale(1.05); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003419}}
 #fomulario_aseguradoras .tipo_de_inmueble {
   position: absolute;
   margin: 5% 0 0 5%;
@@ -9858,7 +9885,7 @@ li {
   text-align: center;
   width: 120px;
   font-size: 12px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003430}}
 #fomulario_aseguradoras .tipo_de_renta {
   position: absolute;
   background-color: #00000052;
@@ -9868,30 +9895,30 @@ li {
   width: 94px;
   font-size: 12px;
   margin: 62% 0 0 68%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003410}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003441}}
 #fomulario_aseguradoras .precio_inmueble {
   color: white;
   position: absolute;
   margin: 62% 0 0 5%;
   font-size: 22px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003423}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003454}}
 #nuestros_aliados .imgagenes_aliados {
   width: 200px !important;
   height: 50px !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003428}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003459}}
 #nuestros_aliados .margin_left {
   margin-left: 44%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003432}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003463}}
 #nuestros_aliados .margin_top {
   margin-top: -85px;
   margin-left: -2px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003439}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003470}}
 footer {
   background-color: #111111;
   color: #C4C4C4; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003441}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003472}}
   footer .parrafo_bogota {
     transition: all 500ms ease-in-out;
     position: relative;
@@ -9905,34 +9932,34 @@ footer {
   100% {
     opacity: 0;
     bottom: -140px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003471}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003502}}
   footer .parrafo_ibague {
     transition: all 500ms ease-in-out;
     /* display: none; */
     position: relative;
     /* bottom: -140px;   */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003483}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003514}}
   footer h2 {
     margin: 50px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003487}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003518}}
   footer .padding_copyright {
     border-top: 1px solid #80808036;
     padding: 20px 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003492}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003523}}
   footer .justificar {
     text-align: justify; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003496}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003527}}
   footer .margenx {
     margin: 0 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003500}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003531}}
   footer .margen_flecha {
     margin-left: 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003508}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003539}}
   footer .copyright {
     position: absolute;
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003514}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003545}}
 .subir {
   width: 25px !important;
   display: none;
@@ -9947,7 +9974,7 @@ footer {
   box-shadow: -1px 0px 15px 1px #CDCDCE;
   z-index: 2;
   border-radius: 4px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003529}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zindex\.scss}line{font-family:\00003560}}
   .subir:active {
     background-color: #A11216;
     border-color: #A11216; }
@@ -10050,5 +10077,16 @@ p {
   #selector_paginas .item_lista:hover {
     background-color: #010D5A;
     color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zcontactanos\.scss}line{font-family:\000033}}
+#formulario2 .codigo_input {
+  border: 1px solid #80808075;
+  border-radius: 5px;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/DEXCON\/Proyectos\/v-v\/scss\/_zcontactanos\.scss}line{font-family:\000039}}
+  #formulario2 .codigo_input:focus {
+    border-color: #010d5a40 !important;
+    box-shadow: 0 1px 1px #010d5a73 inset, 0 0 8px #010d5a40 !important;
+    outline: 0 none; }
 
 /*# sourceMappingURL=style.css.map */
