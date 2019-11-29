@@ -315,23 +315,23 @@
 
             <ul class="justify-content-center p-0 d-flex">
                 <a class="text-decoration-none activ" href="#">
-                    <li class="align-items-center d-flex item_lista justify-content-center">« </li>
+                    <li class="rounded align-items-center d-flex item_lista justify-content-center">« </li>
                 </a>
     
                 <a class="text-decoration-none" href="#">
-                    <li class="align-items-center d-flex item_lista justify-content-center"> 1 </li>
+                    <li class="rounded align-items-center d-flex item_lista justify-content-center"> 1 </li>
                 </a>
     
                 <a class="text-decoration-none" href="#">
-                    <li class="align-items-center d-flex item_lista justify-content-center"> 2 </li>
+                    <li class="rounded align-items-center d-flex item_lista justify-content-center"> 2 </li>
                 </a>
     
                 <a class="text-decoration-none" href="#">
-                    <li class="align-items-center d-flex item_lista justify-content-center"> 3 </li>
+                    <li class="rounded align-items-center d-flex item_lista justify-content-center"> 3 </li>
                 </a>
     
                 <a class="text-decoration-none" href="#">
-                    <li class="align-items-center d-flex item_lista justify-content-center"> » </li>
+                    <li class="rounded align-items-center d-flex item_lista justify-content-center"> » </li>
                 </a>
                 
             </ul>

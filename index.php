@@ -287,7 +287,7 @@
 
         <div class="col-12">
 
-            <h2 class="margin_100px text-center"> Últimas noticias </h2>
+            <h2 class="margin_100px text-center"> Últimas Noticias </h2>
 
             <div class="d-flex justify-content-around row">
                 
@@ -310,8 +310,8 @@
                         <img src="images/no_image.png" class="card-img-top" alt="...">
 
                         <div style="margin: 0 1%;" class="card-body">
-                            <a href="#" class="text-decoration-none text-dark"><h5 class="card-title"> Nombre de Blog </h5></a>
-                            <p class="text-muted"> 27/11/2019 </p>
+                            <a href="#" class="text-decoration-none text-dark"><h5 class="color_azul card-title"> Nombre de Blog </h5></a>
+                            <p class="color_rojo"> 27/11/2019 </p>
                             <p class="card-text"> *Carta de presentacón*... </p>
                             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum porro cumque dolor magnam, pariatur ex. Quis ad voluptate vero commodi! </p>
                             <a href="#" class="boton_ver_mas"> Leer más... </a>
@@ -324,8 +324,8 @@
                         <img src="images/no_image.png" class="card-img-top" alt="...">
 
                         <div style="margin: 0 1%;" class="card-body">
-                            <a href="#" class="text-decoration-none text-dark"><h5 class="card-title"> Nombre de Blog </h5></a>
-                            <p class="text-muted"> 27/11/2019 </p>
+                            <a href="#" class="text-decoration-none text-dark"><h5 class="color_azul card-title"> Nombre de Blog </h5></a>
+                            <p class="color_rojo"> 27/11/2019 </p>
                             <p class="card-text"> *Carta de presentacón*... </p>
                             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum porro cumque dolor magnam, pariatur ex. Quis ad voluptate vero commodi! </p>
                             <a href="#" class="boton_ver_mas"> Leer más... </a>

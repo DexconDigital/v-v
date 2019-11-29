@@ -59,7 +59,7 @@
 
 <!-- ------- SECCION 1 -------------- -->
 
-<div class="justify-content-center row">
+<div class="justify-content-center m-0 row">
     <div class="flex-row list-group" id="list-tab" role="tablist">
       <a class="text-center m-4 btn boton_buscar2 list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home" >Bogotá</a>
       <a class="text-center m-4 btn boton_buscar2 list-group-item list-group-item-action " id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile" >Ibagué</a>
@@ -75,15 +75,15 @@
 
         <div class="fade flex-column my-5 tab-pane text-center active show" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
 
-            <div class="col-12 d-flex justify-content-center margen_contenedores_index2  my-5">
-                <div class="justify-content-center mx-2">
+            <div class="col-12 d-flex justify-content-center  my-5">
+                <div class="col-4 justify-content-around mx-2">
                     <i class="mx-5 <?php echo $datos_contacto ['bogota']['direccion']['icono'] ?>" >  </i> 
                     <div class="text-light">Direccion Bogotá</div>
                 </div>
-                <a class="text-decoration-none" href="tel:<?php echo $datos_contacto ['bogota'] ['telefono_fijo']['link']?>"><div class="text-light justify-content-center mx-2"><i class="mx-5 <?php echo $datos_contacto ['bogota']['telefono_fijo']['icono'] ?>" >  </i> 
+                <a class="col-4 text-decoration-none" href="tel:<?php echo $datos_contacto ['bogota'] ['telefono_fijo']['link']?>"><div class="text-light justify-content-center mx-2"><i class="mx-5 <?php echo $datos_contacto ['bogota']['telefono_fijo']['icono'] ?>" >  </i> 
                     <div>+57 (1) 613 0770</div></div>
                 </a>
-                <a class="text-decoration-none" href="mailto:<?php echo $datos_contacto ['bogota'] ['correo']['correo']?>"><div class="text-light justify-content-center mx-2"><i class="mx-5 <?php echo $datos_contacto ['bogota']['correo']['icono'] ?>" >  </i> 
+                <a class="col-4 text-decoration-none" href="mailto:<?php echo $datos_contacto ['bogota'] ['correo']['correo']?>"><div class="text-light justify-content-center mx-2"><i class="mx-5 <?php echo $datos_contacto ['bogota']['correo']['icono'] ?>" >  </i> 
                     <div>vyvinmobiliarias@gmail.com</div></div>
                 </a>
             </div>
@@ -98,10 +98,10 @@
         
         <div class="fade flex-column my-5 tab-pane text-center  " id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
 
-            <div class="col-12 d-flex justify-content-center margen_contenedores_index2 my-5">
-                <div class="justify-content-center mx-2"><i class="mx-5 <?php echo $datos_contacto ['bogota']['direccion']['icono'] ?>" >  </i> <div class="text-light">Direccion Ibagué</div></div>
-                <a class="text-decoration-none" href="tel:<?php echo $datos_contacto ['bogota'] ['telefono_fijo']['link']?>"><div class="text-light justify-content-center mx-2"><i class="mx-5 <?php echo $datos_contacto ['bogota']['telefono_fijo']['icono'] ?>" >  </i> <div>Telefono Ibagué</div></div></a>
-                <a class="text-decoration-none" href="mailto:<?php echo $datos_contacto ['bogota'] ['correo']['correo']?>"><div class="text-light justify-content-center mx-2"><i class="mx-5 <?php echo $datos_contacto ['bogota']['correo']['icono'] ?>" >  </i> <div>vyvinmobiliarias@gmail.com</div></div></a>
+            <div class="col-12 d-flex justify-content-around my-5">
+                <div class="col-4 justify-content-center mx-2"><i class="mx-5 <?php echo $datos_contacto ['bogota']['direccion']['icono'] ?>" >  </i> <div class="text-light">Direccion Ibagué</div></div>
+                <a class="col-4 text-decoration-none" href="tel:<?php echo $datos_contacto ['bogota'] ['telefono_fijo']['link']?>"><div class="text-light justify-content-center mx-2"><i class="mx-5 <?php echo $datos_contacto ['bogota']['telefono_fijo']['icono'] ?>" >  </i> <div>Telefono Ibagué</div></div></a>
+                <a class="col-4 text-decoration-none" href="mailto:<?php echo $datos_contacto ['bogota'] ['correo']['correo']?>"><div class="text-light justify-content-center mx-2"><i class="mx-5 <?php echo $datos_contacto ['bogota']['correo']['icono'] ?>" >  </i> <div>vyvinmobiliarias@gmail.com</div></div></a>
             </div>
 
             <div class="col-12">

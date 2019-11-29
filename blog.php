@@ -33,8 +33,8 @@
                     <img src="images/no_image.png" class="card-img-top" alt="...">
 
                     <div style="margin: 0 1%;" class="card-body">
-                        <a href="#" class="text-decoration-none text-dark"><h5 class="card-title"> Nombre de Blog </h5></a>
-                        <p class="text-muted"> 27/11/2019 </p>
+                        <a href="#" class="text-decoration-none text-dark"><h5 class="color_azul card-title"> Nombre de Blog </h5></a>
+                        <p class="color_rojo"> 27/11/2019 </p>
                         <p class="card-text"> *Carta de presentacón*... </p>
                         <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum porro cumque dolor magnam, pariatur ex. Quis ad voluptate vero commodi! </p>
                         <a href="#" class="boton_ver_mas"> Leer más... </a>
@@ -47,8 +47,8 @@
                     <img src="images/no_image.png" class="card-img-top" alt="...">
 
                     <div style="margin: 0 1%;" class="card-body">
-                        <a href="#" class="text-decoration-none text-dark"><h5 class="card-title"> Nombre de Blog </h5></a>
-                        <p class="text-muted"> 27/11/2019 </p>
+                        <a href="#" class="text-decoration-none text-dark"><h5 class="color_azul card-title"> Nombre de Blog </h5></a>
+                        <p class="color_rojo"> 27/11/2019 </p>
                         <p class="card-text"> *Carta de presentacón*... </p>
                         <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum porro cumque dolor magnam, pariatur ex. Quis ad voluptate vero commodi! </p>
                         <a href="#" class="boton_ver_mas"> Leer más... </a>
@@ -61,8 +61,8 @@
                     <img src="images/no_image.png" class="card-img-top" alt="...">
 
                     <div style="margin: 0 1%;" class="card-body">
-                        <a href="#" class="text-decoration-none text-dark"><h5 class="card-title"> Nombre de Blog </h5></a>
-                        <p class="text-muted"> 27/11/2019 </p>
+                        <a href="#" class="text-decoration-none text-dark"><h5 class="color_azul card-title"> Nombre de Blog </h5></a>
+                        <p class="color_rojo"> 27/11/2019 </p>
                         <p class="card-text"> *Carta de presentacón*... </p>
                         <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum porro cumque dolor magnam, pariatur ex. Quis ad voluptate vero commodi! </p>
                         <a href="#" class="boton_ver_mas"> Leer más... </a>
@@ -75,8 +75,8 @@
                     <img src="images/no_image.png" class="card-img-top" alt="...">
 
                     <div style="margin: 0 1%;" class="card-body">
-                        <a href="#" class="text-decoration-none text-dark"><h5 class="card-title"> Nombre de Blog </h5></a>
-                        <p class="text-muted"> 27/11/2019 </p>
+                        <a href="#" class="text-decoration-none text-dark"><h5 class="color_azul card-title"> Nombre de Blog </h5></a>
+                        <p class="color_rojo"> 27/11/2019 </p>
                         <p class="card-text"> *Carta de presentacón*... </p>
                         <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum porro cumque dolor magnam, pariatur ex. Quis ad voluptate vero commodi! </p>
                         <a href="#" class="boton_ver_mas"> Leer más... </a>
@@ -89,8 +89,8 @@
                     <img src="images/no_image.png" class="card-img-top" alt="...">
 
                     <div style="margin: 0 1%;" class="card-body">
-                        <a href="#" class="text-decoration-none text-dark"><h5 class="card-title"> Nombre de Blog </h5></a>
-                        <p class="text-muted"> 27/11/2019 </p>
+                        <a href="#" class="text-decoration-none text-dark"><h5 class="color_azul card-title"> Nombre de Blog </h5></a>
+                        <p class="color_rojo"> 27/11/2019 </p>
                         <p class="card-text"> *Carta de presentacón*... </p>
                         <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum porro cumque dolor magnam, pariatur ex. Quis ad voluptate vero commodi! </p>
                         <a href="#" class="boton_ver_mas"> Leer más... </a>
@@ -103,8 +103,8 @@
                     <img src="images/no_image.png" class="card-img-top" alt="...">
 
                     <div style="margin: 0 1%;" class="card-body">
-                        <a href="#" class="text-decoration-none text-dark"><h5 class="card-title"> Nombre de Blog </h5></a>
-                        <p class="text-muted"> 27/11/2019 </p>
+                        <a href="#" class="text-decoration-none text-dark"><h5 class="color_azul card-title"> Nombre de Blog </h5></a>
+                        <p class="color_rojo"> 27/11/2019 </p>
                         <p class="card-text"> *Carta de presentacón*... </p>
                         <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum porro cumque dolor magnam, pariatur ex. Quis ad voluptate vero commodi! </p>
                         <a href="#" class="boton_ver_mas"> Leer más... </a>
@@ -122,23 +122,23 @@
 
             <ul class="justify-content-center p-0 d-flex">
                 <a class="text-decoration-none activ" href="#">
-                    <li class="align-items-center d-flex item_lista justify-content-center">« </li>
+                    <li class="rounded align-items-center d-flex item_lista justify-content-center">« </li>
                 </a>
     
                 <a class="text-decoration-none" href="#">
-                    <li class="align-items-center d-flex item_lista justify-content-center"> 1 </li>
+                    <li class="rounded align-items-center d-flex item_lista justify-content-center"> 1 </li>
                 </a>
     
                 <a class="text-decoration-none" href="#">
-                    <li class="align-items-center d-flex item_lista justify-content-center"> 2 </li>
+                    <li class="rounded align-items-center d-flex item_lista justify-content-center"> 2 </li>
                 </a>
     
                 <a class="text-decoration-none" href="#">
-                    <li class="align-items-center d-flex item_lista justify-content-center"> 3 </li>
+                    <li class="rounded align-items-center d-flex item_lista justify-content-center"> 3 </li>
                 </a>
     
                 <a class="text-decoration-none" href="#">
-                    <li class="align-items-center d-flex item_lista justify-content-center"> » </li>
+                    <li class="rounded align-items-center d-flex item_lista justify-content-center"> » </li>
                 </a>
                 
             </ul>

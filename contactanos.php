@@ -55,7 +55,7 @@
                             </div>
 
                             <div class="my-3 col-12"> 
-                                <input type="textarea" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe tu mensaje"> 
+                                <input type="textarea" style="width:100%; height:100px" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe tu mensaje">
                             </div>
 
 
@@ -70,11 +70,6 @@
                 </div>
 
                 <div class="col-4">
-                   <!--  <div>
-                        <i class="<?php echo $datos_contacto ['bogota']['direccion']['icono'] ?>" ></i>
-                        <i class="<?php echo $datos_contacto ['bogota']['telefono_fijo']['icono'] ?>" ></i>
-                        <i class="<?php echo $datos_contacto ['bogota']['correo']['icono'] ?>" ></i>
-                    </div> -->
 
                     <!-- ------- SECCION 1 -------------- -->
 
@@ -94,9 +89,11 @@
 
                             <div class="fade  tab-pane active show" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
 
-                                <i class="<?php echo $datos_contacto ['bogota']['direccion']['icono'] ?>" ></i>
-                                <i class="<?php echo $datos_contacto ['bogota']['telefono_fijo']['icono'] ?>" ></i>
-                                <i class="<?php echo $datos_contacto ['bogota']['correo']['icono'] ?>" ></i>
+                                <div class="my-5 d-flex justify-content-center">
+                                    <div class="text-center col-4"><i class="<?php echo $datos_contacto ['bogota']['direccion']['icono'] ?>" > </i> <p class="text-center"> Dirección Bogotá </p></div>
+                                    <div class="text-center col-4"><i class="<?php echo $datos_contacto ['bogota']['telefono_fijo']['icono'] ?>" ></i> <p class="text-center"> Telefono Bogotá </p> </div>
+                                    <div class="text-center col-4"><i class="<?php echo $datos_contacto ['bogota']['correo']['icono'] ?>" ></i> <p class="text-center"> Correo Bogotá </p> </div>
+                                </div>
 
                             </div>
                             
@@ -104,7 +101,11 @@
                             
                             <div class="fade tab-pane" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
 
-                            233123asdasdasd
+                                <div class="my-5 d-flex justify-content-center">
+                                    <div class="text-center col-4"><i class="<?php echo $datos_contacto ['bogota']['direccion']['icono'] ?>" > </i> <p class="text-center"> Dirección Ibagué </p></div>
+                                    <div class="text-center col-4"><i class="<?php echo $datos_contacto ['bogota']['telefono_fijo']['icono'] ?>" ></i> <p class="text-center"> Telefono Ibagué </p> </div>
+                                    <div class="text-center col-4"><i class="<?php echo $datos_contacto ['bogota']['correo']['icono'] ?>" ></i> <p class="text-center"> Correo Ibagué </p> </div>
+                                </div>
 
 
                             </div>

@@ -31,7 +31,47 @@ p {
         width: 100%;
     }
 
+
+
 }
+
+.after_nosotros::before {
+
+    position: absolute;
+    content: "";
+    width: 55px;
+    height: 3px;
+    top: 86px;
+    margin-left: 40px;
+    background-color: #A11216;
+
+}
+
+.after_nosotrosm:before {
+
+    position: absolute;
+    content: "";
+    width: 55px;
+    height: 3px;
+    top: 36px;
+    margin-left: 24px;
+    background-color: #A11216;
+
+}
+
+
+.after_nosotrosv:before {
+
+    position: absolute;
+    content: "";
+    width: 55px;
+    height: 3px;
+    top: 36px;
+    margin-left: 19px;
+    background-color: #A11216;
+
+}
+
 
 #contador_estadisticas {
 
@@ -53,8 +93,10 @@ p {
 
 #valores_corporativos {
 
-    .carrusel_indicadores {
+    background-color: #ebede8;
 
+    .fondo_valores {
+        background-color: white;
     }
 
 }

@@ -1,8 +1,1 @@
-en nosotros: linea pequeña, after roja
-
-clientes, hover azul letra blanca
-
-nombre de blog: azul
-fecha en color: rojo
-
-border esquinas del paginador
+holaaa
