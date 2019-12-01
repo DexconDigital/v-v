@@ -269,17 +269,17 @@
 
             <div class="mt-5 col-12 d-flex justify-content-around">
 
-                <div class="col-3 rounded mb-5 hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m1">
+                <div class="text-center col-3 rounded mb-5 hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m1">
                     <i style="width:60px; height:60px;" class="color_azul <?php echo $iconos_servicios['arriendos'] ?>"></i>
                     <h4 class="mt-3"><?php echo $texto_servicios['arriendos']['titulo'] ?></h4>
                 </div>
 
-                <div class="col-3 rounded mb-5 hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m2">
+                <div class="text-center col-3 rounded mb-5 hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m2">
                     <i style="width:60px; height:60px;" class="color_azul <?php echo $iconos_servicios['ventas'] ?>"></i>
                     <h4 class="mt-3"><?php echo $texto_servicios['ventas']['titulo'] ?></h4>
                 </div>
 
-                <div class="col-3 rounded mb-5 hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m3">
+                <div class="text-center col-3 rounded mb-5 hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m3">
                     <i style="width:60px; height:60px;" class="color_azul <?php echo $iconos_servicios['avaluos'] ?>"></i>
                     <h4 class="mt-3"><?php echo $texto_servicios['avaluos']['titulo'] ?></h4>
                 </div>
@@ -288,17 +288,17 @@
 
             <div class="col-12 d-flex justify-content-around">
 
-                <div class="col-3 rounded hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m4">
+                <div class="text-center col-3 rounded hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m4">
                     <i style="width:60px; height:60px;" class="color_azul <?php echo $iconos_servicios['asesoria'] ?>"></i>
                     <h4 class="mt-3"><?php echo $texto_servicios['arriendos']['titulo'] ?></h4>
                 </div>
 
-                <div class="col-3 rounded hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m5">
+                <div class="text-center col-3 rounded hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m5">
                     <i style="width:60px; height:60px;" class="color_azul <?php echo $iconos_servicios['corretaje'] ?>"></i>
                     <h4 class="mt-3"><?php echo $texto_servicios['corretaje']['titulo'] ?></h4>
                 </div>
 
-                <div class="col-3 rounded hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m6">
+                <div class="text-center col-3 rounded hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m6">
                     <i style="width:60px; height:60px;" class="color_azul <?php echo $iconos_servicios['reparaciones'] ?>"></i>
                     <h4 class="mt-3"><?php echo $texto_servicios['reparaciones']['titulo'] ?></h4>
                 </div>
