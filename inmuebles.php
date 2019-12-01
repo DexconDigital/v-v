@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="my-3 col-12"> 
-                    <input class="boton_buscar btn" type="button" value="Buscar">
+                    <input style="width:100%;" class="col-3 boton_buscar btn" type="button" value="Buscar">
                 </div>
 
             </div>

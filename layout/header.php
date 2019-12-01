@@ -47,7 +47,7 @@
 </script>
 <!-- Fin de codigo preloader -->
 
-<header id="header_numeros">
+<header stlye="position:relative" id="header_numeros">
 
     <div style="margin: 0 4%;" class="">
         <div style="height: 37px;" class="d-flex align-items-center container-fluid">
@@ -97,7 +97,9 @@
 
 </header>
 
-<section id="logo_y_navbar" class="py-4">
+
+
+<section id="logo_y_navbar" class="bg-light w-100 py-4">
 
     <nav class="barra_navegadora2 margen_contenedores_index navbar navbar-expand-lg navbar-light">
 
@@ -119,10 +121,6 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class=" nav-link" href="servicios.php"> Servicios </a>
-                </li>
-
-                <li class="nav-item">
                     <a class=" nav-link" href="inmuebles.php"> Inmuebles </a>
                 </li>
 
@@ -131,8 +129,8 @@
                         Clientes
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=116&tipo=2"> Arrendatarios </a>
-                        <a class="dropdown-item" href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=116&tipo=1"> Propietarios </a>
+                        <a target="_blank" class="dropdown-item" href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=116&tipo=2"> Arrendatarios </a>
+                        <a target="_blank" class="dropdown-item" href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=116&tipo=1"> Propietarios </a>
                         <a class="dropdown-item" href="#"> Pagos PSE </a>
                         <a class="dropdown-item" href="#" download="FORMATO DE CONSIGNACION.pdf"> Consignar Inmueble </a>
 
@@ -151,3 +149,4 @@
         </div>
     </nav>
 </section>
+

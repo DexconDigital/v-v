@@ -95,7 +95,60 @@ li {
  
 #logo_y_navbar {
 
-    transition: all 250ms ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+    .barra_navegadora2{
+        margin: 0 5%;
+    }
+
+    a {
+
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+
+        &:hover {
+            color: $color_azul;
+        }
+    }
+
+    .margin_logo {
+        width: 160px;
+        height: 65px;
+    }
+
+    .logo_pse {
+       
+        cursor: pointer; 
+        transition: all 250ms ease-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    li {
+        position: relative;
+    }
+
+    li:hover::before {
+        content:"";
+        position: absolute;
+        width: 100%; 
+        height: 5px;
+        margin-top: -20px;
+        background-color: $color_rojo;
+    }
+}
+
+.logo_y_navbar2 {
+
+    position: fixed;
+    top: 0;
+    box-shadow: 2px 0px 1px 0px black;
+    z-index: 20000;    
+
+    transition: all 0.5s ease-in-out;
 
     .barra_navegadora2{
         margin: 0 5%;
@@ -466,7 +519,7 @@ footer {
     a {
 
         &:hover {
-            color: $color_rojo!important;
+            color: #a9a9a9a1!important;
         }
     }
 
@@ -540,6 +593,50 @@ footer {
     }
 
 }
+
+#portafolio_servicios {
+
+    .hover_servicios {
+
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+
+        &:hover{
+            transform: scale(1.1);
+
+            .color_azul{
+                
+                transition: all 250ms ease-in-out;
+                color: $color_rojo;
+    
+            }
+            
+        }
+
+       
+
+    }
+
+}
+
+.imagenp {
+    width:100%; 
+    filter:brightness(0.5);
+    z-index:1;
+    height: 1101px;
+}
+
+.mapa {
+    position: absolute;
+    border: 0;
+    left: calc(-210% + 2px);
+    width: calc(100vw - 17px);
+    height: 263px;
+    top: 506px;
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+}
+
 .subir {
     width: 25px !important;
     display: none;

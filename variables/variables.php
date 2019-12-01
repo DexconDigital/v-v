@@ -275,7 +275,7 @@ $texto_servicios = [
 	],
 	"asesoria" =>[
 		"titulo" => "Asesoría Jurídica",
-		"parrafo" => "Junto a nuestro aliado Pre Legal Assist, ofrecemos el servicio de asesoría jurídica para nuestros clientes para apoyarlos en lo que necesiten.",
+		"parrafos" => "Junto a nuestro aliado Pre Legal Assist, ofrecemos el servicio de asesoría jurídica para nuestros clientes para apoyarlos en lo que necesiten.",
 		],
 	"corretaje" =>[
 			"titulo" => "Corretaje",
@@ -283,7 +283,7 @@ $texto_servicios = [
 		],	
 	"reparaciones" =>[
 		"titulo" => "Reparaciones Locativas",
-		"parrafo" => "Ofrecemos servicio de reparaciones, mantenimientos y mantenimientos preventivos que requieran nuestros clientes. Contamos con nuestros técnicos certificados para garantizarles mayor seguridad y confianza.",
+		"parrafos" => "Ofrecemos servicio de reparaciones, mantenimientos y mantenimientos preventivos que requieran nuestros clientes. Contamos con nuestros técnicos certificados para garantizarles mayor seguridad y confianza.",
 	],
 ];
 ?>
