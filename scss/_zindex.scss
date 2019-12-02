@@ -51,6 +51,11 @@ body {
     margin: 0 2%;
 }
 
+.margen_contenedores_indexr {
+    margin: 100px 5%;
+}
+
+
 .color_negro {
     color: black;
 }
@@ -373,6 +378,23 @@ li {
 }
 
 #propiedades_destacadas_imagenes, #ultimas_noticias {
+
+    div {
+
+        .card {
+
+            &:hover {
+                cursor: pointer;
+            }
+
+        }
+
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
    
     img {
         filter: brightness(0.8);

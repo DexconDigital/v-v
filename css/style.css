@@ -7630,6 +7630,9 @@ body {
 .margen_contenedores_index2 {
   margin: 0 2%; }
 
+.margen_contenedores_indexr {
+  margin: 100px 5%; }
+
 .color_negro {
   color: black; }
 
@@ -7814,6 +7817,11 @@ li {
   #propiedades_destacadas_menu div input {
     margin: 0 10px; }
 
+#propiedades_destacadas_imagenes div .card:hover, #ultimas_noticias div .card:hover {
+  cursor: pointer; }
+#propiedades_destacadas_imagenes a, #ultimas_noticias a {
+  text-decoration: none;
+  color: black; }
 #propiedades_destacadas_imagenes img, #ultimas_noticias img {
   filter: brightness(0.8);
   transition: all 250ms ease-out; }
