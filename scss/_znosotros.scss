@@ -11,9 +11,8 @@ p {
     position: relative;
     
     .imagen {
+        filter: brightness(0.4);
         width: 100%;
-        height: 280px;
-        filter: brightness(0.5);
     }
     
 
@@ -30,6 +29,7 @@ p {
     img {
         width: 100%;
         margin-top: 40px;
+        
     }
 
 
@@ -85,14 +85,14 @@ p {
     }
 
     .imagen {
-        height: 350px; 
+        filter: brightness(0.4);
         width: 100%;
-        filter: brightness(0.6); 
     }
 
 }
 
 #valores_corporativos {
+    
 
     background-color: #ebede8;
 
