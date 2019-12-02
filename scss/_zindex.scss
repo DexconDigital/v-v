@@ -633,7 +633,7 @@ footer {
 
 .imagenp {
     width:100%; 
-    filter:brightness(0.5);
+    filter:brightness(0.3);
     z-index:1;
     height: 1101px;
 }
@@ -661,7 +661,7 @@ footer {
     height: 25px;
     right: 20px;
     box-shadow: -1px 0px 15px 1px #CDCDCE;
-    z-index: 2;
+    z-index: 200;
     border-radius: 4px;
 
     &:active {

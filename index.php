@@ -371,10 +371,10 @@
 
 
 
-    </section>
+    
 
     <div style="background-color:#ebede8; position:relative;" class=" p-0">
-        <img class="imagenp" src="images/banner_servicios.jpg" alt="">
+        <img class="imagenp" src="images/banner_servicios2.jpg" alt="">
         <div style="z-index: 200; position:absolute; bottom:0;" class="align-items-center d-flex franja justify-content-around">
             <img style="margin-left: 100px;" class="imagen" src="images/descarga.png" alt="">
             <div class="color_azul">

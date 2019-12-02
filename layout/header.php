@@ -47,7 +47,7 @@
 </script>
 <!-- Fin de codigo preloader -->
 
-<div class="sticky-top position-fixed w-100">
+<div style="box-shadow: 0 2px 6px 0 black;" class="sticky-top position-fixed w-100">
     <header stlye="position:relative" id="header_numeros">
     
         <div style="margin: 0 4%;" class="">
