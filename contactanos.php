@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
     <?php $page = 'Contactanos' ?>
     <?php include 'variables/variables.php' ?>
     <?php include 'layout/archivosheader.php' ?>
@@ -41,23 +41,23 @@
                                 <div class="text-center row">
 
                                     <div class="my-3 col-6">
-                                        <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre Completo" required>
+                                        <input type="text" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre Completo" required>
                                     </div>
 
                                     <div class="my-3 col-6">
-                                        <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico" required>
+                                        <input type="text" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico" required>
                                     </div>
 
                                     <div class="my-3 col-6">
-                                        <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Asunto del mensaje" required>
+                                        <input type="text" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Asunto del mensaje" required>
                                     </div>
 
                                     <div class="my-3 col-6">
-                                        <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Número de contacto" required>
+                                        <input type="text" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Número de contacto" required>
                                     </div>
 
                                     <div class="my-3 col-12">
-                                        <input type="textarea" style="width:100%; height:100px" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe tu mensaje" required>
+                                        <input type="textarea" style="width:100%; height:100px" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe tu mensaje" required>
                                     </div>
 
                                     <div class="ml-3 form-group form-check">

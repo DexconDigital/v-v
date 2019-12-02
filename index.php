@@ -569,7 +569,6 @@
     <section>
 
         <?php include 'layout/footer.php' ?>
-        <script src="js/animaciones_servicios.js"></script>
 
     </section>
 
