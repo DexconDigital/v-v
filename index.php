@@ -67,25 +67,27 @@
 
 
                 <div class="my-3 col-3">
-                    <select class="codigo_input text_align_last_center form-control" id="exampleFormControlSelect1" select>
+                    <select class="codigo_input form-control" id="exampleFormControlSelect1" select>
                         <option value=""> Tipo de Inmueble </option>
                     </select>
                 </div>
 
                 <div class="my-3 col-3">
-                    <select class="codigo_input text_align_last_center form-control" id="exampleFormControlSelect1" select>
+                    <select class="codigo_input form-control" id="exampleFormControlSelect1" select>
                         <option value=""> Tipo de Gestión </option>
                     </select>
                 </div>
 
                 <div class="my-3 col-3">
-                    <select class="codigo_input text_align_last_center form-control" id="exampleFormControlSelect1" select>
+                    <select class="codigo_input form-control" id="exampleFormControlSelect1" select>
                         <option value=""> Ciudad </option>
+                        <option value=""> 1 </option>
+                        <option value="">2 </option>
                     </select>
                 </div>
 
                 <div class="my-3 col-3">
-                    <select class="codigo_input text_align_last_center form-control" id="exampleFormControlSelect1" select>
+                    <select class="codigo_input form-control" id="exampleFormControlSelect1" select>
                         <option value=""> Barrio </option>
                     </select>
                 </div>
