@@ -49,7 +49,7 @@
                                     </div>
 
                                     <div class="my-3 col-6">
-                                        <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Título del mensaje" required>
+                                        <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Asunto del mensaje" required>
                                     </div>
 
                                     <div class="my-3 col-6">

@@ -159,7 +159,7 @@ $texto_quienes_somos = [
 	"quienes_somos" => [
 		"titulo" => "Nosotros",//en negrita
 		"parrafos" => [
-			0 => "V&V Inmobiliaria es una empresa legalmente constituida que se desenvuelve en el sector inmobiliario colombiano desde hace 25 años.",
+			0 => "V&V Inmobiliaria es una empresa legalmente constituida que se desenvuelve en el sector inmobiliario colombiano desde hace 25 años. Con <b> matricula inmobiliaria: 0001950335</b>",
 			1 => "Nuestro propósito es proveerle a nuestros clientes y al público en general un servicio de calidad, garantizando la seguridad de su patrimonio y ofreciéndole múltiples alternativas que se ajusten a sus necesidades y deseos.",
 		],	
 	],

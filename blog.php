@@ -23,7 +23,7 @@
     <img class="imagen" src="images/banner_blog.jpg" alt="">
 </section>
 
-<section id="blog_body" class="my-100px">
+<section id="blog_body" style="margin: 100px 3%">
 
     <div class="col-12">
         <div class="d-flex justify-content-around row">

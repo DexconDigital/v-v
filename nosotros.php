@@ -23,7 +23,7 @@
     <img class="imagen" src="images/banner_quienes_somos.jpg" alt="">
 </section>
 
-<section id="nosotros" class="py-5 align-items-center justify-content-around margen_contenedores_index">
+<section style="margin: 0 5%;" id="nosotros" class="py-5 align-items-center justify-content-around">
 
     <div class="conainer-fluid">
         <div class="col-12">
@@ -45,7 +45,7 @@
 
 </section>
 
-<section id="mision_vision" class="py-5 d-flex justify-content-around margen_contenedores_index">
+<section style="margin: 0 5%;" id="mision_vision" class="py-5 d-flex justify-content-around">
 
     <div class="container-fluid">
         <div class="col-12">
@@ -101,35 +101,37 @@
 
 </section>
 
-<section style="padding-bottom:100px;" id="valores_corporativos" class="">
+<section style="padding-bottom:100px;" id="valores_corporativos" >
 
     <h2 style="padding: 100px 0;" class="color_azul text-center"> Valores Corporativos </h2>    
 
-   <div class="col-12 justify-content-around d-flex">
-        <div style="width: 18rem;" class="mx-3 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
-            <div class="my-2"> <h4 class="align-items-center d-flex"> <i class="color_azul fa fa-handshake"> </i> <div class="ml-2 color_rojo"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['0']['titulo'] ?></div> </h4> </div>
-            <div class="my-2"> <p class="text-center"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['0']['parrafo']?></p>  </div>
-            
+   <div style="margin: 0 5%;">
+       <div class="col-12 justify-content-around d-flex">
+            <div style="width: 18rem;" class="mx-3 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
+                <div class="my-2"> <h4 class="align-items-center d-flex"> <i class="color_azul fa fa-handshake"> </i> <div class="ml-2 color_rojo"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['0']['titulo'] ?></div> </h4> </div>
+                <div class="my-2"> <p class="text-center"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['0']['parrafo']?></p>  </div>
+                
+            </div>
+        
+            <div style="width: 18rem;" class="mx-3 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
+                <div class="my-2"> <h4 class="align-items-center d-flex"> <i class="color_azul fa fa-link"> </i> <div class="ml-2 color_rojo"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['1']['titulo'] ?></div> </h4> </div>
+                <div class="my-2"> <p class="text-center"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['1']['parrafo']?></p>  </div>
+                
+            </div>
+        
+            <div style="width: 18rem;" class="mx-3 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
+                <div class="my-2"> <h4 class="align-items-center d-flex"> <i class="color_azul fa fa-users"> </i> <div class="ml-2 color_rojo"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['2']['titulo'] ?></div> </h4> </div>
+                <div class="my-2"> <p class="text-center"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['2']['parrafo']?></p>  </div>
+                
+            </div>
+        
+            <div style="width: 18rem;" class="mx-3 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
+                <div class="my-2"> <h4 class="align-items-center d-flex"> <i class="color_azul fa fa-check-circle"> </i> <div class="ml-2 color_rojo"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['3']['titulo'] ?></div> </h4> </div>
+                <div class="my-2"> <p class="text-center"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['3']['parrafo']?></p>  </div>
+                
+            </div>
         </div>
-    
-        <div style="width: 18rem;" class="mx-3 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
-            <div class="my-2"> <h4 class="align-items-center d-flex"> <i class="color_azul fa fa-link"> </i> <div class="ml-2 color_rojo"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['1']['titulo'] ?></div> </h4> </div>
-            <div class="my-2"> <p class="text-center"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['1']['parrafo']?></p>  </div>
-            
-        </div>
-    
-        <div style="width: 18rem;" class="mx-3 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
-            <div class="my-2"> <h4 class="align-items-center d-flex"> <i class="color_azul fa fa-users"> </i> <div class="ml-2 color_rojo"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['2']['titulo'] ?></div> </h4> </div>
-            <div class="my-2"> <p class="text-center"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['2']['parrafo']?></p>  </div>
-            
-        </div>
-    
-        <div style="width: 18rem;" class="mx-3 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
-            <div class="my-2"> <h4 class="align-items-center d-flex"> <i class="color_azul fa fa-check-circle"> </i> <div class="ml-2 color_rojo"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['3']['titulo'] ?></div> </h4> </div>
-            <div class="my-2"> <p class="text-center"> <?php echo $texto_quienes_somos ['mision']['valores']['parrafos']['3']['parrafo']?></p>  </div>
-            
-        </div>
-    </div>
+   </div>
 
 
 

@@ -111,6 +111,11 @@
             </div>
         </div>
 
+        <div class="mb-4 text-center col-12">
+            <i class="<?php echo $datos_contacto ['bogota']['horario']['icono'] ?>"></i> <?php echo $datos_contacto ['bogota']['horario']['horario'] ?>
+
+        </div>
+
 
 
 

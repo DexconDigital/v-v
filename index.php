@@ -214,7 +214,7 @@
 
             <h2 style="padding:100px" class="text-light m-0 text-center"> Portafolio de Servicios </h2>
 
-            <div class="mt-5 col-12 d-flex justify-content-around">
+            <div class="col-12 d-flex justify-content-around">
 
                 <div class="text-center col-3 rounded mb-5 hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m1">
                     <i style="width:60px; height:60px;" class="color_azul <?php echo $iconos_servicios['arriendos'] ?>"></i>
