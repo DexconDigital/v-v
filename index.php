@@ -208,59 +208,6 @@
 
     </section>
 
-    <section id="nuestros_servicios" class="margen_contenedores_index">
-
-        <h2 class="text-center margin_100px"> Nuestros Servicios </h2>
-
-        <div id="animacion_servicios" class="animacion_servicios d-flex justify-content-around flex-wrap">
-
-            <div class="mx-3 mb-5 d-flex flex-column align-items-center order-2">
-                <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['arriendos'] ?>"> </i> <br>
-                <span class="titulo_servicios"><?php echo $texto_servicios['arriendos']['titulo'] ?></span>
-                <p class="texto_servicios"> <?php echo $texto_servicios['arriendos']['0'] ?> </p>
-                <a href="servicios.php" class="boton_leer_mas"> Leer más </a>
-            </div>
-
-            <div class="mx-3 mb-5 d-flex flex-column align-items-center order-4">
-                <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['ventas'] ?>"> </i> <br>
-                <span class="titulo_servicios"><?php echo $texto_servicios['ventas']['titulo'] ?></span>
-                <p class="texto_servicios"> <?php echo $texto_servicios['ventas']['parrafos']['0'] ?> </p>
-                <a href="servicios.php" class="boton_leer_mas"> Leer más </a>
-            </div>
-
-            <div class="mx-3 d-flex flex-column align-items-center order-6">
-                <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['avaluos'] ?>"> </i> <br>
-                <span class="titulo_servicios"> <?php echo $texto_servicios['avaluos']['titulo'] ?> </span>
-                <p class="texto_servicios"> <?php echo $texto_servicios['avaluos']['parrafos']['0'] ?> </p>
-                <a href="servicios.php" class="boton_leer_mas"> Leer más </a>
-            </div>
-
-            <div class="mx-3 mb-5 d-flex flex-column align-items-center order-1">
-                <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['asesoria'] ?>"> </i> <br>
-                <span class="titulo_servicios"><?php echo $texto_servicios['asesoria']['titulo'] ?></span>
-                <p class="texto_servicios"> <?php echo $texto_servicios['asesoria']['parrafos'] ?> </p>
-            </div>
-
-            <div class="mx-3 mb-5 d-flex flex-column align-items-center order-3">
-                <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['corretaje'] ?>"> </i> <br>
-                <span class="titulo_servicios"><?php echo $texto_servicios['corretaje']['titulo'] ?></span>
-                <p class="texto_servicios"> <?php echo $texto_servicios['corretaje']['parrafo'] ?> </p>
-            </div>
-
-            <div class="mx-3 d-flex flex-column align-items-center order-5">
-                <i class="tamaño_iconos_servicios <?php echo $iconos_servicios['reparaciones'] ?>"> </i> <br>
-                <span class="titulo_servicios"> <?php echo $texto_servicios['reparaciones']['titulo'] ?></span>
-                <p class="texto_servicios"> <?php echo $texto_servicios['reparaciones']['parrafos'] ?> </p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-
-
-
     <section id="portafolio_servicios" class="my_100px">
 
         <div style="z-index:2; position:absolute;" class="container-fluid">
@@ -290,7 +237,7 @@
 
                 <div class="text-center col-3 rounded hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m4">
                     <i style="width:60px; height:60px;" class="color_azul <?php echo $iconos_servicios['asesoria'] ?>"></i>
-                    <h4 class="mt-3"><?php echo $texto_servicios['arriendos']['titulo'] ?></h4>
+                    <h4 class="mt-3"><?php echo $texto_servicios['asesoria']['titulo'] ?></h4>
                 </div>
 
                 <div class="text-center col-3 rounded hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m5">
@@ -319,7 +266,7 @@
 
         <div class="modal fade" id="m1" tabindex="-1" role="dialog" aria-labelledby="1Title" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
+                <div style="margin-top: 130px;" class="modal-content">
 
                     <div class="modal-header">
                         <h5 class="color_rojo modal-title" id="1Title"> <?php echo $texto_servicios['arriendos']['titulo'] ?> </h5>
@@ -350,7 +297,7 @@
 
         <div class="modal fade" id="m2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
+                <div style="margin-top: 130px;" class="modal-content">
 
                     <div class="modal-header">
                         <h5 class="color_rojo modal-title" id="exampleModalCenterTitle"><?php echo $texto_servicios['ventas']['titulo'] ?> </h5>
@@ -378,7 +325,7 @@
 
         <div class="modal fade" id="m3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
+                <div style="margin-top: 130px;" class="modal-content">
 
                     <div class="modal-header">
                         <h5 class="color_rojo modal-title" id="exampleModalCenterTitle"><?php echo $texto_servicios['avaluos']['titulo'] ?> </h5>
@@ -406,7 +353,7 @@
 
         <div class="modal fade" id="m4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
+                <div style="margin-top: 130px;" class="modal-content">
 
                     <div class="modal-header">
                         <h5 class="color_rojo modal-title" id="exampleModalCenterTitle"><?php echo $texto_servicios['asesoria']['titulo'] ?> </h5>
@@ -433,7 +380,7 @@
 
         <div class="modal fade" id="m5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
+                <div style="margin-top: 130px;" class="modal-content">
 
                     <div class="modal-header">
                         <h5 class="color_rojo modal-title" id="exampleModalCenterTitle"><?php echo $texto_servicios['corretaje']['titulo'] ?> </h5>
@@ -460,7 +407,7 @@
 
         <div class="modal fade" id="m6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
+                <div style="margin-top: 130px;" class="modal-content">
 
                     <div class="modal-header">
                         <h5 class="color_rojo modal-title" id="exampleModalCenterTitle"><?php echo $texto_servicios['reparaciones']['titulo'] ?> </h5>
@@ -507,7 +454,7 @@
 
     <section id="fomulario_aseguradoras" class="margen_contenedores_index">
 
-        <h2 class="margin_100px text-center"> Descargar formulario de aseguradoras </h2>
+        <h2 class="margin_100px text-center"> Descargar Formulario de Aseguradoras </h2>
 
         <div class="text-center container-fluid">
             <div class="row justify-content-center">
@@ -536,7 +483,7 @@
 
         <div class="col-12">
 
-            <h2 style="margin-bottom: 100px" class="text-center"> Últimas noticias </h2>
+            <h2 style="margin-bottom: 100px" class="text-center"> Últimas Noticias </h2>
 
             <div class="d-flex justify-content-around margen_contenedores_index row">
 

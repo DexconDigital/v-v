@@ -7,6 +7,14 @@ body {
 
 }
 
+.box_shadow_menu {
+    box-shadow: 0 2px 6px 0 black;
+}
+
+.margin_top_93px {
+    margin-top: 93px;
+}
+
 .fondo_gris {
     background-color: #e6e6e6;
 }
@@ -146,7 +154,7 @@ li {
     position: fixed;
     top: 0;
     box-shadow: 2px 0px 1px 0px black;
-    z-index: 20000;    
+    z-index: 200;    
 
     transition: all 0.5s ease-in-out;
 
@@ -195,6 +203,8 @@ li {
 }
 
 #imagenes_principales {
+
+    margin-top: 93px;
 
     .carousel-item {
         transition: transform 1s ease, opacity .5s ease-out

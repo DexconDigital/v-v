@@ -18,7 +18,7 @@
 </section>
 
 
-<section id="imagen_nosotros" class="d-flex justify-content-center align-items-center">
+<section id="imagen_nosotros" class="margin_top_93px d-flex justify-content-center align-items-center">
     <h1> Sobre Nosotros </h1>
     <img class="imagen" src="images/banner_quienes_somos.jpg" alt="">
 </section>
@@ -29,11 +29,11 @@
         <div class="col-12">
             <div class="row align-items-center">
 
-                <div class="col-sm-12 col-md-6">
-                    <img src="images/no_image.png" alt="">
+                <div class="col-sm-12 col-md-4">
+                    <img src="images/logo.png" alt="">
                 </div>
             
-                <div class="col-sm-12 col-md-6 text-center">
+                <div class="col-sm-12 col-md-8 text-center">
                     <h2 class="after_nosotros color_azul my-5"> <?php echo $texto_quienes_somos ['quienes_somos']['titulo'] ?> </h2>
                     <p> <?php echo $texto_quienes_somos ['quienes_somos']['parrafos']['0'] ?> </p>
                     <p> <?php echo $texto_quienes_somos ['quienes_somos']['parrafos']['1'] ?> </p>
