@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <?php $page = 'Inmuebles' ?>
+    <?php $page = 'Detalle de inmueble' ?>
     <?php include 'variables/variables.php' ?>
     <?php include 'layout/archivosheader.php' ?>
     <title>
@@ -20,7 +20,7 @@
     </section>
 
     <section id="imagen_nosotros" class="margin_top_93px d-flex justify-content-center align-items-center">
-        <h1> Inmuebles </h1>
+        <h1> Detalle de Inmuebles </h1>
         <img class="imagen" src="images/banner_inmuebles.jpg" alt="">
     </section>
 

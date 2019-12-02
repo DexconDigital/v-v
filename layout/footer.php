@@ -23,14 +23,14 @@
 
             <div class="row">
 
-                <div class="col-4 text-center">
+                <div class="p-0 col-4 text-center">
 
-                    <div class="col-12">
+                    <div class="p-0 col-12">
                         <div class="row">
 
                             <div class="p-0 col-3"></div>
 
-                            <div class="p-0 col-6">
+                            <div class="p-0 col-7">
                                 <ul class="p-0">
 
                                     <li style="color:darkgray" class="py-2 text-left">

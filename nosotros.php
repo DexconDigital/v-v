@@ -29,11 +29,17 @@
         <div class="col-12">
             <div class="row align-items-center">
 
+            <div class="col-1"> </div>
+
                 <div class="col-sm-12 col-md-4">
                     <img src="images/logo.png" alt="">
                 </div>
+
+                <div class="col-1">
+
+                </div>
             
-                <div class="col-sm-12 col-md-8 text-center">
+                <div class="col-sm-12 col-md-6 px-4 text-center">
                     <h2 class="after_nosotros color_azul my-5"> <?php echo $texto_quienes_somos ['quienes_somos']['titulo'] ?> </h2>
                     <p> <?php echo $texto_quienes_somos ['quienes_somos']['parrafos']['0'] ?> </p>
                     <p> <?php echo $texto_quienes_somos ['quienes_somos']['parrafos']['1'] ?> </p>
@@ -51,14 +57,14 @@
         <div class="col-12">
             <div class="row">
 
-                <div class="col-6 text-center">
+                <div class="col-6 px-4 text-center">
                     <h2 class="after_nosotrosm color_azul mb-5"> <?php echo $texto_quienes_somos ['mision']['titulo'] ?> </h2>
                     <p> <?php echo $texto_quienes_somos ['mision']['parrafos']['0'] ?> </p>
                     <p> <?php echo $texto_quienes_somos ['mision']['parrafos']['1'] ?> </p>
                     <p> <?php echo $texto_quienes_somos ['mision']['parrafos']['2'] ?> </p>
                 </div>
             
-                <div class="col-6 text-center">
+                <div class="col-6 px-4 text-center">
                     <h2 class="after_nosotrosv color_azul mb-5"> <?php echo $texto_quienes_somos ['mision']['vision']['titulo'] ?> </h2>
                     <p> <?php echo $texto_quienes_somos ['mision']['vision']['parrafo'] ?> </p>
                 </div>
