@@ -4,7 +4,6 @@
 
         border: 1px solid #80808075;
         border-radius: 5px;
-        text-align: center;
 
         &:focus {
             border-color: #010d5a40 !important;
@@ -14,4 +13,10 @@
        
     }
 
+}
+
+textarea:focus {
+    border-color: #010D5A !important;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 4px #010D5A !important;
+    outline: 0 none;
 }

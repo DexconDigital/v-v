@@ -56,8 +56,9 @@
                                         <input type="text" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Número de contacto" required>
                                     </div>
 
-                                    <div class="my-3 col-12">
-                                        <input type="textarea" style="width:100%; height:100px" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe tu mensaje" required>
+                                    <div class="my-3 col-12 form-group">
+                                        <label for="exampleFormControlTextarea1"></label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Ingresa tu mensaje" rows="3"></textarea>
                                     </div>
 
                                     <div class="ml-3 form-group form-check">
@@ -128,7 +129,7 @@
                                     </div>
                                 </div>
 
-                               <div > <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4482482814847!2d-74.06805103769926!3d4.691905941069607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9adad974c0d7%3A0x4afb1aa35688bda!2sTv.%2058%20%23106-36%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1575212870316!5m2!1ses!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+                                <div> <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4482482814847!2d-74.06805103769926!3d4.691905941069607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9adad974c0d7%3A0x4afb1aa35688bda!2sTv.%2058%20%23106-36%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1575212870316!5m2!1ses!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
 
 
                             </div>
