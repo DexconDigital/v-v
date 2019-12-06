@@ -1,0 +1,26 @@
+#informacion_inmueble {
+
+    a {
+
+        transition: all 250ms ease-in-out;
+        background-color: $color_azul;
+        color: white;
+
+        &:hover {
+            background-color: $color_rojo;
+        }
+    
+    }
+    
+    .list-group-item {
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .list-group-item-action {
+        
+    }
+
+}
+
