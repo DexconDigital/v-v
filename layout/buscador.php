@@ -4,7 +4,7 @@
             <div class="text-center row">
 
                 <div class="my-3 col-3">
-                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Código">
+                    <input type="number" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Código">
                 </div>
 
 

@@ -321,9 +321,9 @@
 
                         <div class="col-12 mb-3">
 
-                            <input type="email" class="my-2 border codigo_input form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido">
+                            <input type="text" class="my-2 border codigo_input form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido">
                             <input type="email" class="my-2 border codigo_input form-control" id="exampleFormControlInput1" placeholder="Correo Electrónico">
-                            <input type="email" class="my-2 border codigo_input form-control" id="exampleFormControlInput1" placeholder="Telefono Celular">
+                            <input type="number" class="my-2 border codigo_input form-control" id="exampleFormControlInput1" placeholder="Telefono Celular">
                             <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensaje" rows="3"></textarea>
                             <div class="ml-3 form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
