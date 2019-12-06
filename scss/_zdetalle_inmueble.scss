@@ -1,25 +1,85 @@
+.margen_contenedores_indexr1 {
+    margin: 0 5%;
+}
+
 #informacion_inmueble {
 
-    a {
+    .imagen_asesor {
 
-        transition: all 250ms ease-in-out;
+        img {
+            width: 100%;
+            border: 1px solid gray;
+            border-radius: 10px;
+        }
+       
+    }
+
+    .icono_fb {
+        color: #395794;
+    }
+
+    .icono_tt {
+        color: #00A6E9;
+
+    }
+
+    .icono_w {
+        color: #4BC659;
+
+    }
+
+    a {
+        transition: all 250ms ease;
+        font-size: 40px;
+
+        &:hover {
+            color: $color_rojo;
+        }
+    }
+
+    h2 {
+        font-size: 21px;
+        font-weight: bold;
+    }
+
+    .w_200px {
+        width: 200px;
+    }
+
+    .margen_contenedor {
+        margin: -12px;
+    }
+
+    .boton_detalle_inmueble {
+
         background-color: $color_azul;
         color: white;
+        font-size: 12px;
+        border-radius: 2px;
 
         &:hover {
             background-color: $color_rojo;
         }
-    
-    }
-    
-    .list-group-item {
-        border: none;
-        margin: 0;
-        padding: 0;
+
     }
 
-    .list-group-item-action {
-        
+    .boton_ficha {
+
+        background-color: $color_rojo;
+        color: white;
+        font-size: 12px;
+        border-radius: 2px;
+
+        &:hover {
+            background-color: $color_azul;
+        }
+
+    }
+
+    label {
+        a {
+            font-size: inherit;
+        }
     }
 
 }
