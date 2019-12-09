@@ -18,9 +18,9 @@
 </section>
 
 
-<section id="imagen_nosotros" class="margin_top_93px d-flex justify-content-center align-items-center">
-    <h1> Sobre Nosotros </h1>
-    <img class="imagen" src="images/banner_quienes_somos.jpg" alt="">
+<section id="imagen_nosotros" class="position-relative row align-items-center justify-content-center">
+    <h1 class="position-absolute"> Sobre Nosotros </h1>
+    <img class="imagen" src="images/1.jpg" alt="">
 </section>
 
 <section style="margin: 0 5%;" id="nosotros" class="py-5 align-items-center justify-content-around">

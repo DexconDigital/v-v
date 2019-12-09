@@ -446,10 +446,8 @@
         <?php include 'layout/footer.php' ?>
     </section>
 
-    <?php include 'layout/archivosfooter.php' ?>
-
+    
     <script src="js/slick.min.js"></script>
-
 
     <script>
         $('#slide-detalle').slick({
@@ -493,6 +491,11 @@
             ]
         });
     </script>
+
+    <?php include 'layout/archivosfooter.php' ?>
+
+
+
 
 
 

@@ -1451,10 +1451,9 @@ pre {
     background-color: transparent;
     border: 0; }
   .form-control:focus {
-    color: #495057;
-    background-color: #fff;
-    border-color: #80bdff;
-    outline: 0;
+    border-color: #010d5a40 !important;
+    box-shadow: 0 1px 1px #010d5a73 inset, 0 0 8px #010d5a40 !important;
+    outline: 0 none;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
   .form-control::placeholder {
     color: #6c757d;
@@ -7650,7 +7649,7 @@ li {
   margin: 100px; }
 
 #header_numeros {
-  background-color: #111111;
+  background-color: #010D5A;
   width: 100%;
   height: 37px;
   color: white;
@@ -7659,7 +7658,7 @@ li {
     padding: 0 6%; }
   #header_numeros a {
     text-decoration: none;
-    color: #aaaaaa; }
+    color: white; }
     #header_numeros a:hover {
       opacity: 0.7; }
   @media (max-width: 992px) {
@@ -7763,6 +7762,16 @@ li {
   100% {
     margin-bottom: 30%;
     opacity: 1; } }
+.lupa {
+  font-size: 25px;
+  transition: all 200ms ease-out; }
+  .lupa:hover {
+    transform: scale(1.1);
+    color: #A11216; }
+
+.buscador {
+  width: 15rem; }
+
 .boton_buscar {
   background-color: #010D5A;
   color: white;
@@ -7906,10 +7915,12 @@ li {
   font-size: 22px; }
 
 footer {
-  background-color: #111111;
-  color: #C4C4C4; }
-  footer a:hover {
-    color: #a9a9a9a1 !important; }
+  background-color: #010D5A;
+  color: white; }
+  footer a {
+    color: white; }
+    footer a:hover {
+      color: #a9a9a9a1 !important; }
   footer .parrafo_bogota {
     transition: all 500ms ease-in-out;
     position: relative;
@@ -7933,6 +7944,10 @@ footer {
   footer .padding_copyright {
     border-top: 1px solid #80808036;
     padding: 20px 0px; }
+    footer .padding_copyright a {
+      color: darkgray; }
+      footer .padding_copyright a:hover {
+        color: #A11216 !important; }
   footer .justificar {
     text-align: justify; }
   footer .margenx {
@@ -7995,13 +8010,14 @@ p {
   margin: 0 3%; }
 
 #imagen_nosotros {
-  position: relative; }
+  height: 250px;
+  margin-top: 116px; }
   #imagen_nosotros .imagen {
+    height: 100%;
     filter: brightness(0.4);
     width: 100%; }
   #imagen_nosotros h1 {
     color: white;
-    position: absolute;
     z-index: 100; }
 
 #nosotros img {

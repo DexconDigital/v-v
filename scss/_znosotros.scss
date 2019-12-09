@@ -8,9 +8,11 @@ p {
 
 #imagen_nosotros {
 
-    position: relative;
+    height: 250px;
+    margin-top: 116px;
     
     .imagen {
+        height: 100%;
         filter: brightness(0.4);
         width: 100%;
     }
@@ -18,7 +20,6 @@ p {
 
     h1{
         color: white;
-        position: absolute;
         z-index: 100;
     }
 
