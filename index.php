@@ -481,9 +481,42 @@
 
     </section> -->
 
+    <section id="contador_estadisticas">
+
+        <div class="align-items-center d-flex justify-content-center">
+            <div class="c1 container-fluid">
+                <div class="col-12 row">
+
+                    <div class="col-3">
+                        <h2 class="text-center"> 56 </h2>
+                        <p class="text-center"> Total de Inmuebles </p>
+                    </div>
+                    <div class="col-3">
+                        <h2 class="text-center"> 32 </h2>
+                        <p class="text-center"> Inmuebles en Arriendo </p>
+                    </div>
+                    <div class="col-3 text-center">
+                        <h2 class="text-center"> 19 </h2>
+                        <p class="text-center"> Inmuebles en Venta </p>
+                    </div>
+                    <div class="col-3 text-center">
+                        <h2 class="text-center"> 5 </h2>
+                        <p class="text-center"> Inmuebles en Arriendo/Venta </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div> <img class="imagen" src="images/banner_estadisticas.jpg"> </div>
+
+        </div>
+
+    </section>
+
+
     <section id="nuestros_aliados" class="fondo_gris">
 
-        <h2 style="padding: 50px 0 0 0; margin-top:50px;" class="text-center"> Nuestros Aliados </h2>
+        <h2 style="padding: 50px 0 0 0;" class="text-center"> Nuestros Aliados </h2>
 
         <div class="d-flex flex-column margen_contenedores_index">
             <div class="d-flex justify-content-around">
