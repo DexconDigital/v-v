@@ -85,15 +85,15 @@
                         </div>
 
 
-                       <div class="row">
+                        <div class="row">
                             <div class="margenx px-2">
                                 <a target="_blank" href="<?php echo $redes_sociales['facebook']['link'] ?>"><i style="width: 13px; height: 25px;" class="<?php echo $redes_sociales['facebook']['icono'] ?>"></i></a>
                             </div>
-    
+
                             <div class="margenx px-2">
                                 <a target="_blank" href="<?php echo $redes_sociales['instagram']['link'] ?>"><i style="width: 22px; height: 25px;" class="<?php echo $redes_sociales['instagram']['icono'] ?>"></i></a>
                             </div>
-                       </div>
+                        </div>
 
                     </div>
                 </div>
@@ -139,10 +139,6 @@
                             <a class="dropdown-item" href="#"> Pagos PSE </a>
                             <a class="dropdown-item" href="FORMATO_DE_CONSIGNACION.pdf" download="FORMATO_DE_CONSIGNACION.pdf"> Consignar Inmueble </a>
 
-                    </li>
-
-                    <li class="nav-item">
-                        <a class=" nav-link" href="blog.php"> Blog </a>
                     </li>
 
                     <li class="nav-item">

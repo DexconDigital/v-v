@@ -7985,6 +7985,36 @@ footer {
   border-top: 1px solid darkgray;
   border-bottom: 1px solid darkgray; }
 
+#banner {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin-top: 142px; }
+  #banner .titulos {
+    position: absolute;
+    color: white;
+    z-index: 10; }
+    #banner .titulos a {
+      transition: all 250ms ease-in-out;
+      color: white;
+      text-decoration: none; }
+      #banner .titulos a:hover {
+        color: #A11216; }
+  #banner #banner_nosotros {
+    background-image: url(../images/1.jpg); }
+  #banner #banner_inmuebles {
+    background-image: url(../images/2.jpg); }
+  #banner #banner_contactanos {
+    background-image: url(../images/3.jpg); }
+  #banner #banner_detalle_inmueble {
+    background-image: url(../images/4.jpg); }
+  #banner .imagen_detalles {
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.4); }
+
 .subir {
   width: 25px !important;
   display: none;
@@ -8027,28 +8057,25 @@ p {
 .after_nosotros::before {
   position: absolute;
   content: "";
-  width: 55px;
+  width: 130px;
   height: 3px;
   top: 86px;
-  margin-left: 40px;
   background-color: #A11216; }
 
 .after_nosotrosm:before {
   position: absolute;
   content: "";
-  width: 55px;
+  width: 95px;
   height: 3px;
   top: 36px;
-  margin-left: 24px;
   background-color: #A11216; }
 
 .after_nosotrosv:before {
   position: absolute;
   content: "";
-  width: 55px;
+  width: 90px;
   height: 3px;
   top: 36px;
-  margin-left: 19px;
   background-color: #A11216; }
 
 #contador_estadisticas {

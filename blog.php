@@ -18,10 +18,12 @@
     <?php include 'layout/header.php' ?>
 </section>
 
-<section id="imagen_nosotros" class="margin_top_93px d-flex justify-content-center align-items-center">
-    <h1> Blog </h1>
-    <img class="imagen" src="images/banner_blog.jpg" alt="">
-</section>
+<section id="banner" class="align-content-center align-items-center d-flex justify-content-center">
+        <div class="align-items-center d-flex flex-column titulos">
+            <h1> Blog </h1>
+        </div>
+        <div id="banner_inmuebles"class="imagen_detalles "></div>
+    </section>
 
 <section id="blog_body" style="margin: 100px 3%">
 

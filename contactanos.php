@@ -20,9 +20,11 @@
         <?php include 'layout/header.php' ?>
     </section>
 
-    <section id="imagen_nosotros" class="margin_top_93px d-flex justify-content-center align-items-center">
-        <h1> Contáctanos </h1>
-        <img class="imagen" src="images/banner_contacto.jpg" alt="">
+    <section id="banner" class="align-content-center align-items-center d-flex justify-content-center">
+        <div class="align-items-center d-flex flex-column titulos">
+            <h1> Contactanos </h1>
+        </div>
+        <div id="banner_contactanos"class="imagen_detalles"></div>
     </section>
 
     <section id="Contactanos_body" class=" margen_contenedores_index">
