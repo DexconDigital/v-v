@@ -419,7 +419,7 @@
 
     </section>
 
-    <section id="blog_body2">
+    <!-- <section id="blog_body2">
 
         <div class="col-12">
 
@@ -479,7 +479,7 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
 
     <section id="nuestros_aliados" class="fondo_gris">
 
