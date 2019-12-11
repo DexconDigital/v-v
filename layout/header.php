@@ -126,7 +126,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class=" nav-link" href="inmuebles.php"> Inmuebles </a>
+                        <a class=" nav-link" href="inmuebles.php?"> Inmuebles </a>
                     </li>
 
                     <li class="nav-item dropdown">

@@ -45,8 +45,8 @@
   &.active .page-link {
     z-index: 1;
     color: $pagination-active-color;
-    background-color: $pagination-active-bg;
-    border-color: $pagination-active-border-color;
+    background-color: red;
+    border-color: black;
   }
 
   &.disabled .page-link {
@@ -56,6 +56,25 @@
     cursor: auto;
     background-color: $pagination-disabled-bg;
     border-color: $pagination-disabled-border-color;
+  }
+}
+
+#selector_paginas {
+
+  .item_lista {
+
+      color: black;
+      width: 35px;
+      height: 35px;
+      margin: 0 10px;
+      box-shadow: 1px 1px 4px 0px grey;
+      transition: all 250ms 0 ease-in-out;
+
+      &:hover {
+          background-color: $color_azul;
+          color: white;
+      }
+
   }
 }
 

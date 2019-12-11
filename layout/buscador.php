@@ -1,4 +1,4 @@
-<form action="" class="margen_contenedores_index">
+<div action="" class="margen_contenedores_index">
 
 
 
@@ -65,28 +65,30 @@
     <div class="text-center row align-items-center justify-content-center">
 
         <div class="">
-            <input type="number" class="buscador codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Código">
+            <input type="number" class="buscador codigo_input form-control" id="codigo_buscar" aria-describedby="emailHelp" placeholder="Código">
         </div>
 
         <div class="">
-            <select class="buscador codigo_input form-control" id="exampleFormControlSelect1" select default>
-                <option value=""> Tipo de Inmueble </option>
+            <select class="buscador codigo_input form-control" id="tipo_inmueble_buscar" select default>
+                <option value="0"> Tipo de Inmueble </option>
             </select>
         </div>
 
         <div class="">
-            <select class="buscador codigo_input form-control" id="exampleFormControlSelect1" select default>
-                <option value=""> Tipo de Gestión </option>
+            <select class="buscador codigo_input form-control" id="tipo_gestion_buscar" select default>
+                <option value="0"> Tipo de Gestión </option>
             </select>
         </div>
 
         <div class="">
-            <select class="buscador codigo_input form-control" id="exampleFormControlSelect1" select default>
+            <select class="buscador codigo_input form-control" id="ciudad_buscar" select default>
                 <option value=""> Ciudad </option>
             </select>
         </div>
+        
+        <button type="button" class="btn" id="buscar"><i class="ml-3 lupa color_azul fas fa-search"></i></button>
 
-        <a href="#"> <i class="ml-3 lupa color_azul fas fa-search"></i></a>
+        
 
     </div>
-</form>
+</div>

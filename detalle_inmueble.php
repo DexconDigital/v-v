@@ -1,3 +1,10 @@
+<?php
+
+require 'variables/variables.php';
+require 'controllers/detalleInmuebleController.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -8,10 +15,41 @@
     <?php $page = 'Detalle de inmueble' ?>
     <?php include 'variables/variables.php' ?>
     <?php include 'layout/archivosheader.php' ?>
-    <link rel="stylesheet" href="css/carousel.tamanos.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/carousel.tamanos.css">
+    <link rel="stylesheet" href="mapas/leaflet.css" crossorigin="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<?php echo 'http://' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]; ?>" />
+    <meta property="og:title" content="<?php echo $r['Tipo_Inmueble'] . ' en ' . $r['Gestion']; ?>" />
+    <meta property="og:description" content="Inmueble ubicado en: <?php echo $r['barrio'] . ', ' . $r['ciudad'] . ', ' . $r['depto']; ?> " />
+    <meta property="og:image" itemprop="image" content="<?php echo $r['fotos'][0]['foto']; ?>" />
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <style>
+        #map {
+            height: 350px;
+            z-index: 20;
+        }
+
+        .leaflet-control {
+            z-index: 200;
+        }
+
+        .leaflet-control {
+            z-index: 20;
+        }
+    </style>
+
     <title>
         <?php echo $page . ' | ' . $nombre_inmobiliaria; ?>
     </title>
+
+    <link itemprop="thumbnailUrl" href="<?php echo $r['fotos'][0]['foto']; ?>">
+    <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+        <link itemprop="url" href="<?php echo $r['fotos'][0]['foto']; ?>">
+    </span>
 </head>
 
 <body>
@@ -24,7 +62,7 @@
         <div class="align-items-center d-flex flex-column titulos">
             <h1> Detalle de Inmueble </h1>
         </div>
-        <div id="banner_detalle_inmueble"class="imagen_detalles"></div>
+        <div id="banner_detalle_inmueble" class="imagen_detalles"></div>
     </section>
 
     <section id="header_detalles_inmueble" class="mb-0 margen_contenedores_indexr">
@@ -32,11 +70,21 @@
         <div class="row">
 
             <div class="col-6">
-                <h5 class="font-weight-bold"> Tipo de Inmueble en Tipo de Gestión </p>
+                <h5 class="font-weight-bold"> <?php echo $r['Tipo_Inmueble'] . ' en ' . $r['Gestion']; ?>   </p>
             </div>
 
             <div class="col-6">
-                <h5 class="font-weight-bold color_azul text-right"> $PRECIO$ </h5>
+                <h5 class="font-weight-bold color_azul text-right"> PRECIO:
+                    <?php if ($r['Gestion'] == 'Arriendo') {
+                        echo '<span class="precio">$ ' . $r['ValorCanon'] . '</span>';
+                    } else if ($r['Gestion'] == 'Venta') {
+                        echo '<span class="precio">$ ' . $r['ValorVenta'] . '</span>';
+                    } else {
+                        echo '<span class="precio">$ ' . $r['ValorCanon'] . ' /$' . $r['ValorVenta'] . '</span>';
+                    }
+                    ?>
+                    </p>
+                </h5>
             </div>
 
         </div>
@@ -45,11 +93,11 @@
 
             <div class="ml-3 pr-5 row">
                 <i class="mr-2 <?php echo $datos_contacto['bogota']['direccion']['icono'] ?>"> </i>
-                <p> Lorem ipsum dolor sit amet, laborum accusamus? </p>
+                <p> <?php echo $r['barrio'] . ', ' . $r['ciudad'] ?></p>
             </div>
 
             <div class="text-muted">
-                <p class=""> Código </p>
+                <p class=""> Código: <span> <?php echo $co; ?></span> </p>
             </div>
 
         </div>
@@ -59,82 +107,37 @@
     <!-- CARROUSEL IMAGENES -->
     <section id="carrusel_imagenes" class="margen_contenedores_indexr1">
 
-        <div id="#carrusel_imagenes">
-            <!-- IMAGENES PRINCIPALES -->
+        <div>
+            <!-- main slider carousel items -->
             <section class="mt-3" id="slide-detalle">
-
-                <div class="contenedor-img">
-                    <img src="images/slide_1.jpg" alt="">
-                </div>
-
-                <div class="contenedor-img">
-                    <img src="images/banner_servicios2.jpg" alt="">
-                </div>
-
-                <div class="contenedor-img">
-                    <img src="images/slide_2.jpg" alt="">
-                </div>
-
-                <div class="contenedor-img">
-                    <img src="images/slide_3.jpg" alt="">
-                </div>
-
-                <div class="contenedor-img">
-                    <img src="images/slide_1.jpg" alt="">
-                </div>
-
-                <div class="contenedor-img">
-                    <img src="images/banner_servicios2.jpg" alt="">
-                </div>
-
-                <div class="contenedor-img">
-                    <img src="images/slide_2.jpg" alt="">
-                </div>
-
-                <div class="contenedor-img">
-                    <img src="images/slide_3.jpg" alt="">
-                </div>
-
-
+                <?php
+                if (isset($r['fotos'])) {
+                    for ($i = 0; $i < count($r['fotos']); $i++) {
+                        echo '<div class="contenedor-img">
+                                        <img src="' . $r['fotos'][$i]['foto'] . '" alt="">
+                                    </div>';
+                    }
+                } else {
+                    echo  '<div class="contenedor-img">
+                                        <img src="images/no_image.png" alt="">
+                                    </div>';
+                }
+                ?>
             </section>
-            <!-- IMAGENES PRINCIPALES -->
-
-            <!-- MINIATURAS -->
             <section class="vertical-center-4 slider" id="miniaturas">
-
-                <div class="contenedor-img">
-                    <img src="images/slide_1.jpg" alt="">
-                </div>
-
-                <div class="contenedor-img">
-                    <img src="images/banner_servicios2.jpg" alt="">
-                </div>
-
-                <div class="contenedor-img">
-                    <img src="images/slide_2.jpg" alt="">
-                </div>
-
-                <div class="contenedor-img">
-                    <img src="images/slide_3.jpg" alt="">
-                </div>
-
-                <div class="contenedor-img">
-                    <img src="images/slide_1.jpg" alt="">
-                </div>
-
-                <div class="contenedor-img">
-                    <img src="images/banner_servicios2.jpg" alt="">
-                </div>
-
-                <div class="contenedor-img">
-                    <img src="images/slide_2.jpg" alt="">
-                </div>
-
-                <div class="contenedor-img">
-                    <img src="images/slide_3.jpg" alt="">
-                </div>
-
-
+                <?php
+                if (isset($r['fotos'])) {
+                    for ($i = 0; $i < count($r['fotos']); $i++) {
+                        echo '<div class="contenedor-img">
+                                        <img src="' . $r['fotos'][$i]['foto'] . '" alt="">
+                                    </div>';
+                    }
+                } else {
+                    echo  '<div class="contenedor-img">
+                                        <img src="images/no_image.png" alt="">
+                                    </div>';
+                }
+                ?>
             </section>
             <!-- MINIATURAS -->
 
@@ -143,6 +146,8 @@
 
     </section>
     <!-- CARROUSEL IMAGENES -->
+
+
 
 
 
@@ -211,9 +216,7 @@
 
                                 <div id="uno" class="collapse show" aria-labelledby="uno" data-parent="#accordion">
 
-                                    <h2> Descripción </h2>
-                                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora placeat odio aliquid iusto? Assumenda nesciunt corrupti incidunt ratione facere excepturi dignissimos quasi voluptatum in laborum soluta, vitae obcaecati temporibus! Ipsa consequuntur, laudantium sed blanditiis labore quasi, quaerat ratione accusantium iusto quod iure veniam debitis, repellendus cupiditate nostrum veritatis quibusdam ut. </p>
-                                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora placeat odio aliquid iusto? Assumenda nesciunt corrupti incidunt ratione facere excepturi dignissimos quasi voluptatum in laborum soluta, vitae obcaecati temporibus! Ipsa consequuntur, laudantium sed blanditiis labore quasi, quaerat ratione accusantium iusto quod iure veniam debitis, repellendus cupiditate nostrum veritatis quibusdam ut. </p>
+                                    <p style="text-align: justify;"><?php echo $descripcion ?></p>
 
                                 </div>
 
@@ -222,28 +225,64 @@
                             <div class="margen_contenedor">
                                 <div id="dos" class="collapse" aria-labelledby="dos" data-parent="#accordion">
 
-                                    <h2> Características Interiores </h2>
-                                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora placeat odio aliquid iusto? Assumenda nesciunt corrupti incidunt ratione facere excepturi dignissimos quasi voluptatum in laborum soluta, vitae obcaecati temporibus! Ipsa consequuntur, laudantium sed blanditiis labore quasi, quaerat ratione accusantium iusto quod iure veniam debitis, repellendus cupiditate nostrum veritatis quibusdam ut. </p>
-                                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora placeat odio aliquid iusto? Assumenda nesciunt corrupti incidunt ratione facere excepturi dignissimos quasi voluptatum in laborum soluta, vitae obcaecati temporibus! Ipsa consequuntur, laudantium sed blanditiis labore quasi, quaerat ratione accusantium iusto quod iure veniam debitis, repellendus cupiditate nostrum veritatis quibusdam ut. </p>
+                                    <?php
+                                    if (count($r['caracteristicasInternas']) > 0) {
+                                        echo
+                                            '<div class="col-md-12" style="margin-bottom: 12px;">
+                                    <h4 class="property-single-detail-title"><strong>Características Internas</strong></h4>
+                                        <ul>';
+                                        for ($i = 0; $i < count($r['caracteristicasInternas']); $i++) {
+                                            $caracteristicas = ltrim($r['caracteristicasInternas'][$i]['Descripcion']);
+                                            echo '<li>' . $caracteristicas . '</li>';
+                                        }
+                                        echo  '</ul>
+                                </div>
+                            ';
+                                    }
+                                    ?>
+
                                 </div>
                             </div>
 
                             <div class="margen_contenedor">
                                 <div id="tres" class="collapse" aria-labelledby="tres" data-parent="#accordion">
 
-                                    <h2> Características Exteriores </h2>
-                                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora placeat odio aliquid iusto? Assumenda nesciunt corrupti incidunt ratione facere excepturi dignissimos quasi voluptatum in laborum soluta, vitae obcaecati temporibus! Ipsa consequuntur, laudantium sed blanditiis labore quasi, quaerat ratione accusantium iusto quod iure veniam debitis, repellendus cupiditate nostrum veritatis quibusdam ut. </p>
-                                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora placeat odio aliquid iusto? Assumenda nesciunt corrupti incidunt ratione facere excepturi dignissimos quasi voluptatum in laborum soluta, vitae obcaecati temporibus! Ipsa consequuntur, laudantium sed blanditiis labore quasi, quaerat ratione accusantium iusto quod iure veniam debitis, repellendus cupiditate nostrum veritatis quibusdam ut. </p>
-
+                                    <?php
+                                    if (count($r['caracteristicasExternas']) > 0) {
+                                        echo
+                                            '<div class="col-md-12" style="margin-bottom: 12px;">
+                                    <h4 class="property-single-detail-title"><strong>Características Externas</strong></h4>
+                                        <ul>';
+                                        for ($i = 0; $i < count($r['caracteristicasExternas']); $i++) {
+                                            $caracteristicas = ltrim($r['caracteristicasExternas'][$i]['Descripcion']);
+                                            echo '<li>' . $caracteristicas . '</li>';
+                                        }
+                                        echo  '</ul>
+                                </div>
+                            ';
+                                    }
+                                    ?>
                                 </div>
                             </div>
 
                             <div class="margen_contenedor">
                                 <div id="cuatro" class="collapse" aria-labelledby="cuatro" data-parent="#accordion">
 
-                                    <h2> Características Alrededores </h2>
-                                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora placeat odio aliquid iusto? Assumenda nesciunt corrupti incidunt ratione facere excepturi dignissimos quasi voluptatum in laborum soluta, vitae obcaecati temporibus! Ipsa consequuntur, laudantium sed blanditiis labore quasi, quaerat ratione accusantium iusto quod iure veniam debitis, repellendus cupiditate nostrum veritatis quibusdam ut. </p>
-                                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora placeat odio aliquid iusto? Assumenda nesciunt corrupti incidunt ratione facere excepturi dignissimos quasi voluptatum in laborum soluta, vitae obcaecati temporibus! Ipsa consequuntur, laudantium sed blanditiis labore quasi, quaerat ratione accusantium iusto quod iure veniam debitis, repellendus cupiditate nostrum veritatis quibusdam ut. </p>
+                                    <?php
+                                    if (count($r['caracteristicasAlrededores']) > 0) {
+                                        echo
+                                            '<div class="col-md-12" style="margin-bottom: 12px;">
+                                    <h4 class="property-single-detail-title"><strong>Características de los alrededores</strong></h4>
+                                        <ul>';
+                                        for ($i = 0; $i < count($r['caracteristicasAlrededores']); $i++) {
+                                            $caracteristicas = ltrim($r['caracteristicasAlrededores'][$i]['Descripcion']);
+                                            echo '<li>' . $caracteristicas . '</li>';
+                                        }
+                                        echo  '</ul>
+                                </div>
+                            ';
+                                    }
+                                    ?>
 
                                 </div>
                             </div>
@@ -251,9 +290,24 @@
                             <div class="margen_contenedor">
                                 <div id="cinco" class="collapse" aria-labelledby="cinco" data-parent="#accordion">
 
-                                    <h2> Video </h2>
-                                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora placeat odio aliquid iusto? Assumenda nesciunt corrupti incidunt ratione facere excepturi dignissimos quasi voluptatum in laborum soluta, vitae obcaecati temporibus! Ipsa consequuntur, laudantium sed blanditiis labore quasi, quaerat ratione accusantium iusto quod iure veniam debitis, repellendus cupiditate nostrum veritatis quibusdam ut. </p>
-                                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora placeat odio aliquid iusto? Assumenda nesciunt corrupti incidunt ratione facere excepturi dignissimos quasi voluptatum in laborum soluta, vitae obcaecati temporibus! Ipsa consequuntur, laudantium sed blanditiis labore quasi, quaerat ratione accusantium iusto quod iure veniam debitis, repellendus cupiditate nostrum veritatis quibusdam ut. </p>
+                                    <div id="referencia_inmueble" class="col-md-12 mt-3  ">
+                                        <?php if ($r['video'] != "") {
+                                            echo
+                                                ' <h4 class="property-single-detail-title">Video</h4>
+                                    <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Video</h5>
+                                    <div class="row">
+                                        <div class="col-12 col-md-4">
+                                        <iframe src="' . $r['video'] . '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                ';
+                                        } ?>
+
+                                    </div>
 
                                 </div>
                             </div>
@@ -267,7 +321,11 @@
 
                     <div class="mt-5">
                         <h2 class="text-center mb-5"> Ubicación del inmueble </h2>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4354228861143!2d-74.06821848590987!3d4.694157043022957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9adad974c0d7%3A0x4afb1aa35688bda!2sTv.%2058%20%23106-36%2C%20Bogot%C3%A1!5e0!3m2!1sen!2sco!4v1575653109568!5m2!1sen!2sco" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        <div class="card mapa_tamaño">
+                            <div class="">
+                                <div id="map" class="w-100"></div>
+                            </div>
+                        </div>
                     </div>
 
 
@@ -307,15 +365,14 @@
                         <div class="align-items-center col-12 justify-content-center m-0 mt-3 p-0 row">
 
                             <div class="col-7 imagen_asesor">
-                                <img src="images/no_image.png" alt="">
+                                <img src="<?php echo $asesor['FotoAsesor']; ?>" alt="">
                             </div>
 
                             <div class="col-12 parrafos_asesor mt-3">
 
-                                <p> Nombre Asesor </p>
-                                <p> 311-000-000 </p>
-                                <p> correoasesor@hotmail.com </p>
-
+                                <p><i class="fas fa-user"></i></i> <span><?php echo $asesor['ntercero']; ?></span></p>
+                                <p><i class="fas fa-mobile-alt"></i></i> <span><a class="color_asesor" href="tel:+57<?php echo $asesor['celular']; ?>"><?php echo $asesor['celular']; ?></a></span></p>
+                                <p><i class="fas fa-envelope"></i></i> <span><a class="color_asesor" href="mailto:<?php echo $asesor['correo']; ?>"><?php echo $asesor['correo']; ?></a></span></p>
                             </div>
                         </div>
 
@@ -357,77 +414,7 @@
                 <div class="col-12">
                     <div class="d-flex justify-content-around row">
 
-                        <div>
-                            <a href="detalle_inmueble.php">
-                                <div class="my-3 card" style="width: 20rem;">
-                                    <img src="images/no_image.png" class="card-img-top" alt="...">
-                                    <p class="tipo_de_inmueble card-text"> Tipo Inmueble </p>
-                                    <p class="tipo_de_renta card-text"> Estado </p>
-                                    <p class="precio_inmueble card-text"> $1.500.000 </p>
-                                    <div style="margin: 0 1%;" class="card-body">
-
-                                        <h5 class="card-title"> Titulo de propiedad </h5>
-                                        <li class="mt-3 mb-3 centrar_v d-flex"> <i class="fas fa-map-marker-alt"></i> <span class="ml-2"> Dirección </span> </li>
-
-                                        <ul class="padding_left_0 d-flex flex-wrap align-items-center justify-content-around">
-                                            <li class="mr-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> 0 </span> </li>
-                                            <li class="mr-2 d-flex align-items-center"> <i class="fas fa-chart-area"></i> <span class="ml-2"> 0 </span> </li>
-                                            <li class="mr-2 d-flex align-items-center"> <i class="fa fa-bed"></i> <span class="ml-2"> 0 </span> </li>
-                                            <li class="mr-2 d-flex align-items-center"> <i class="fa fa-car"></i> <span class="ml-2"> 0 </span> </li>
-                                        </ul>
-
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div>
-                            <a href="detalle_inmueble.php">
-                                <div class="my-3 card" style="width: 20rem;">
-                                    <img src="images/no_image.png" class="card-img-top" alt="...">
-                                    <p class="tipo_de_inmueble card-text"> Tipo Inmueble </p>
-                                    <p class="tipo_de_renta card-text"> Estado </p>
-                                    <p class="precio_inmueble card-text"> $1.500.000 </p>
-                                    <div style="margin: 0 1%;" class="card-body">
-
-                                        <h5 class="card-title"> Titulo de propiedad </h5>
-                                        <li class="mt-3 mb-3 centrar_v d-flex"> <i class="fas fa-map-marker-alt"></i> <span class="ml-2"> Dirección </span> </li>
-
-                                        <ul class="padding_left_0 d-flex flex-wrap align-items-center justify-content-around">
-                                            <li class="mr-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> 0 </span> </li>
-                                            <li class="mr-2 d-flex align-items-center"> <i class="fas fa-chart-area"></i> <span class="ml-2"> 0 </span> </li>
-                                            <li class="mr-2 d-flex align-items-center"> <i class="fa fa-bed"></i> <span class="ml-2"> 0 </span> </li>
-                                            <li class="mr-2 d-flex align-items-center"> <i class="fa fa-car"></i> <span class="ml-2"> 0 </span> </li>
-                                        </ul>
-
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div>
-                            <a href="detalle_inmueble.php">
-                                <div class="my-3 card" style="width: 20rem;">
-                                    <img src="images/no_image.png" class="card-img-top" alt="...">
-                                    <p class="tipo_de_inmueble card-text"> Tipo Inmueble </p>
-                                    <p class="tipo_de_renta card-text"> Estado </p>
-                                    <p class="precio_inmueble card-text"> $1.500.000 </p>
-                                    <div style="margin: 0 1%;" class="card-body">
-
-                                        <h5 class="card-title"> Titulo de propiedad </h5>
-                                        <li class="mt-3 mb-3 centrar_v d-flex"> <i class="fas fa-map-marker-alt"></i> <span class="ml-2"> Dirección </span> </li>
-
-                                        <ul class="padding_left_0 d-flex flex-wrap align-items-center justify-content-around">
-                                            <li class="mr-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> 0 </span> </li>
-                                            <li class="mr-2 d-flex align-items-center"> <i class="fas fa-chart-area"></i> <span class="ml-2"> 0 </span> </li>
-                                            <li class="mr-2 d-flex align-items-center"> <i class="fa fa-bed"></i> <span class="ml-2"> 0 </span> </li>
-                                            <li class="mr-2 d-flex align-items-center"> <i class="fa fa-car"></i> <span class="ml-2"> 0 </span> </li>
-                                        </ul>
-
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+                        <?php similares($r['IdCiudad'], $r['IdTpInm']); ?>
 
                     </div>
                 </div>
@@ -438,17 +425,13 @@
 
 
 
-
-
-
-
-
-
     <section>
         <?php include 'layout/footer.php' ?>
     </section>
 
-    
+    <?php include 'layout/archivosfooter.php' ?>
+
+
     <script src="js/slick.min.js"></script>
 
     <script>
@@ -494,7 +477,20 @@
         });
     </script>
 
-    <?php include 'layout/archivosfooter.php' ?>
+    <!-- mapa del inmueble -->
+    <script src="mapas/leaflet.js" crossorigin=""></script>
+    <script>
+        var map = L.map('map').setView([<?php echo $r['latitud']; ?>, <?php echo $r['longitud'] ?>], 14);
+
+        L.tileLayer('https://api.maptiler.com/maps/streets/256/{z}/{x}/{y}.png?key=1rAGHv3KcO1nrS6S9cgI', {
+            attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">© MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">© OpenStreetMap contributors</a>'
+        }).addTo(map);
+
+        L.marker([<?php echo $r['latitud']; ?>, <?php echo $r['longitud'] ?>]).addTo(map)
+            .bindPopup('<img src="<?php echo $r['fotos'][0]['foto'] ?>"])" alt="" width="55px" height="auto"><br>Ubicación')
+            .openPopup();
+    </script>
+
 
 
 
