@@ -380,6 +380,12 @@ li {
     }
 }
 
+.estilosss {
+    background-color: red;
+    width: 100%;
+    height: 300px;
+}
+
 #propiedades_destacadas_imagenes, #ultimas_noticias {
 
     div {
@@ -402,6 +408,7 @@ li {
     img {
         filter: brightness(0.8);
         transition: all 250ms ease-out;
+        
     
         &:hover {
             filter:brightness(0.6);
@@ -729,9 +736,7 @@ footer {
     }
 }
 
-.card-blog {
-    
-}
+
 
 .subir {
     width: 25px !important;

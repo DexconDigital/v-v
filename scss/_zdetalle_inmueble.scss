@@ -5,6 +5,7 @@
 
 #informacion_inmueble {
 
+
     .imagen_asesor {
 
         img {
@@ -29,10 +30,17 @@
 
     }
 
-    a {
-        transition: all 250ms ease;
-        font-size: 40px;
+    .iconos_detalle_inmueble {
+        a {
+            font-size: 40px;
+        }
+    }
 
+    a {
+
+        transition: all 250ms ease;
+        text-decoration: none;
+        
         &:hover {
             color: $color_rojo;
         }
@@ -76,6 +84,7 @@
         }
 
     }
+    
 
     label {
         a {

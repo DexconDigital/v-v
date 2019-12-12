@@ -192,5 +192,7 @@ var busqueda = function(){
 
         '';
     }
+
+    
 }
 

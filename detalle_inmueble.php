@@ -337,7 +337,7 @@ require 'controllers/detalleInmuebleController.php';
                         <div class="">
                             Comparte en:
                         </div>
-                        <div class="d-flex ml-3">
+                        <div class="iconos_detalle_inmueble d-flex ml-3">
 
                             <a class="icono_fb" target="_blank" href="#">
                                 <i class="mr-2 <?php echo $redes_sociales['facebook']['icono'] ?>"></i>
@@ -370,9 +370,9 @@ require 'controllers/detalleInmuebleController.php';
 
                             <div class="col-12 parrafos_asesor mt-3">
 
-                                <p><i class="fas fa-user"></i></i> <span><?php echo $asesor['ntercero']; ?></span></p>
-                                <p><i class="fas fa-mobile-alt"></i></i> <span><a class="color_asesor" href="tel:+57<?php echo $asesor['celular']; ?>"><?php echo $asesor['celular']; ?></a></span></p>
-                                <p><i class="fas fa-envelope"></i></i> <span><a class="color_asesor" href="mailto:<?php echo $asesor['correo']; ?>"><?php echo $asesor['correo']; ?></a></span></p>
+                                <p><i class="fas fa-user"></i> <?php echo $asesor['ntercero']; ?></p>
+                                <p><i class="fas fa-mobile-alt"></i> <a class="color_asesor" href="tel:+57<?php echo $asesor['celular']; ?>"><?php echo $asesor['celular']; ?></a></p>
+                                <p><i class="fas fa-envelope"></i> <a class="color_asesor" href="mailto:<?php echo $asesor['correo']; ?>"><?php echo $asesor['correo']; ?></a></p>
                             </div>
                         </div>
 
