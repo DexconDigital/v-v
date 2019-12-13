@@ -75,7 +75,7 @@ require 'controllers/detalleInmuebleController.php';
                     <div class="container">
                         <div class="col-12 ">
 
-                            <section id="header_detalles_inmueble" class="mt-4 mb-0 margen_contenedores_indexr1">
+                            <section id="header_detalles_inmueble" class="mt-4 mb-0">
 
                                 <div class="row">
 
@@ -115,7 +115,7 @@ require 'controllers/detalleInmuebleController.php';
                             </section>
 
                             <!-- CARROUSEL IMAGENES -->
-                            <section id="carrusel_imagenes" class="mb-3 margen_contenedores_indexr1">
+                            <section id="carrusel_imagenes" class="mb-3">
 
                                 <div>
                                     <!-- main slider carousel items -->
@@ -159,7 +159,7 @@ require 'controllers/detalleInmuebleController.php';
 
                             <!----------BOTONES---------->
 
-                            <div class="row mb-5 justify-content-between">
+                            <div class="row mb-5 ml-0">
 
                                 <div class="ml-1">
 
@@ -352,7 +352,7 @@ require 'controllers/detalleInmuebleController.php';
                     </div>
 
                     <div class="row justify-content-center">
-                        <button class="btn boton_ficha"> Descargar Ficha </button>
+                    <a href="https://simicrm.app/mcomercialweb/fichas_tecnicas/fichatec3.php?reg=116-<?php echo $co ?>" target="_blank"><button class="btn boton_ficha"> Descargar Ficha </button> </a>
                     </div>
 
                     <div class="border-top mt-3 row">

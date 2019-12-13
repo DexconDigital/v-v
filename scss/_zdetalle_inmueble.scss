@@ -58,7 +58,7 @@
     }
 
     .w_200px {
-        width: 200px;
+        width: 190px;
     }
 
     .margen_contenedor {
@@ -73,6 +73,10 @@
         border-radius: 2px;
 
         &:hover {
+            background-color: $color_rojo;
+        }
+
+        &:focus {
             background-color: $color_rojo;
         }
 
