@@ -83,22 +83,22 @@
 
         <div class="align-items-center d-flex justify-content-center">
             <div class="c1 container-fluid">
-                <div class="col-12 row" id="contador">
+                <div class="col-12 row">
 
                     <div class="col-3">
-                        <h2 id="counter-propertys" class="text-center">  </h2>
+                        <h2 class="text-center"> 56 </h2>
                         <p class="text-center"> Total de Inmuebles </p>
                     </div>
                     <div class="col-3">
-                        <h2 id="counter-rent" class="text-center">  </h2>
+                        <h2 class="text-center"> 32 </h2>
                         <p class="text-center"> Inmuebles en Arriendo </p>
                     </div>
                     <div class="col-3 text-center">
-                        <h2 id="counter-sale" class="text-center">  </h2>
+                        <h2 class="text-center"> 19 </h2>
                         <p class="text-center"> Inmuebles en Venta </p>
                     </div>
                     <div class="col-3 text-center">
-                        <h2 id="counter-sale-rent" class="text-center">  </h2>
+                        <h2 class="text-center"> 5 </h2>
                         <p class="text-center"> Inmuebles en Arriendo/Venta </p>
                     </div>
 
@@ -176,9 +176,6 @@
     </section>
 
     <?php include 'layout/archivosfooter.php' ?>
-
-    <script src="js/countUp.min.js"></script>
-    <script src="js/counter-propertys.js"></script>
 
 </body>
 

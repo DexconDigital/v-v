@@ -8153,7 +8153,7 @@ textarea:focus, textarea[type]:focus, input:focus, input[type]:focus {
 body {
   font-family: Roboto; }
   body p {
-    font-size: 16px !important; }
+    font-size: 16px; }
 
 .box_shadow_menu {
   -webkit-box-shadow: 0 2px 6px 0 black;
@@ -8477,8 +8477,8 @@ li {
 #propiedades_destacadas_imagenes .precio_inmueble, #ultimas_noticias .precio_inmueble {
   color: white;
   position: absolute;
-  margin: 62% 0 0 5%;
-  font-size: 22px; }
+  margin: 63% 0 0 5%;
+  font-size: 16px; }
 
 #propiedades_destacadas_imagenes li, #ultimas_noticias li {
   list-style: none; }
@@ -8869,6 +8869,9 @@ textarea:focus {
 
 .margen_contenedores_indexr1 {
   margin: 0 5%; }
+
+.lista_caracteristicas li {
+  list-style: circle; }
 
 #informacion_inmueble .imagen_asesor img {
   width: 100%;

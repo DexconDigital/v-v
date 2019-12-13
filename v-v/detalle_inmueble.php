@@ -227,7 +227,7 @@ require 'controllers/detalleInmuebleController.php';
                                         echo
                                             '<div class="col-md-12" style="margin-bottom: 12px;">
                                     <h4 class="property-single-detail-title"><strong>Características Internas</strong></h4>
-                                        <ul class="lista_caracteristicas">';
+                                        <ul class="lista_caracteristicas_internas">';
                                         for ($i = 0; $i < count($r['caracteristicasInternas']); $i++) {
                                             $caracteristicas = ltrim($r['caracteristicasInternas'][$i]['Descripcion']);
                                             echo '<li>' . $caracteristicas . '</li>';
@@ -249,7 +249,7 @@ require 'controllers/detalleInmuebleController.php';
                                         echo
                                             '<div class="col-md-12" style="margin-bottom: 12px;">
                                     <h4 class="property-single-detail-title"><strong>Características Externas</strong></h4>
-                                        <ul class="lista_caracteristicas">';
+                                        <ul>';
                                         for ($i = 0; $i < count($r['caracteristicasExternas']); $i++) {
                                             $caracteristicas = ltrim($r['caracteristicasExternas'][$i]['Descripcion']);
                                             echo '<li>' . $caracteristicas . '</li>';
@@ -270,7 +270,7 @@ require 'controllers/detalleInmuebleController.php';
                                         echo
                                             '<div class="col-md-12" style="margin-bottom: 12px;">
                                     <h4 class="property-single-detail-title"><strong>Características de los alrededores</strong></h4>
-                                        <ul class="lista_caracteristicas">';
+                                        <ul>';
                                         for ($i = 0; $i < count($r['caracteristicasAlrededores']); $i++) {
                                             $caracteristicas = ltrim($r['caracteristicasAlrededores'][$i]['Descripcion']);
                                             echo '<li>' . $caracteristicas . '</li>';
@@ -340,11 +340,11 @@ require 'controllers/detalleInmuebleController.php';
                                 <i class="mr-2 <?php echo $redes_sociales['facebook']['icono'] ?>"></i>
                             </a>
 
-                            <a class="icono_tt" href="<?php echo 'https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.vyvinmobiliaria.com%2Fdetalle_inmueble.php%3Fco%3D' . $co . '&text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] ?>" target="_blank">
+                            <a class="icono_tt" target="_blank" href="#">
                                 <i class="mr-2 fab fa-twitter"></i>
                             </a>
 
-                            <a class="icono_w" href="<?php echo 'https://wa.me/?text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] . '%20http://www..com.co/detalleInmueble.php?codigo%3d' . $co ?>" target="_blank">
+                            <a class="icono_w" target="_blank" href="#">
                                 <i class="mr-2 <?php echo $datos_contacto['bogota']['whatsapp']['icono'] ?>"></i>
                             </a>
 

@@ -37,7 +37,7 @@ if(isset($_GET['aremin'])){
     $alcobas_buscar = $_GET['alcobas'];
     $banio_buscar = $_GET['banios'];
     $garaje_buscar = $_GET['garajes'];
-}
+};
 
 $ch = curl_init();
     $headers =  'Authorization:' . TOKEN;

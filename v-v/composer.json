@@ -1,0 +1,12 @@
+{
+    "name": "kwigs/v-v",
+    "authors": [
+        {
+            "name": "Andrés Duque",
+            "email": "desarrollo@dexcondigital.com"
+        }
+    ],
+    "require": {
+        "jasongrimes/paginator": "~1.0"
+    }
+}
