@@ -16,6 +16,7 @@ function modelo_inmueble_destacadas($r, $cantidad_inmuebles)
                 <p class="tipo_de_inmueble card-text">' . $api['Tipo_Inmueble'] . '</p>
                 <p class="tipo_de_renta card-text"> ' . $api['Gestion'] . '</p>
                 <p class="precio_inmueble card-text">$ ';
+                
                 if ($api['Gestion'] == 'Arriendo') {
                     echo $api['Canon'];
                 } else if ($api['Gestion'] == 'Venta') {
