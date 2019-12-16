@@ -329,7 +329,7 @@ require 'variables/variables.php';
                 <div class="color_azul">
                     <h2 style="margin: 10px 0; font-size:20px;"> ¿Deseas publicar tu inmueble con nosotros? </h2>
                 </div>
-                <a href="#" style="width:200px" class="boton_buscar btn text-decoration-none text-white" download="FORMATO DE CONSIGNACION.pdf"> Descargar formulario </a>
+                <a target="_blank" href="FORMATO_DE_CONSIGNACION.pdf" style="width:200px" class="boton_buscar btn text-decoration-none text-white"> Descargar formulario </a>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-center">
                 <img class="imagen" src="images/icono_pdf.png" alt="">
