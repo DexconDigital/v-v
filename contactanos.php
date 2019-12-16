@@ -69,7 +69,7 @@
                                     </div>
 
 
-                                    <div class="my-3 col-12">
+                                    <div class="col-12 m-0 my-3 row">
                                         <input class="boton_buscar btn" type="button" value="Enviar">
                                     </div>
 

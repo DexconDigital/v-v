@@ -159,59 +159,64 @@ require 'controllers/detalleInmuebleController.php';
 
                             <!----------BOTONES---------->
 
-                            <div class="row mb-5 ml-0">
+                            <div class="container">
 
-                                <div class="ml-1">
-
-                                    <button class="btn boton_detalle_inmueble collapsed" data-toggle="collapse" data-target="#uno" aria-expanded="false" aria-controls="collapseExample">
-                                        Descripción
-                                    </button>
-
+                               <div class="col-12 m-0 p-0">
+                                    <div class="row mb-5 justify-content-between">
+        
+                                        <div>
+        
+                                            <button class="btn boton_detalle_inmueble collapsed" data-toggle="collapse" data-target="#uno" aria-expanded="false" aria-controls="collapseExample">
+                                                Descripción
+                                            </button>
+        
+                                        </div>
+        
+                                        <div>
+        
+                                            <button class="w_200px btn boton_detalle_inmueble collapsed boton_venta" data-toggle="collapse" data-target="#dos" aria-expanded="true" aria-controls="dos">
+                                                Características Internas
+                                            </button>
+        
+                                        </div>
+        
+                                        <div>
+        
+                                            <button class="w_200px btn boton_detalle_inmueble collapsed" data-toggle="collapse" data-target="#tres" aria-expanded="true" aria-controls="collapseExample">
+                                                Características Exteriores
+                                            </button>
+        
+                                        </div>
+        
+                                        <div>
+        
+                                            <button class="w_200px btn boton_detalle_inmueble collapsed" data-toggle="collapse" data-target="#cuatro" aria-expanded="false" aria-controls="collapseExample">
+                                                Características Alrededores
+                                            </button>
+        
+                                        </div>
+        
+                                        <div>
+        
+                                            <button class="btn boton_detalle_inmueble collapsed" type="button" data-toggle="collapse" data-target="#cinco" aria-expanded="false" aria-controls="collapseExample">
+                                                Video
+                                            </button>
+        
+                                        </div>
+        
+        
+                                    </div>
                                 </div>
-
-                                <div class="ml-1">
-
-                                    <button class="w_200px btn boton_detalle_inmueble collapsed boton_venta" data-toggle="collapse" data-target="#dos" aria-expanded="true" aria-controls="dos">
-                                        Características Internas
-                                    </button>
-
-                                </div>
-
-                                <div class="ml-1">
-
-                                    <button class="w_200px btn boton_detalle_inmueble collapsed" data-toggle="collapse" data-target="#tres" aria-expanded="true" aria-controls="collapseExample">
-                                        Características Exteriores
-                                    </button>
-
-                                </div>
-
-                                <div class="ml-1">
-
-                                    <button class="w_200px btn boton_detalle_inmueble collapsed" data-toggle="collapse" data-target="#cuatro" aria-expanded="false" aria-controls="collapseExample">
-                                        Características Alrededores
-                                    </button>
-
-                                </div>
-
-                                <div class="ml-1">
-
-                                    <button class="btn boton_detalle_inmueble collapsed" type="button" data-toggle="collapse" data-target="#cinco" aria-expanded="false" aria-controls="collapseExample">
-                                        Video
-                                    </button>
-
-                                </div>
-
-
-                            </div>
+                               </div>
 
                             <!----------BOTONES---------->
 
                             <!----------INFORMACION BOTONES---------->
 
 
-                            <div class="margen_contenedor">
+                            <div class="margen_contenedor ml-0">
 
-                                <div id="uno" class="collapse show" aria-labelledby="uno" data-parent="#accordion">
+                                <div id="uno" class="ollapse show" aria-labelledby="uno" data-parent="#accordion">
 
                                     <p style="text-align: justify;"><?php echo $descripcion ?></p>
 
