@@ -86,7 +86,7 @@
             </select>
         </div>
         
-        <button type="button" class="btn" id="buscar"><i class="ml-3 lupa color_azul fas fa-search"></i></button>
+        <button type="button" class="d-flex justify-content-center btn" id="buscar"><i class="lupa color_azul fas fa-search"></i></button>
 
         
 
