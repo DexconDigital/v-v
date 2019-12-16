@@ -150,8 +150,8 @@ function modelo_inmueble_similares($r)
                     <p class="text-muted"> Código : '. $codigo .' </p>
 
                     <ul class="padding_left_0 d-flex flex-wrap align-items-center justify-content-around">
-                        <li class="mr-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> ' . $api['banios'] . ' </span> </li>
                         <li class="mr-2 d-flex align-items-center"> <i class="fas fa-chart-area"></i> <span class="ml-2"> ' . $api['AreaConstruida'] . 'm<sup>2</span> </li>
+                        <li class="mr-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> ' . $api['banios'] . ' </span> </li>
                         <li class="mr-2 d-flex align-items-center"> <i class="fa fa-bed"></i> <span class="ml-2"> ' . $api['Alcobas'] . ' </span> </li>
                         <li class="mr-2 d-flex align-items-center"> <i class="fa fa-car"></i> <span class="ml-2">' . $api['garaje'] . ' </span> </li>
                     </ul>
