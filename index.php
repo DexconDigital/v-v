@@ -415,37 +415,7 @@ require 'variables/variables.php';
 
     </section> -->
 
-    <section id="contador_estadisticas">
-
-        <div class="align-items-center d-flex justify-content-center">
-            <div class="c1 container-fluid">
-                <div class="col-12 row" id="contador">
-
-                    <div class="col-3">
-                        <h2 id="counter-propertys" class="text-center"> </h2>
-                        <p class="text-center"> Total de Inmuebles </p>
-                    </div>
-                    <div class="col-3">
-                        <h2 id="counter-rent" class="text-center"> </h2>
-                        <p class="text-center"> Inmuebles en Arriendo </p>
-                    </div>
-                    <div class="col-3 text-center">
-                        <h2 id="counter-sale" class="text-center"> </h2>
-                        <p class="text-center"> Inmuebles en Venta </p>
-                    </div>
-                    <div class="col-3 text-center">
-                        <h2 id="counter-sale-rent" class="text-center"> </h2>
-                        <p class="text-center"> Inmuebles en Arriendo/Venta </p>
-                    </div>
-
-                </div>
-            </div>
-
-            <div> <img class="imagen" src="images/banner_estadisticas.jpg"> </div>
-
-        </div>
-
-    </section>
+    
 
 
     <section id="nuestros_aliados" class="fondo_gris">
