@@ -136,7 +136,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a target="_blank" class="dropdown-item" href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=116&tipo=2"> Arrendatarios </a>
                             <a target="_blank" class="dropdown-item" href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=116&tipo=1"> Propietarios </a>
-                            <a class="dropdown-item" href="#"> Pagos PSE </a>
+                            <a class="dropdown-item" target="_blank" href="https://www.e-collect.com/customers/pagosinmobiliariav&v.htm"> Pagos PSE </a>
                             <a class="dropdown-item" target="_blank" href="FORMATO_DE_CONSIGNACION.pdf"> Consignar Inmueble </a>
 
                     </li>
@@ -146,7 +146,7 @@
                     </li>
 
                 </ul>
-                <div style="width: 55px; height: 50px; "> <a href="#"> <img class="logo_pse" style="width: 100%;" src="images/logopse.png" alt="Pagos PSE"></a></div>
+                <div style="width: 55px; height: 50px; "> <a target="_blank" href="https://www.e-collect.com/customers/pagosinmobiliariav&v.htm"> <img class="logo_pse" style="width: 100%;" src="images/logopse.png" alt="Pagos PSE"></a></div>
             </div>
         </nav>
     </section>

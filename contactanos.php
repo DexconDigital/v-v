@@ -22,7 +22,7 @@
 
     <section id="banner" class="align-content-center align-items-center d-flex justify-content-center">
         <div class="align-items-center d-flex flex-column titulos">
-            <h1> Contactanos </h1>
+            <h1> Contáctanos </h1>
         </div>
         <div id="banner_contactanos"class="imagen_detalles"></div>
     </section>
