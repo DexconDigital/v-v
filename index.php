@@ -327,14 +327,14 @@ require 'variables/variables.php';
             <div class="d-flex flex-column align-items-center justify-content-center">
                 <img class="imagen" src="images/descarga.png" alt="">
                 <div class="color_azul">
-                    <h2> ¿Deseas publicar tu inmueble con nosotros? </h2>
+                    <h2 style="margin: 10px 0; font-size:20px;"> ¿Deseas publicar tu inmueble con nosotros? </h2>
                 </div>
                 <a href="#" style="width:200px" class="boton_buscar btn text-decoration-none text-white" download="FORMATO DE CONSIGNACION.pdf"> Descargar formulario </a>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-center">
                 <img class="imagen" src="images/icono_pdf.png" alt="">
                 <div class="color_azul">
-                    <h2> Descargar Formulario de Aseguradoras </h2>
+                    <h2 style="margin: 10px 0; font-size:20px;"> Descargar Formulario de Aseguradoras </h2>
                     <div>
                         
                     </div>
