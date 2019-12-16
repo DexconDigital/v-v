@@ -137,7 +137,7 @@
                             <a target="_blank" class="dropdown-item" href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=116&tipo=2"> Arrendatarios </a>
                             <a target="_blank" class="dropdown-item" href="https://www.simiinmobiliarias.com/base/simired/simidocsapi1.0/index.php?inmo=116&tipo=1"> Propietarios </a>
                             <a class="dropdown-item" href="#"> Pagos PSE </a>
-                            <a class="dropdown-item" href="FORMATO_DE_CONSIGNACION.pdf" download="FORMATO_DE_CONSIGNACION.pdf"> Consignar Inmueble </a>
+                            <a class="dropdown-item" target="_blank" href="FORMATO_DE_CONSIGNACION.pdf"> Consignar Inmueble </a>
 
                     </li>
 
