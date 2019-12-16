@@ -341,7 +341,7 @@ require 'controllers/detalleInmuebleController.php';
                         </div>
                         <div class="iconos_detalle_inmueble d-flex ml-3">
 
-                            <a class="icono_fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.maestranza.com.co%2FdetalleInmueble%3Fcodigo%3D<?php echo $co; ?>" target="_blank">
+                            <a class="icono_fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.vyvinmobiliaria.com%2FdetalleInmueble%3Fcodigo%3D<?php echo $co; ?>" target="_blank">
                                 <i class="mr-2 <?php echo $redes_sociales['facebook']['icono'] ?>"></i>
                             </a>
 
@@ -349,7 +349,7 @@ require 'controllers/detalleInmuebleController.php';
                                 <i class="mr-2 fab fa-twitter"></i>
                             </a>
 
-                            <a class="icono_w" href="<?php echo 'https://wa.me/?text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] . '%20http://www..com.co/detalleInmueble.php?codigo%3d' . $co ?>" target="_blank">
+                            <a class="icono_w" href="<?php echo 'https://wa.me/?text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] . '%20www.vyvinmobiliaria.comdetalleInmueble.php?codigo%3d' . $co ?>" target="_blank">
                                 <i class="mr-2 <?php echo $datos_contacto['bogota']['whatsapp']['icono'] ?>"></i>
                             </a>
 
