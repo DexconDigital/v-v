@@ -88,11 +88,14 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    content: '🢐';
+    font-size: 60px;
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+    content: '🢒';
+    font-size: 60px;
+
 }
 
 .slick-next
@@ -106,11 +109,15 @@
 }
 .slick-next:before
 {
-    content: '→';
+    content: '🢒';
+    font-size: 60px;
+
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    content: '🢐';
+    font-size: 60px;
+
 }
 
 /* Dots */

@@ -18,10 +18,12 @@
     height: 199px;
 }
 #slide-detalle img{
+    filter: brightness(0.8);
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     margin: auto !important;
+    background-color: aliceblue;
 }
 .carousel-item img{
     height: 100%;
