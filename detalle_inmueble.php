@@ -28,6 +28,7 @@ require 'controllers/detalleInmuebleController.php';
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="300">
     <style>
+    
         #map {
             height: 350px;
             z-index: 20;
