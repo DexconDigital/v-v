@@ -324,42 +324,34 @@ require 'variables/variables.php';
     <div style="background-color:#ebede8; position:relative;" class=" p-0">
         <img class="imagenp" src="images/banner_servicios2.jpg" alt="">
         <div style="z-index: 200; position:absolute; bottom:0;" class="align-items-center d-flex franja justify-content-around">
-            <img style="margin-left: 100px;" class="imagen" src="images/descarga.png" alt="">
-            <div class="color_azul">
-                <h2> ¿Deseas publicar tu inmueble con nosotros? </h2>
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <img class="imagen" src="images/descarga.png" alt="">
+                <div class="color_azul">
+                    <h2> ¿Deseas publicar tu inmueble con nosotros? </h2>
+                </div>
+                <a href="#" style="width:200px" class="boton_buscar btn text-decoration-none text-white" download="FORMATO DE CONSIGNACION.pdf"> Descargar formulario </a>
             </div>
-            <a href="#" style="width:200px" class="boton_buscar btn text-decoration-none text-white" download="FORMATO DE CONSIGNACION.pdf"> Descargar formulario </a>
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <img class="imagen" src="images/icono_pdf.png" alt="">
+                <div class="color_azul">
+                    <h2> Descargar Formulario de Aseguradoras </h2>
+                    <div>
+                        
+                    </div>
+                </div>
+
+                <div >
+                    <a target="_blank" href="<?php echo $formularios_aseguradoras['0']['ruta'] ?>" style="width:200px" class="boton_buscar btn text-decoration-none text-white" > El Libertador </a>
+    
+                    <a target="_blank" href="<?php echo $formularios_aseguradoras['2']['ruta'] ?>" style="width:200px" class="boton_buscar btn text-decoration-none text-white" > Fianzacredito </a>
+    
+                    <a target="_blank" href="<?php echo $formularios_aseguradoras['1']['ruta'] ?>" style="width:200px" class="boton_buscar btn text-decoration-none text-white" > Afiansa </a>
+                </div>
+            </div>
 
         </div>
 
     </div>
-
-    <section id="fomulario_aseguradoras" class="margen_contenedores_index">
-
-        <h2 class="margin_100px text-center"> Descargar Formulario de Aseguradoras </h2>
-
-        <div class="text-center container-fluid">
-            <div class="row justify-content-center">
-
-                <div class="p-0 mx-3 aseguradoras_div col">
-                    <a target="_blank" href="<?php echo $formularios_aseguradoras['0']['ruta'] ?>"> <img src="images/libertador.png" alt=""> </a>
-                </div>
-
-                <div class="aseguradoras_div col">
-                    <a target="_blank" href="<?php echo $formularios_aseguradoras['2']['ruta'] ?>"> <img src="images/fianzacredito.png" alt=""> </a>
-                </div>
-
-                <div style="margin-top: -1%;" class="seguradoras_div col">
-                    <div>
-                        <a target="_blank" href="<?php echo $formularios_aseguradoras['1']['ruta'] ?>"> <img src="images/afiansa.png" alt=""> </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-
-    </section>
 
     <!-- <section id="blog_body2">
 
@@ -430,19 +422,19 @@ require 'variables/variables.php';
                 <div class="col-12 row" id="contador">
 
                     <div class="col-3">
-                        <h2 id="counter-propertys" class="text-center">  </h2>
+                        <h2 id="counter-propertys" class="text-center"> </h2>
                         <p class="text-center"> Total de Inmuebles </p>
                     </div>
                     <div class="col-3">
-                        <h2 id="counter-rent" class="text-center">  </h2>
+                        <h2 id="counter-rent" class="text-center"> </h2>
                         <p class="text-center"> Inmuebles en Arriendo </p>
                     </div>
                     <div class="col-3 text-center">
-                        <h2 id="counter-sale" class="text-center">  </h2>
+                        <h2 id="counter-sale" class="text-center"> </h2>
                         <p class="text-center"> Inmuebles en Venta </p>
                     </div>
                     <div class="col-3 text-center">
-                        <h2 id="counter-sale-rent" class="text-center">  </h2>
+                        <h2 id="counter-sale-rent" class="text-center"> </h2>
                         <p class="text-center"> Inmuebles en Arriendo/Venta </p>
                     </div>
 
