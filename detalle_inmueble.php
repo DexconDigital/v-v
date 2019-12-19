@@ -494,12 +494,6 @@ require 'controllers/detalleInmuebleController.php';
             .openPopup();
     </script>
 
-
-
-
-
-
-
 </body>
 
 </html>
