@@ -90,44 +90,44 @@ require 'variables/variables.php';
 
     </section>
 
-    <section id="portafolio_servicios" class="my_100px">
+    <section id="portafolio_servicios" class="">
 
-        <div style="z-index:2; position:absolute;" class="container-fluid">
+        <div style="z-index:300" class="container-fluid">
 
             <h2 style="padding:100px" class="text-light m-0 text-center"> Portafolio de Servicios </h2>
 
-            <div class="col-12 d-flex justify-content-around">
+            <div class="col-12 d-flex flex-wrap justify-content-around">
 
-                <div class="text-center col-3 rounded mb-5 hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m1">
+                <div class="text-center col-12 col-lg-3 col-xl-3 col-md-3 rounded mb-5 hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m1">
                     <i style="width:60px; height:60px;" class="color_azul <?php echo $iconos_servicios['arriendos'] ?>"></i>
                     <h4 class="mt-3"><?php echo $texto_servicios['arriendos']['titulo'] ?></h4>
                 </div>
 
-                <div class="text-center col-3 rounded mb-5 hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m2">
+                <div class="text-center col-12 col-lg-3 col-xl-3 col-md-3 rounded mb-5 hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m2">
                     <i style="width:60px; height:60px;" class="color_azul <?php echo $iconos_servicios['ventas'] ?>"></i>
                     <h4 class="mt-3"><?php echo $texto_servicios['ventas']['titulo'] ?></h4>
                 </div>
 
-                <div class="text-center col-3 rounded mb-5 hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m3">
+                <div class="text-center col-12 col-lg-3 col-xl-3 col-md-3 rounded mb-5 hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m3">
                     <i style="width:60px; height:60px;" class="color_azul <?php echo $iconos_servicios['avaluos'] ?>"></i>
                     <h4 class="mt-3"><?php echo $texto_servicios['avaluos']['titulo'] ?></h4>
                 </div>
 
             </div>
 
-            <div class="col-12 d-flex justify-content-around">
+            <div class="col-12 d-flex flex-wrap justify-content-around">
 
-                <div class="text-center col-3 rounded hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m4">
+                <div class="text-center col-12 col-lg-3 col-xl-3 col-md-3 rounded mb-5 hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m4">
                     <i style="width:60px; height:60px;" class="color_azul <?php echo $iconos_servicios['asesoria'] ?>"></i>
                     <h4 class="mt-3"><?php echo $texto_servicios['asesoria']['titulo'] ?></h4>
                 </div>
 
-                <div class="text-center col-3 rounded hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m5">
+                <div class="text-center col-12 col-lg-3 col-xl-3 col-md-3 rounded mb-5 hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m5">
                     <i style="width:60px; height:60px;" class="color_azul <?php echo $iconos_servicios['corretaje'] ?>"></i>
                     <h4 class="mt-3"><?php echo $texto_servicios['corretaje']['titulo'] ?></h4>
                 </div>
 
-                <div class="text-center col-3 rounded hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m6">
+                <div class="text-center col-12 col-lg-3 col-xl-3 col-md-3 rounded mb-5 hover_servicios  bg-light p-5 justify-content-center align-items-center d-flex flex-column" data-toggle="modal" data-target="#m6">
                     <i style="width:60px; height:60px;" class="color_azul <?php echo $iconos_servicios['reparaciones'] ?>"></i>
                     <h4 class="mt-3"><?php echo $texto_servicios['reparaciones']['titulo'] ?></h4>
                 </div>
@@ -137,8 +137,6 @@ require 'variables/variables.php';
 
 
         </div>
-
-
 
 
     </section>
@@ -317,43 +315,40 @@ require 'variables/variables.php';
 
 
 
-
-
-
-
-    <div style="background-color:#ebede8; position:relative;" class=" p-0">
-        <img class="imagenp" src="images/banner_servicios2.jpg" alt="">
-        <div style="z-index: 200; position:absolute; bottom:0;" class="align-items-center d-flex franja justify-content-around">
-            <div class="d-flex flex-column align-items-center justify-content-center">
+ <div class="margen_contenedores_index">
+     <div class="row align-items-center justify-content-around py-5">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column align-items-center justify-content-center">
                 <img class="imagen" src="images/descarga.png" alt="">
                 <div class="color_azul">
                     <h2 style="margin: 10px 0; font-size:20px;"> ¿Deseas publicar tu inmueble con nosotros? </h2>
                 </div>
                 <a target="_blank" href="FORMATO_DE_CONSIGNACION.pdf" style="width:200px" class="boton_buscar btn text-decoration-none text-white"> Descargar formulario </a>
             </div>
-            <div class="d-flex flex-column align-items-center justify-content-center">
+            <div class="mt-2 mt-xl-0 mt-lg-0 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column align-items-center justify-content-center">
                 <img class="imagen" src="images/icono_pdf.png" alt="">
                 <div class="color_azul">
                     <h2 style="margin: 10px 0; font-size:20px;"> Descargar Formulario de Aseguradoras </h2>
                     <div>
-                        
+        
                     </div>
                 </div>
-
-                <div >
-                    <a target="_blank" href="<?php echo $formularios_aseguradoras['0']['ruta'] ?>" style="width:200px" class="boton_buscar btn text-decoration-none text-white" > El Libertador </a>
-    
-                    <a target="_blank" href="<?php echo $formularios_aseguradoras['2']['ruta'] ?>" style="width:200px" class="boton_buscar btn text-decoration-none text-white" > Fianzacredito </a>
-    
-                    <a target="_blank" href="<?php echo $formularios_aseguradoras['1']['ruta'] ?>" style="width:200px" class="boton_buscar btn text-decoration-none text-white" > Afiansa </a>
+        
+                <div class="d-flex flex-wrap align-items-center justify-content-center">
+                    <a target="_blank" href="<?php echo $formularios_aseguradoras['0']['ruta'] ?>" style="width:200px" class="boton_buscar mt-1 mr-1 btn text-decoration-none text-white"> El Libertador </a>
+        
+                    <a target="_blank" href="<?php echo $formularios_aseguradoras['2']['ruta'] ?>" style="width:200px" class="boton_buscar mt-1 mr-1 btn text-decoration-none text-white"> Fianzacredito </a>
+        
+                    <a target="_blank" href="<?php echo $formularios_aseguradoras['1']['ruta'] ?>" style="width:200px" class="boton_buscar mt-1 btn text-decoration-none text-white"> Afiansa </a>
                 </div>
             </div>
+     </div>
+ </div>
 
-        </div>
 
-    </div>
 
-    <!-- <section id="blog_body2">
+
+
+<!--     <section id="blog_body2">
 
         <div class="col-12">
 
@@ -415,7 +410,7 @@ require 'variables/variables.php';
 
     </section> -->
 
-    
+
 
 
     <section id="nuestros_aliados" class="fondo_gris">
@@ -423,18 +418,18 @@ require 'variables/variables.php';
         <h2 style="padding: 50px 0 0 0;" class="text-center"> Nuestros Aliados </h2>
 
         <div class="d-flex flex-column margen_contenedores_index">
-            <div class="d-flex justify-content-around">
-                <div class=""> <img style="width:170px;" src="images/libertador.png" alt="..."> </div>
-                <div class=""> <img style="width:170px;" src="images/afiansa.png" alt="..."> </div>
-                <div class=""> <img style="width:170px;" src="images/fianzacredito.png" alt="..."> </div>
-                <div class=""> <img style="width:170px;" src="images/simi.png" alt="..."> </div>
+            <div class="col-12 d-flex justify-content-around">
+                <div class=""> <img style="width:100%;" src="images/libertador.png" alt="..."> </div>
+                <div class=""> <img style="width:100%;" src="images/afiansa.png" alt="..."> </div>
+                <div class=""> <img style="width:100%;" src="images/fianzacredito.png" alt="..."> </div>
+                <div class=""> <img style="width:100%;" src="images/simi.png" alt="..."> </div>
             </div>
 
-            <div class="d-flex justify-content-around">
-                <div class=""> <img style="width:170px;" src="images/olx.png" alt="..."> </div>
-                <div class=""> <img style="width:170px;" src="images/ciencuadras.png" alt="..."> </div>
-                <div class=""> <img style="width:170px;" src="images/mercadolibre.png" alt="..."> </div>
-                <div class=""> <img style="width:170px;" src="images/prelegalassist.png" alt="..."> </div>
+            <div class="col-12 d-flex justify-content-around">
+                <div class=""> <img style="width:100%;" src="images/olx.png" alt="..."> </div>
+                <div class=""> <img style="width:100%;" src="images/ciencuadras.png" alt="..."> </div>
+                <div class=""> <img style="width:100%;" src="images/mercadolibre.png" alt="..."> </div>
+                <div class=""> <img style="width:100%;" src="images/prelegalassist.png" alt="..."> </div>
             </div>
         </div>
 

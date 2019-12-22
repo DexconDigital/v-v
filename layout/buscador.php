@@ -64,24 +64,24 @@
 
     <div class="text-center row align-items-center justify-content-center">
 
-        <div class="">
-            <input type="number" class="buscador codigo_input form-control" id="codigo_buscar" aria-describedby="emailHelp" placeholder="Código">
+        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+            <input type="number" class="w-100 buscador codigo_input form-control" id="codigo_buscar" aria-describedby="emailHelp" placeholder="Código">
         </div>
 
-        <div class="">
-            <select class="buscador codigo_input form-control" id="tipo_inmueble_buscar" select default>
+        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+            <select class="w-100 buscador codigo_input form-control" id="tipo_inmueble_buscar" select default>
                 <option value="0"> Tipo de Inmueble </option>
             </select>
         </div>
 
-        <div class="">
-            <select class="buscador codigo_input form-control" id="tipo_gestion_buscar" select default>
+        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+            <select class=" w-100 buscador codigo_input form-control" id="tipo_gestion_buscar" select default>
                 <option value="0"> Tipo de Gestión </option>
             </select>
         </div>
 
-        <div class="">
-            <select class="buscador codigo_input form-control" id="ciudad_buscar" select default>
+        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+            <select class="w-100 buscador codigo_input form-control" id="ciudad_buscar" select default>
                 <option value=""> Ciudad </option>
             </select>
         </div>

@@ -427,33 +427,35 @@ li {
 
     .tipo_de_inmueble {
         position: absolute;
-        margin: 5% 0 0 5%;
-        padding: 5px;
+        top: 10px;
+        left: 10px;
         border-radius: 3px;
         text-align: center;
         width: 120px;
         font-size: 12px;
         color: white;
-        background-color: $color_azul;
+        background-color: #010D5A;
     }
     
     .tipo_de_renta {
         position: absolute;
-        background-color: $color_rojo;
+        background-color: #A11216;
         color: white;
         padding: 5px;
         border-radius: 3px;
         text-align: center;
         width: 94px;
         font-size: 12px;
-        margin: 62% 0 0 68%;
+        bottom: -6px;
+        right: 20px;
     }
     
     .precio_inmueble {
         color: white;
         position: absolute;
-        margin: 63% 0 0 5%;
         font-size: 16px;
+        bottom: 10px;
+        left: 10px;
     }
 
     li {
@@ -651,7 +653,15 @@ footer {
 
 }
 
+
 #portafolio_servicios {
+
+
+    background-image: url("../images/banner_servicios2.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    height: auto;
 
     h4 {
         font-size: 20px;

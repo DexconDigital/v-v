@@ -7854,8 +7854,8 @@ li {
     filter: brightness(0.6); }
 #propiedades_destacadas_imagenes .tipo_de_inmueble, #ultimas_noticias .tipo_de_inmueble {
   position: absolute;
-  margin: 5% 0 0 5%;
-  padding: 5px;
+  top: 10px;
+  left: 10px;
   border-radius: 3px;
   text-align: center;
   width: 120px;
@@ -7871,12 +7871,14 @@ li {
   text-align: center;
   width: 94px;
   font-size: 12px;
-  margin: 62% 0 0 68%; }
+  bottom: -6px;
+  right: 20px; }
 #propiedades_destacadas_imagenes .precio_inmueble, #ultimas_noticias .precio_inmueble {
   color: white;
   position: absolute;
-  margin: 63% 0 0 5%;
-  font-size: 16px; }
+  font-size: 16px;
+  bottom: 10px;
+  left: 10px; }
 #propiedades_destacadas_imagenes li, #ultimas_noticias li {
   list-style: none; }
 #propiedades_destacadas_imagenes .padding_left_0, #ultimas_noticias .padding_left_0 {
@@ -7980,16 +7982,22 @@ footer {
     position: absolute;
     width: 100%; }
 
-#portafolio_servicios h4 {
-  font-size: 20px; }
-#portafolio_servicios .hover_servicios {
-  transition: all 250ms ease-in-out;
-  cursor: pointer; }
-  #portafolio_servicios .hover_servicios:hover {
-    transform: scale(1.1); }
-    #portafolio_servicios .hover_servicios:hover .color_azul {
-      transition: all 250ms ease-in-out;
-      color: #A11216; }
+#portafolio_servicios {
+  background-image: url("../images/banner_servicios2.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  height: auto; }
+  #portafolio_servicios h4 {
+    font-size: 20px; }
+  #portafolio_servicios .hover_servicios {
+    transition: all 250ms ease-in-out;
+    cursor: pointer; }
+    #portafolio_servicios .hover_servicios:hover {
+      transform: scale(1.1); }
+      #portafolio_servicios .hover_servicios:hover .color_azul {
+        transition: all 250ms ease-in-out;
+        color: #A11216; }
 
 .imagenp {
   width: 100%;

@@ -9,9 +9,9 @@ function modelo_inmueble_destacadas($r, $cantidad_inmuebles)
         $api = $r[$i];
 
         echo ' 
-        <div class="border mb-5 rounded">
+        <div class="mb-5 rounded  w-100 col-12 col-xl-3 col-lg-3">
         <a href="detalle_inmueble.php?co=' . $codigo . '">
-            <div class="card" style="width: 25rem; height:300px">
+            <div class="card" style="height:300px">
                 <img style="height:100%" src="' . $imagen . '" class="card-img-top" alt="...">
                 <p class="tipo_de_inmueble card-text">' . $api['Tipo_Inmueble'] . '</p>
                 <p class="tipo_de_renta card-text"> ' . $api['Gestion'] . '</p>
