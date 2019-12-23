@@ -79,7 +79,7 @@
 
     </section>
 
-    <section id="contador_estadisticas">
+    <!--     <section id="contador_estadisticas">
 
         <div class="align-items-center d-flex justify-content-center">
             <div class="c1 container-fluid">
@@ -109,7 +109,7 @@
 
         </div>
 
-    </section>
+    </section> -->
 
     <section style="padding-bottom:100px;" id="valores_corporativos">
 

@@ -9,7 +9,7 @@ function modelo_inmueble_destacadas($r, $cantidad_inmuebles)
         $api = $r[$i];
 
         echo ' 
-        <div class="mb-5 rounded  w-100 col-12 col-xl-3 col-lg-3">
+        <div class="mb-5 rounded  w-100 col-12 col-md-6 col-xl-3 col-lg-4">
         <a href="detalle_inmueble.php?co=' . $codigo . '">
             <div class="card" style="height:300px">
                 <img style="height:100%" src="' . $imagen . '" class="card-img-top" alt="...">

@@ -36,6 +36,7 @@
         height: 15%;
     }
 </style>
+
 <div id="wrap-preload">
     <img src="images/preloader.gif" alt="gif" class="gif" id="gif">
 </div>
@@ -82,17 +83,6 @@
                             <a class="d-flex align-items-center" href="mailto:<?php echo $datos_contacto['bogota']['correo']['correo'] ?>"> <i class="mr-2 <?php echo $datos_contacto['bogota']['correo']['icono'] ?>"> </i>
                                 <div class="celular1"> <?php echo $datos_contacto['bogota']['correo']['correo'] ?> </div>
                             </a>
-                        </div>
-
-
-                        <div class="row">
-                            <div class="margenx px-2">
-                                <a target="_blank" href="<?php echo $redes_sociales['facebook']['link'] ?>"><i style="width: 13px; height: 25px;" class="<?php echo $redes_sociales['facebook']['icono'] ?>"></i></a>
-                            </div>
-
-                            <div class="margenx px-2">
-                                <a target="_blank" href="<?php echo $redes_sociales['instagram']['link'] ?>"><i style="width: 22px; height: 25px;" class="<?php echo $redes_sociales['instagram']['icono'] ?>"></i></a>
-                            </div>
                         </div>
 
                     </div>
@@ -146,7 +136,25 @@
                     </li>
 
                 </ul>
-                <div style="width: 55px; height: 50px; "> <a target="_blank" href="https://www.e-collect.com/customers/pagosinmobiliariav&v.htm"> <img class="logo_pse" style="width: 100%;" src="images/logopse.png" alt="Pagos PSE"></a></div>
+
+                <div class="row align-items-center justify-content-center">
+
+                    <div style="width: 55px; height: 50px; " class="d-flex align-items-center justify-content-center">
+                        <a target="_blank" href="<?php echo $redes_sociales['facebook']['link'] ?>"><i style="width: 22px; height: 80%;" class="icono_facebook <?php echo $redes_sociales['facebook']['icono'] ?>"></i></a>
+                    </div>
+
+                    <div class="div_insta mr-2" style="width: 42px;" class="justify-content-center align-items-center d-flex margenx px-2 mr-2">
+                        <a target="_blank" href="<?php echo $redes_sociales['instagram']['link'] ?>"> <img style="width:100%" src="images/insta_logo.png" alt=""> </i></a>
+                    </div>
+
+                    <div class="div_insta" style="width: 55px; height: 50px;">
+                        <a target="_blank" href="https://www.e-collect.com/customers/pagosinmobiliariav&v.htm">
+                            <img style="width: 100%;" src="images/logopse.png" alt="Pagos PSE">
+                        </a>
+                    </div>
+
+                </div>
+
             </div>
         </nav>
     </section>

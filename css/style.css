@@ -7748,7 +7748,7 @@ li {
     height: 30px;
     border-radius: 15%; }
   #imagenes_principales h5 {
-    font-size: 50px;
+    font-size: 40px;
     color: RGB(255, 255, 255); }
   #imagenes_principales img {
     filter: brightness(0.5); }
@@ -7941,6 +7941,8 @@ li {
 footer {
   background-color: #010D5A;
   color: white; }
+  footer .alineacion_contenido {
+    text-align: center; }
   footer a {
     color: white; }
     footer a:hover {
@@ -8062,6 +8064,17 @@ footer {
   .subir:active {
     background-color: #A11216;
     border-color: #A11216; }
+
+.icono_facebook {
+  color: #354E87;
+  transition: all 250ms ease-in-out; }
+  .icono_facebook:hover {
+    transform: scale(1.1); }
+
+.div_insta {
+  transition: all 250ms ease-in-out; }
+  .div_insta:hover {
+    transform: scale(1.1); }
 
 p {
   text-align: justify; }

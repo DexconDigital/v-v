@@ -226,7 +226,7 @@ li {
     }
 
     h5 {
-        font-size: 50px;
+        font-size: 40px;
         color: RGB(255,255,255);
     }
 
@@ -286,7 +286,13 @@ li {
         }
     }
 
+    
 }
+
+    
+
+
+
 
 .lupa {
 
@@ -568,6 +574,10 @@ li {
 
 footer {
 
+    .alineacion_contenido  {
+        text-align: center;
+    }
+
 
     background-color: $color_azul;
     color: white;
@@ -778,4 +788,26 @@ footer {
         border-color: $color_rojo;
     }
  }
+
+ .icono_facebook {
+
+     color: #354E87;
+     transition: all 250ms ease-in-out;
+
+     &:hover {
+        transform: scale(1.1);
+    }
+ }
+
+ .div_insta {
+
+    transition: all 250ms ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+     
+ }
+
+ 
 
