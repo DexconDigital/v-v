@@ -43,25 +43,25 @@ require 'controllers/inmueblesControllers.php';
 
                 <div class="my-3 col-3">
                     <select class="codigo_input form-control" id="tipo_inmueble_buscar" select default>
-                        <option value=""> Tipo de Inmueble </option>
+                        <option value="0"> Tipo de Inmueble </option>
                     </select>
                 </div>
 
                 <div class="my-3 col-3">
                     <select class="codigo_input form-control" id="tipo_gestion_buscar" select default>
-                        <option value=""> Tipo de Gestión </option>
+                        <option value="0"> Tipo de Gestión </option>
                     </select>
                 </div>
 
                 <div class="my-3 col-3">
                     <select class="codigo_input form-control" id="ciudad_buscar" select default>
-                        <option value=""> Ciudad </option>
+                        <option value="0"> Ciudad </option>
                     </select>
                 </div>
 
                 <div class="my-3 col-3">
                     <select class="codigo_input form-control" id="barrio_buscar" select>
-                        <option value=""> Barrio </option>
+                        <option value="0"> Barrio </option>
                     </select>
                 </div>
 
