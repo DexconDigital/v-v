@@ -76,23 +76,4 @@ function similares($ciudad, $inmueble)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>

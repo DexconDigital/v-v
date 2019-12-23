@@ -25,11 +25,11 @@ if(isset($_GET['pag'])){
 }
 if(isset($_GET['ci'])){
     $ciudad = $_GET['ci'];
-/*     $barrio = $_GET['bar']; */
+    // $barrio = $_GET['bar'];
     $gestion = $_GET['ge'];
     $inmueble = $_GET['in'];
 /*     $precio_minimo = $_GET['premin'];
-    $precio_maximo = $_GET['premax']; */
+    $precio_maximo = $_GET['premax'];  */  
 }
 if(isset($_GET['aremin'])){
     $area_minima = $_GET['aremin'];

@@ -38,63 +38,63 @@ require 'controllers/inmueblesControllers.php';
 
             <div class="text-center row align-items-center justify-content-center">
                 <div class="my-3 col-3">
-                    <input type="number" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Código">
+                    <input type="number" class="codigo_input form-control" id="codigo_buscar" aria-describedby="emailHelp" placeholder="Código">
                 </div>
 
                 <div class="my-3 col-3">
-                    <select class="codigo_input form-control" id="exampleFormControlSelect1" select default>
+                    <select class="codigo_input form-control" id="tipo_inmueble_buscar" select default>
                         <option value=""> Tipo de Inmueble </option>
                     </select>
                 </div>
 
                 <div class="my-3 col-3">
-                    <select class="codigo_input form-control" id="exampleFormControlSelect1" select default>
+                    <select class="codigo_input form-control" id="tipo_gestion_buscar" select default>
                         <option value=""> Tipo de Gestión </option>
                     </select>
                 </div>
 
                 <div class="my-3 col-3">
-                    <select class="codigo_input form-control" id="exampleFormControlSelect1" select default>
+                    <select class="codigo_input form-control" id="ciudad_buscar" select default>
                         <option value=""> Ciudad </option>
                     </select>
                 </div>
 
                 <div class="my-3 col-3">
-                    <select class="codigo_input form-control" id="exampleFormControlSelect1" select>
+                    <select class="codigo_input form-control" id="barrio_buscar" select>
                         <option value=""> Barrio </option>
                     </select>
                 </div>
 
                 <div class="my-3 col-3">
-                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Precio Mínimo">
+                    <input type="text" class="codigo_input form-control" id="precio_minimo_buscar" aria-describedby="emailHelp" placeholder="Precio Mínimo">
                 </div>
 
                 <div class="my-3 col-3">
-                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Precio Máximo">
+                    <input type="text" class="codigo_input form-control" id="precio_maximo_buscar" aria-describedby="emailHelp" placeholder="Precio Máximo">
                 </div>
 
                 <div class="my-3 col-3">
-                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Área Mínima">
+                    <input type="text" class="codigo_input form-control" id="area_minima_buscar" aria-describedby="emailHelp" placeholder="Área Mínima">
                 </div>
 
                 <div class="my-3 col-3">
-                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Área Máxima">
+                    <input type="text" class="codigo_input form-control" id="area_maxima_buscar" aria-describedby="emailHelp" placeholder="Área Máxima">
                 </div>
 
                 <div class="my-3 col-3">
-                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Baños">
+                    <input type="text" class="codigo_input form-control" id="banios_buscar" aria-describedby="emailHelp" placeholder="Baños">
                 </div>
 
                 <div class="my-3 col-3">
-                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Alcobas">
+                    <input type="text" class="codigo_input form-control" id="alcobas_buscar" aria-describedby="emailHelp" placeholder="Alcobas">
                 </div>
 
                 <div class="my-3 col-3">
-                    <input type="text" class="codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Garajes">
+                    <input type="text" class="codigo_input form-control" id="garajes_buscar" aria-describedby="emailHelp" placeholder="Garajes">
                 </div>
 
                 <div class="text-center my-3 w-100 col-12">
-                    <input class="boton_buscar col-3 w-100 btn" type="button" value="Buscar">
+                    <input class="boton_buscar col-3 w-100 btn"  id="buscar" type="button" value="Buscar">
                 </div>
             </div>
 
