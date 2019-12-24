@@ -82,7 +82,7 @@ require 'controllers/inmueblesControllers.php';
                 </div>
 
                 <div class="my-3 col-3">
-                    <input type="text" class="codigo_input form-control" id="banios_buscar" aria-describedby="emailHelp" placeholder="Baños">
+                    <input type="number" class="codigo_input form-control" id="banios_buscar" aria-describedby="emailHelp" placeholder="Baños">
                 </div>
 
                 <div class="my-3 col-3">
@@ -178,22 +178,12 @@ require 'controllers/inmueblesControllers.php';
         </ul>
     </section> -->
 
-
-
-
-
-
-
-
-
-
-
-
     <section>
         <?php include 'layout/footer.php' ?>
     </section>
 
     <?php include 'layout/archivosfooter.php' ?>
+    <script src="conexion_api/buscador.js"></script>
 
 </body>
 

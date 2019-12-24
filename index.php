@@ -446,10 +446,22 @@ require 'variables/variables.php';
 
     </section>
 
-    <?php include 'layout/archivosfooter.php' ?>
+    <script src="js/jquery.min.js"> </script>
+    <script src="js/bootstrap.min.js"> </script>
+    <script src="js/swiper.min.js"> </script>
+    <script src="js/all.js"> </script>
+    <script src="js/sripts.js"> </script>
+    <script src="js/animacion_mostrar_botones.js"> </script>
+
+    <!--  CONEXION API -->
+    <script src="conexion_api/token_api.js"></script>
+    <script src="conexion_api/validadores.js"></script>
+    
 
     <script src="js/countUp.min.js"></script>
     <script src="js/counter-propertys.js"></script>
+    <script src="js/jquery.min.js"> </script>
+    <script src="conexion_api/buscador2.js"></script>
 
 
 </body>
