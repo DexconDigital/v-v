@@ -27,7 +27,7 @@
         <div id="banner_nosotros" class="imagen_detalles"></div>
     </section>
 
-    <section style="margin: 0 5%;" id="nosotros" class="py-5 align-items-center justify-content-around">
+    <section style="margin: 0 5%;" id="nosotros" class="align-items-center justify-content-around">
 
         <div class="conainer-fluid">
             <div class="col-12">
@@ -55,7 +55,7 @@
 
     </section>
 
-    <section style="margin: 0 5%;" id="mision_vision" class="py-5 d-flex justify-content-around">
+    <section style="margin: 0 5%;" id="mision_vision" class="d-flex justify-content-around">
 
         <div class="container-fluid">
             <div class="col-12">
@@ -113,7 +113,7 @@
 
     <section style="padding-bottom:100px;" id="valores_corporativos">
 
-        <h2 style="padding: 100px 0;" class="color_azul text-center"> Valores Corporativos </h2>
+        <h2 class="py-5 color_azul text-center"> Valores Corporativos </h2>
 
         <div class="row" style="margin: 0 5%;">
 

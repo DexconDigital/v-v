@@ -31,24 +31,29 @@ require 'variables/variables.php';
         <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
+
                     <div class="carousel-item active">
-                        <img src="images/slide_3.jpg" class="d-block w-100" alt="Imagen carrusel principal">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="animacion1 text-uppercase"> Bienvenido a nuestro sitio web </h5>
+                        <img src="images/slide_2.jpg" class="d-block w-100" alt="Imagen carrusel principal">
+                        <div class="div_carrusel_estilo align-items-center carousel-caption d-md-block col-12 d-flex d-none justify-content-center m-0 p-0 position-absolute text-center">
+                            <h5 class="w-100 h-100 animacion_texto align-items-center col-12 d-flex justify-content-center text-uppercase"> Bienvenido a nuestro sitio web </h5>
                         </div>
                     </div>
+
+
                     <div class="carousel-item">
                         <img src="images/slide_2.jpg" class="d-block w-100" alt="Imagen carrusel principal">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="animacion2 text-uppercase"> El mejor lugar para encontrar tu Inmueble Ideal </h5>
+                        <div class="div_carrusel_estilo align-items-center carousel-caption d-md-block col-12 d-flex d-none justify-content-center m-0 p-0 position-absolute text-center">
+                            <h5 class="w-100 h-100 animacion_texto align-items-center col-12 d-flex justify-content-center text-uppercase"> El mejor lugar para encontrar tu Inmueble Ideal </h5>
                         </div>
                     </div>
+
                     <div class="carousel-item">
                         <img src="images/slide_1.jpg" class="d-block w-100" alt="Imagen carrusel principal">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="animacion3 text-uppercase"> V&V Tu mejor opción en finca raíz </h5>
+                        <div class="div_carrusel_estilo align-items-center carousel-caption d-md-block col-12 d-flex d-none justify-content-center m-0 p-0 position-absolute text-center">
+                            <h5 class="w-100 h-100 animacion_texto align-items-center col-12 d-flex justify-content-center text-uppercase"> V&V Tu mejor opción en finca raíz </h5>
                         </div>
                     </div>
+
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                     <span class="boton_imagen_siguiente carousel-control-prev-icon" aria-hidden="true"></span>
@@ -63,7 +68,36 @@ require 'variables/variables.php';
     </section>
 
     <section id="formulario">
-        <?php include 'layout/buscador.php' ?>
+        <div action="" class="margen_contenedores_index">
+
+            <div class="text-center row align-items-center justify-content-center">
+
+                <div class="col-lg-2 col-sm-12 col-md-12">
+                    <input type="number" class="w-100 buscador codigo_input form-control" id="codigo_buscar" aria-describedby="emailHelp" placeholder="Código">
+                </div>
+
+                <div class="col-lg-2 col-sm-12 col-md-12">
+                    <select class="w-100 buscador codigo_input form-control" id="tipo_inmueble_buscar" select default>
+                        <option value="0"> Tipo de Inmueble </option>
+                    </select>
+                </div>
+
+                <div class="col-lg-2 col-sm-12 col-md-12">
+                    <select class=" w-100 buscador codigo_input form-control" id="tipo_gestion_buscar" select default>
+                        <option value="0"> Tipo de Gestión </option>
+                    </select>
+                </div>
+
+                <div class="col-lg-2 col-sm-12 col-md-12">
+                    <select class="w-100 buscador codigo_input form-control" id="ciudad_buscar" select default>
+                        <option value=""> Ciudad </option>
+                    </select>
+                </div>
+
+                <button id="buscar" type="button" class="d-flex justify-content-center btn"><i class="lupa color_azul fas fa-search"></i></button>
+
+            </div>
+        </div>
     </section>
 
     <section id="propiedades_destacadas_imagenes" class="margen_contenedores_index">
@@ -321,14 +355,14 @@ require 'variables/variables.php';
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column align-items-center justify-content-center">
                     <img class="imagen" src="images/descarga.png" alt="">
                     <div class="color_azul">
-                        <h2 style="margin: 10px 0; font-size:20px;"> ¿Deseas publicar tu inmueble con nosotros? </h2>
+                        <h2 class="text-center" style="margin: 10px 0;font-size:20px;"> ¿Deseas publicar tu inmueble con nosotros? </h2>
                     </div>
                     <a target="_blank" href="FORMATO_DE_CONSIGNACION.pdf" style="width:200px" class="boton_buscar btn text-decoration-none text-white"> Descargar formulario </a>
                 </div>
                 <div class="mt-2 mt-xl-0 mt-lg-0 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column align-items-center justify-content-center">
                     <img class="imagen" src="images/icono_pdf.png" alt="">
                     <div class="color_azul">
-                        <h2 style="margin: 10px 0; font-size:20px;"> Descargar Formulario de Aseguradoras </h2>
+                        <h2 class="text-center" style="margin: 10px 0;font-size:20px;"> Descargar Formulario de Aseguradoras </h2>
                         <div>
 
                         </div>
@@ -420,18 +454,18 @@ require 'variables/variables.php';
         <h2 style="padding: 50px 0 0 0;" class="text-center"> Nuestros Aliados </h2>
 
         <div class="d-flex flex-column margen_contenedores_index">
-            <div class="col-12 d-flex justify-content-around">
-                <div class=""> <img style="width:100%;" src="images/libertador.png" alt="..."> </div>
-                <div class=""> <img style="width:100%;" src="images/afiansa.png" alt="..."> </div>
-                <div class=""> <img style="width:100%;" src="images/fianzacredito.png" alt="..."> </div>
-                <div class=""> <img style="width:100%;" src="images/simi.png" alt="..."> </div>
+            <div class="col-12 d-flex flex-wrap justify-content-around">
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/libertador.png" alt="..."> </div>
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/afiansa.png" alt="..."> </div>
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/fianzacredito.png" alt="..."> </div>
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/simi.png" alt="..."> </div>
             </div>
 
-            <div class="col-12 d-flex justify-content-around">
-                <div class=""> <img style="width:100%;" src="images/olx.png" alt="..."> </div>
-                <div class=""> <img style="width:100%;" src="images/ciencuadras.png" alt="..."> </div>
-                <div class=""> <img style="width:100%;" src="images/mercadolibre.png" alt="..."> </div>
-                <div class=""> <img style="width:100%;" src="images/prelegalassist.png" alt="..."> </div>
+            <div class="col-12 d-flex flex-wrap justify-content-around">
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/olx.png" alt="..."> </div>
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/ciencuadras.png" alt="..."> </div>
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/mercadolibre.png" alt="..."> </div>
+                <div class="col-6 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/prelegalassist.png" alt="..."> </div>
             </div>
         </div>
 
@@ -456,7 +490,7 @@ require 'variables/variables.php';
     <!--  CONEXION API -->
     <script src="conexion_api/token_api.js"></script>
     <script src="conexion_api/validadores.js"></script>
-    
+
 
     <script src="js/countUp.min.js"></script>
     <script src="js/counter-propertys.js"></script>

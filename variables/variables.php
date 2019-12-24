@@ -191,7 +191,7 @@ $texto_quienes_somos = [
 			],
 			3 => [
 				"titulo" => "Respaldo", // en azul del cliente
-				"parrafo" => "Estamos siempre dispuestos a resolver cualquier inquietud de nuestros cliente y apoyarlos en lo que requieran..",
+				"parrafo" => "Estamos siempre dispuestos a resolver cualquier inquietud de nuestros cliente y apoyarlos en lo que requieran.",
 			],
 		],
 	],

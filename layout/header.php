@@ -137,7 +137,7 @@
 
                 </ul>
 
-                <div class="row align-items-center justify-content-center">
+                <div class="alinear_izquierda_iconos row align-items-center justify-content-start m-0">
 
                     <div style="height: 50px; " class="d-flex align-items-center justify-content-center">
                         <a target="_blank" href="<?php echo $redes_sociales['facebook']['link'] ?>"><i style="width: 22px; height: 80%;" class="icono_facebook <?php echo $redes_sociales['facebook']['icono'] ?>"></i></a>

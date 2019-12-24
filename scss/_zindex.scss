@@ -79,6 +79,9 @@ li {
 .margin_100px {
     margin: 100px;
 }
+
+
+
 #header_numeros{
 
     .barra_navegadora1{
@@ -156,6 +159,17 @@ li {
         margin-top: -5px;
         background-color: $color_rojo;
     }
+
+    @media (max-width:991px) {
+        li:hover::before {
+            content:"";
+            position: absolute;
+            width: 0; 
+            height: 5px;
+            margin-top: -5px;
+            background-color: $color_rojo;
+        }
+    }
 }
 
 .logo_y_navbar2 {
@@ -215,6 +229,13 @@ li {
 
     margin-top: 142px;
 
+    .div_carrusel_estilo {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
     .carousel-item {
         transition: transform 1s ease, opacity .5s ease-out
     }
@@ -225,18 +246,14 @@ li {
         border-radius: 15%;
     }
 
-    h5 {
-        font-size: 40px;
-        color: RGB(255,255,255);
-    }
-
     img {
         filter: brightness(0.5);
     }
 
-    .animacion1 {
-        margin-bottom: 35%;
-        animation: texto_animado1 2s ease-out both;
+    .animacion_texto {
+        font-size: 40px;
+        bottom: 100px;
+        animation: texto_animado1 1.5s ease-in-out both;
         opacity: 0;
 
 
@@ -245,46 +262,24 @@ li {
 
             }
             100%{
-                margin-bottom: 30%;
+                bottom: 0%;
                 opacity: 1;
             }
         }
     }
 
-    .animacion2 {
-        margin-bottom: 35%;
-        animation: texto_animado2 2s ease-in-out both;
-        opacity: 0;
-    
-        @keyframes texto_animado2 {
-            0%{
-    
-            }
-            100%{
-                margin-bottom: 30%;
-                opacity: 1;
-            }
-        }
-    
-    }
-
-    
-
-    .animacion3 {
-        margin-bottom: 25%;
-        animation: texto_animado3 2s ease-in-out both;
-        opacity: 0;
-
-        @keyframes texto_animado3 {
-            0%{
-                
-            }
-            100%{
-                margin-bottom:30%;
-                opacity: 1;
-            }
+    @media (min-width:0px) and (max-width:1000px) {
+        .animacion_texto {
+            font-size: 20px;
         }
     }
+
+    @media (min-width:1000px) and (max-width:1300px) {
+        .animacion_texto {
+            font-size: 30px;
+        }
+    }
+
 
     
 }
