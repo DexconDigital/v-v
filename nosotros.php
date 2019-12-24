@@ -143,7 +143,7 @@
 
                 </div>
 
-                <div class="col-12 col-md-5 col-lg-5 col-xl-5 mx-2 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
+                <div class="align-items-center col-12 col-lg-5 col-md-5 col-xl-5 d-flex flex-column fondo_valores m-0 mb-5 mb-lg-0 mb-md-0 mb-xl-0 mx-2 p-2 rounded text-center">
                     <div class="my-2">
                         <h4 class="align-items-center d-flex"> <i class="color_azul fa fa-users"> </i>
                             <div class="ml-2 color_rojo"> <?php echo $texto_quienes_somos['mision']['valores']['parrafos']['2']['titulo'] ?></div>
