@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <?php $page = 'Contactanos' ?>
+    <?php $page = 'Contáctanos' ?>
     <?php include 'variables/variables.php' ?>
     <?php include 'layout/archivosheader.php' ?>
     <title>
@@ -43,7 +43,7 @@
                                 <div class="text-center row">
 
                                     <div class="my-3 col-6">
-                                        <input type="text" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre Completo" required>
+                                        <input type="text" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre completo" required>
                                     </div>
 
                                     <div class="my-3 col-6">
