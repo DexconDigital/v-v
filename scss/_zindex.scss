@@ -268,7 +268,13 @@ li {
         }
     }
 
-    @media (min-width:0px) and (max-width:1000px) {
+    @media (min-width:0px) and (max-width:720px) {
+        .animacion_texto {
+            font-size: 13px;
+        }
+    }
+
+    @media (min-width:720px) and (max-width:1000px) {
         .animacion_texto {
             font-size: 20px;
         }
