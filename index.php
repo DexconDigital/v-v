@@ -317,7 +317,7 @@ require 'variables/variables.php';
 
     <div class="container">
         <div class="margen_contenedores_index">
-            <div class="row align-items-center justify-content-around py-5">
+            <div class="row align-items-start justify-content-around py-5">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column align-items-center justify-content-center">
                     <img class="imagen" src="images/descarga.png" alt="">
                     <div class="color_azul">

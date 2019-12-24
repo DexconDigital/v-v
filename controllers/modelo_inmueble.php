@@ -67,9 +67,9 @@ function modelo_inmueble($r)
         }
         // fin de recortar cadena
         echo '
-        <div class="border mb-5 rounded">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-5 rounded">
             <a href="detalle_inmueble.php?co=' . $codigo . '">
-                <div class=" card" style="width: 25rem; height:300px">
+                <div class=" card" style="width:100%; height:300px">
                     <img style="height:100%" src="' . $imagen . '" class="card-img-top" alt="...">
                     <p class="tipo_de_inmueble card-text">' . $api['Tipo_Inmueble'] . '</p>
                     <p class="tipo_de_renta card-text"> ' . $api['Gestion'] . '</p>

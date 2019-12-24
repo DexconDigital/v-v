@@ -139,11 +139,11 @@
 
                 <div class="row align-items-center justify-content-center">
 
-                    <div style="width: 55px; height: 50px; " class="d-flex align-items-center justify-content-center">
+                    <div style="height: 50px; " class="d-flex align-items-center justify-content-center">
                         <a target="_blank" href="<?php echo $redes_sociales['facebook']['link'] ?>"><i style="width: 22px; height: 80%;" class="icono_facebook <?php echo $redes_sociales['facebook']['icono'] ?>"></i></a>
                     </div>
 
-                    <div class="div_insta mr-2" style="width: 42px;" class="justify-content-center align-items-center d-flex margenx px-2 mr-2">
+                    <div class="div_insta ml-2 mr-1" style="width: 42px;" class="justify-content-center align-items-center d-flex margenx px-2 mr-2">
                         <a target="_blank" href="<?php echo $redes_sociales['instagram']['link'] ?>"> <img style="width:100%" src="images/insta_logo.png" alt=""> </i></a>
                     </div>
 
