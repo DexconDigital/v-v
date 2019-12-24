@@ -119,7 +119,7 @@
 
             <div class="col-12 justify-content-around d-flex flex-wrap">
 
-                <div style="" class="col-12 col-md-5 col-lg-5 col-xl-5 mx-2 mb-5 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
+                <div class="col-12 col-md-5 col-lg-5 col-xl-5 mx-2 mb-5 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
                     <div class="my-2">
                         <h4 class="align-items-center d-flex"> <i class="color_azul fa fa-handshake"> </i>
                             <div class="ml-2 color_rojo"> <?php echo $texto_quienes_somos['mision']['valores']['parrafos']['0']['titulo'] ?></div>
@@ -131,7 +131,7 @@
 
                 </div>
 
-                <div style="" class="col-12 col-md-5 col-lg-5 col-xl-5 mx-2 mb-5 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
+                <div class="col-12 col-md-5 col-lg-5 col-xl-5 mx-2 mb-5 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
                     <div class="my-2">
                         <h4 class="align-items-center d-flex"> <i class="color_azul fa fa-link"> </i>
                             <div class="ml-2 color_rojo"> <?php echo $texto_quienes_somos['mision']['valores']['parrafos']['1']['titulo'] ?></div>
@@ -143,7 +143,7 @@
 
                 </div>
 
-                <div style="" class="col-12 col-md-5 col-lg-5 col-xl-5 mx-2 mb-5 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
+                <div class="col-12 col-md-5 col-lg-5 col-xl-5 mx-2 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
                     <div class="my-2">
                         <h4 class="align-items-center d-flex"> <i class="color_azul fa fa-users"> </i>
                             <div class="ml-2 color_rojo"> <?php echo $texto_quienes_somos['mision']['valores']['parrafos']['2']['titulo'] ?></div>
@@ -155,7 +155,7 @@
 
                 </div>
 
-                <div style="" class="col-12 col-md-5 col-lg-5 col-xl-5 mx-2 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
+                <div class="col-12 col-md-5 col-lg-5 col-xl-5 mx-2 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
                     <div class="my-2">
                         <h4 class="align-items-center d-flex"> <i class="color_azul fa fa-check-circle"> </i>
                             <div class="ml-2 color_rojo"> <?php echo $texto_quienes_somos['mision']['valores']['parrafos']['3']['titulo'] ?></div>
