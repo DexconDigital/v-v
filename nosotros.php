@@ -61,14 +61,14 @@
             <div class="col-12">
                 <div class="row">
 
-                    <div class="col-6 px-4 text-center">
+                    <div class="col-md-6 col-xl-6 col-lg-6 col-12 px-4 text-center">
                         <h2 class="after_nosotrosm color_azul mb-5"> <?php echo $texto_quienes_somos['mision']['titulo'] ?> </h2>
                         <p> <?php echo $texto_quienes_somos['mision']['parrafos']['0'] ?> </p>
                         <p> <?php echo $texto_quienes_somos['mision']['parrafos']['1'] ?> </p>
                         <p> <?php echo $texto_quienes_somos['mision']['parrafos']['2'] ?> </p>
                     </div>
 
-                    <div class="col-6 px-4 text-center">
+                    <div class="col-md-6 col-xl-6 col-lg-6 col-12 px-4 text-center">
                         <h2 class="after_nosotrosv color_azul mb-5"> <?php echo $texto_quienes_somos['mision']['vision']['titulo'] ?> </h2>
                         <p> <?php echo $texto_quienes_somos['mision']['vision']['parrafo'] ?> </p>
                     </div>
@@ -115,9 +115,11 @@
 
         <h2 style="padding: 100px 0;" class="color_azul text-center"> Valores Corporativos </h2>
 
-        <div style="margin: 0 5%;">
-            <div class="col-12 justify-content-around d-flex">
-                <div style="width: 18rem;" class="mx-3 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
+        <div class="row" style="margin: 0 5%;">
+
+            <div class="col-12 justify-content-around d-flex flex-wrap">
+
+                <div style="" class="col-12 col-md-5 col-lg-5 col-xl-5 mx-2 mb-5 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
                     <div class="my-2">
                         <h4 class="align-items-center d-flex"> <i class="color_azul fa fa-handshake"> </i>
                             <div class="ml-2 color_rojo"> <?php echo $texto_quienes_somos['mision']['valores']['parrafos']['0']['titulo'] ?></div>
@@ -129,7 +131,7 @@
 
                 </div>
 
-                <div style="width: 18rem;" class="mx-3 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
+                <div style="" class="col-12 col-md-5 col-lg-5 col-xl-5 mx-2 mb-5 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
                     <div class="my-2">
                         <h4 class="align-items-center d-flex"> <i class="color_azul fa fa-link"> </i>
                             <div class="ml-2 color_rojo"> <?php echo $texto_quienes_somos['mision']['valores']['parrafos']['1']['titulo'] ?></div>
@@ -141,7 +143,7 @@
 
                 </div>
 
-                <div style="width: 18rem;" class="mx-3 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
+                <div style="" class="col-12 col-md-5 col-lg-5 col-xl-5 mx-2 mb-5 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
                     <div class="my-2">
                         <h4 class="align-items-center d-flex"> <i class="color_azul fa fa-users"> </i>
                             <div class="ml-2 color_rojo"> <?php echo $texto_quienes_somos['mision']['valores']['parrafos']['2']['titulo'] ?></div>
@@ -153,7 +155,7 @@
 
                 </div>
 
-                <div style="width: 18rem;" class="mx-3 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
+                <div style="" class="col-12 col-md-5 col-lg-5 col-xl-5 mx-2 fondo_valores rounded d-flex flex-column p-2 m-0 align-items-center text-center">
                     <div class="my-2">
                         <h4 class="align-items-center d-flex"> <i class="color_azul fa fa-check-circle"> </i>
                             <div class="ml-2 color_rojo"> <?php echo $texto_quienes_somos['mision']['valores']['parrafos']['3']['titulo'] ?></div>

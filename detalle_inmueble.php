@@ -3,6 +3,8 @@
 require 'variables/variables.php';
 require 'controllers/detalleInmuebleController.php';
 
+
+
 ?>
 
 <!DOCTYPE html>
@@ -28,7 +30,6 @@ require 'controllers/detalleInmuebleController.php';
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="300">
     <style>
-    
         #map {
             height: 350px;
             z-index: 20;
@@ -87,12 +88,12 @@ require 'controllers/detalleInmuebleController.php';
                                     <div class="col-6">
                                         <h5 class="font-weight-bold color_azul text-right"> PRECIO:
                                             <?php if ($r['Gestion'] == 'Arriendo') {
-                                                                            echo '<span class="precio">$ ' . $r['ValorCanon'] . '</span>';
-                                                                        } else if ($r['Gestion'] == 'Venta') {
-                                                                            echo '<span class="precio">$ ' . $r['ValorVenta'] . '</span>';
-                                                                        } else {
-                                                                            echo '<span class="precio">$ ' . $r['ValorCanon'] . ' /$' . $r['ValorVenta'] . '</span>';
-                                                                        }
+                                                echo '<span class="precio">$ ' . $r['ValorCanon'] . '</span>';
+                                            } else if ($r['Gestion'] == 'Venta') {
+                                                echo '<span class="precio">$ ' . $r['ValorVenta'] . '</span>';
+                                            } else {
+                                                echo '<span class="precio">$ ' . $r['ValorCanon'] . ' /$' . $r['ValorVenta'] . '</span>';
+                                            }
                                             ?>
                                             </p>
                                         </h5>
@@ -111,7 +112,17 @@ require 'controllers/detalleInmuebleController.php';
                                         <p class=""> Código: <span> <?php echo $co; ?></span> </p>
                                     </div>
 
+                                    
+
                                 </div>
+
+                                <?php echo 
+                                    '<ul class="padding_left_0 d-flex flex-wrap align-items-center justify-content-start">
+                                        <li class="mr-2 d-flex align-items-center"> <i class="fas fa-chart-area"></i> <span class="ml-2"> ' . $r['AreaConstruida'] . 'm<sup>2</span> </li>
+                                        <li class="mr-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> ' . $r['banos'] . ' </span> </li>
+                                        <li class="mr-2 d-flex align-items-center"> <i class="fa fa-bed"></i> <span class="ml-2"> ' . $r['alcobas'] . ' </span> </li>
+                                        <li class="mr-2 d-flex align-items-center"> <i class="fa fa-car"></i> <span class="ml-2">' . $r['garaje'] . ' </span> </li>
+                                    </ul>' ?>
 
                             </section>
 
@@ -122,32 +133,32 @@ require 'controllers/detalleInmuebleController.php';
                                     <!-- main slider carousel items -->
                                     <section class="mt-3" id="slide-detalle">
                                         <?php
-                                                                        if (isset($r['fotos'])) {
-                                                                            for ($i = 0; $i < count($r['fotos']); $i++) {
-                                                                                echo '<div class="contenedor-img">
+                                        if (isset($r['fotos'])) {
+                                            for ($i = 0; $i < count($r['fotos']); $i++) {
+                                                echo '<div class="contenedor-img">
                                 <img src="' . $r['fotos'][$i]['foto'] . '" alt="">
                             </div>';
-                                                                            }
-                                                                        } else {
-                                                                            echo  '<div class="contenedor-img">
+                                            }
+                                        } else {
+                                            echo  '<div class="contenedor-img">
                                 <img src="images/no_image.png" alt="">
                             </div>';
-                                                                        }
+                                        }
                                         ?>
                                     </section>
                                     <section class="vertical-center-4 slider" id="miniaturas">
                                         <?php
-                                                                        if (isset($r['fotos'])) {
-                                                                            for ($i = 0; $i < count($r['fotos']); $i++) {
-                                                                                echo '<div class="contenedor-img">
+                                        if (isset($r['fotos'])) {
+                                            for ($i = 0; $i < count($r['fotos']); $i++) {
+                                                echo '<div class="contenedor-img">
                                 <img src="' . $r['fotos'][$i]['foto'] . '" alt="">
                             </div>';
-                                                                            }
-                                                                        } else {
-                                                                            echo  '<div class="contenedor-img">
+                                            }
+                                        } else {
+                                            echo  '<div class="contenedor-img">
                                 <img src="images/no_image.png" alt="">
                             </div>';
-                                                                        }
+                                        }
                                         ?>
                                     </section>
                                     <!-- MINIATURAS -->
@@ -229,19 +240,19 @@ require 'controllers/detalleInmuebleController.php';
                                 <div id="dos" class="collapse" aria-labelledby="dos" data-parent="#accordion">
 
                                     <?php
-                                                                        if (count($r['caracteristicasInternas']) > 0) {
-                                                                            echo
-                                                                                '<div class="col-md-12" style="margin-bottom: 12px;">
+                                    if (count($r['caracteristicasInternas']) > 0) {
+                                        echo
+                                            '<div class="col-md-12" style="margin-bottom: 12px;">
                                     <h4 class="property-single-detail-title"><strong>Características Internas</strong></h4>
                                         <ul class="lista_caracteristicas">';
-                                                                            for ($i = 0; $i < count($r['caracteristicasInternas']); $i++) {
-                                                                                $caracteristicas = ltrim($r['caracteristicasInternas'][$i]['Descripcion']);
-                                                                                echo '<li>' . $caracteristicas . '</li>';
-                                                                            }
-                                                                            echo  '</ul>
+                                        for ($i = 0; $i < count($r['caracteristicasInternas']); $i++) {
+                                            $caracteristicas = ltrim($r['caracteristicasInternas'][$i]['Descripcion']);
+                                            echo '<li>' . $caracteristicas . '</li>';
+                                        }
+                                        echo  '</ul>
                                 </div>
                             ';
-                                                                        }
+                                    }
                                     ?>
 
                                 </div>
@@ -251,19 +262,19 @@ require 'controllers/detalleInmuebleController.php';
                                 <div id="tres" class="collapse" aria-labelledby="tres" data-parent="#accordion">
 
                                     <?php
-                                                                        if (count($r['caracteristicasExternas']) > 0) {
-                                                                            echo
-                                                                                '<div class="col-md-12" style="margin-bottom: 12px;">
+                                    if (count($r['caracteristicasExternas']) > 0) {
+                                        echo
+                                            '<div class="col-md-12" style="margin-bottom: 12px;">
                                     <h4 class="property-single-detail-title"><strong>Características Externas</strong></h4>
                                         <ul class="lista_caracteristicas">';
-                                                                            for ($i = 0; $i < count($r['caracteristicasExternas']); $i++) {
-                                                                                $caracteristicas = ltrim($r['caracteristicasExternas'][$i]['Descripcion']);
-                                                                                echo '<li>' . $caracteristicas . '</li>';
-                                                                            }
-                                                                            echo  '</ul>
+                                        for ($i = 0; $i < count($r['caracteristicasExternas']); $i++) {
+                                            $caracteristicas = ltrim($r['caracteristicasExternas'][$i]['Descripcion']);
+                                            echo '<li>' . $caracteristicas . '</li>';
+                                        }
+                                        echo  '</ul>
                                 </div>
                             ';
-                                                                        }
+                                    }
                                     ?>
                                 </div>
                             </div>
@@ -272,19 +283,19 @@ require 'controllers/detalleInmuebleController.php';
                                 <div id="cuatro" class="collapse" aria-labelledby="cuatro" data-parent="#accordion">
 
                                     <?php
-                                                                        if (count($r['caracteristicasAlrededores']) > 0) {
-                                                                            echo
-                                                                                '<div class="col-md-12" style="margin-bottom: 12px;">
+                                    if (count($r['caracteristicasAlrededores']) > 0) {
+                                        echo
+                                            '<div class="col-md-12" style="margin-bottom: 12px;">
                                     <h4 class="property-single-detail-title"><strong>Características de los alrededores</strong></h4>
                                         <ul class="lista_caracteristicas">';
-                                                                            for ($i = 0; $i < count($r['caracteristicasAlrededores']); $i++) {
-                                                                                $caracteristicas = ltrim($r['caracteristicasAlrededores'][$i]['Descripcion']);
-                                                                                echo '<li>' . $caracteristicas . '</li>';
-                                                                            }
-                                                                            echo  '</ul>
+                                        for ($i = 0; $i < count($r['caracteristicasAlrededores']); $i++) {
+                                            $caracteristicas = ltrim($r['caracteristicasAlrededores'][$i]['Descripcion']);
+                                            echo '<li>' . $caracteristicas . '</li>';
+                                        }
+                                        echo  '</ul>
                                 </div>
                             ';
-                                                                        }
+                                    }
                                     ?>
 
                                 </div>
@@ -295,8 +306,8 @@ require 'controllers/detalleInmuebleController.php';
 
                                     <div id="referencia_inmueble" class="col-md-12 mt-3  ">
                                         <?php if ($r['video'] != "") {
-                                                                            echo
-                                                                                ' <h4 class="property-single-detail-title">Video</h4>
+                                            echo
+                                                ' <h4 class="property-single-detail-title">Video</h4>
                                     <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title">Video</h5>
@@ -308,7 +319,7 @@ require 'controllers/detalleInmuebleController.php';
                                 </div>
                             </div>
                                 ';
-                                                                        } ?>
+                                        } ?>
 
                                     </div>
 
