@@ -178,7 +178,7 @@ require 'controllers/detalleInmuebleController.php';
 
                                         <div class="p-0 mb-1 mb-md-1 mb-lg-1 mb-xl-0 col-custom">
 
-                                            <button class="btn boton_detalle_inmueble col-custom collapsed" data-toggle="collapse" data-target="#uno" aria-expanded="false" aria-controls="collapseExample">
+                                            <button class="btn boton_detalle_inmueble margen_botones col-custom collapsed" data-toggle="collapse" data-target="#uno" aria-expanded="false" aria-controls="collapseExample">
                                                 Descripción
                                             </button>
 
@@ -186,7 +186,7 @@ require 'controllers/detalleInmuebleController.php';
 
                                         <div class="p-0 mb-1 mb-md-1 mb-lg-1 mb-xl-0 col-custom">
 
-                                            <button class="btn boton_detalle_inmueble col-custom collapsed boton_venta" data-toggle="collapse" data-target="#dos" aria-expanded="true" aria-controls="dos">
+                                            <button class="btn boton_detalle_inmueble margen_botones col-custom collapsed boton_venta" data-toggle="collapse" data-target="#dos" aria-expanded="true" aria-controls="dos">
                                                 Características Internas
                                             </button>
 
@@ -194,7 +194,7 @@ require 'controllers/detalleInmuebleController.php';
 
                                         <div class="p-0 mb-1 mb-md-1 mb-lg-1 mb-xl-0 col-custom">
 
-                                            <button class="btn boton_detalle_inmueble col-custom collapsed" data-toggle="collapse" data-target="#tres" aria-expanded="true" aria-controls="collapseExample">
+                                            <button class="btn boton_detalle_inmueble margen_botones col-custom collapsed" data-toggle="collapse" data-target="#tres" aria-expanded="true" aria-controls="collapseExample">
                                                 Características Exteriores
                                             </button>
 
@@ -202,7 +202,7 @@ require 'controllers/detalleInmuebleController.php';
 
                                         <div class="p-0 mb-1 mb-md-1 mb-lg-1 mb-xl-0 col-custom">
 
-                                            <button class="btn boton_detalle_inmueble col-custom collapsed" data-toggle="collapse" data-target="#cuatro" aria-expanded="false" aria-controls="collapseExample">
+                                            <button class="btn boton_detalle_inmueble margen_botones col-custom collapsed" data-toggle="collapse" data-target="#cuatro" aria-expanded="false" aria-controls="collapseExample">
                                                 Características Alrededores
                                             </button>
 
@@ -210,7 +210,7 @@ require 'controllers/detalleInmuebleController.php';
 
                                         <div class="p-0 mb-1 mb-md-1 mb-lg-0 mb-xl-0 col-custom">
 
-                                            <button class="btn boton_detalle_inmueble col-12 collapsed" type="button" data-toggle="collapse" data-target="#cinco" aria-expanded="false" aria-controls="collapseExample">
+                                            <button class="btn boton_detalle_inmueble margen_botones col-12 collapsed" type="button" data-toggle="collapse" data-target="#cinco" aria-expanded="false" aria-controls="collapseExample">
                                                 Video
                                             </button>
 

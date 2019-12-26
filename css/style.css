@@ -8279,5 +8279,8 @@ textarea:focus {
     flex: none !important;
     max-width: unset !important;
     width: initial; } }
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .contenedor_botones .margen_botones {
+    margin-bottom: 0.25rem; } }
 
 /*# sourceMappingURL=style.css.map */
