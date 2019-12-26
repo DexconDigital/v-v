@@ -8270,17 +8270,21 @@ textarea:focus {
 #informacion_inmueble label a {
   font-size: inherit; }
 
-.contenedor_botones .col-custom {
-  flex: 0 0 100%;
-  max-width: 100%;
-  width: 100%; }
-@media (min-width: 1440px) and (max-width: 5000px) {
+.contenedor_botones {
+  /*     @media (min-width: 1200px) and (max-width: 1440px) {
+          .margen_botones {
+              margin-bottom: 0.25rem;
+          }
+      
+      } */ }
   .contenedor_botones .col-custom {
-    flex: none !important;
-    max-width: unset !important;
-    width: initial; } }
-@media (min-width: 1200px) and (max-width: 1440px) {
-  .contenedor_botones .margen_botones {
-    margin-bottom: 0.25rem; } }
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%; }
+  @media (min-width: 1200px) and (max-width: 5000px) {
+    .contenedor_botones .col-custom {
+      flex: none !important;
+      max-width: unset !important;
+      width: initial; } }
 
 /*# sourceMappingURL=style.css.map */
