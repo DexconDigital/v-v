@@ -407,7 +407,7 @@ require 'controllers/detalleInmuebleController.php';
                     </div>
                 </div>
 
-                <div class="mt-5">
+                <div class="col-12 mt-5">
                         <h2 class="text-center mb-5"> Ubicación del inmueble </h2>
                         <div class="card mapa_tamaño">
                             <div class="">

@@ -93,7 +93,7 @@ require 'controllers/inmueblesControllers.php';
                     <input type="text" class="codigo_input form-control" id="garajes_buscar" aria-describedby="emailHelp" placeholder="Garajes">
                 </div>
 
-                <div class="text-center mt-4 w-100 col-12 col-md-3 col-lg-3 col-xl-3">
+                <div class="text-center mt-4 w-100 col-12 col-md-4 col-lg-3 col-xl-3">
                     <input class="boton_buscar w-100 btn"  id="buscar" type="button" value="Buscar">
                 </div>
             </div>

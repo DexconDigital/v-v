@@ -8214,6 +8214,9 @@ textarea:focus {
   border: 0;
   width: 100vw; }
 
+@media (min-width: 1365px) and (max-width: 5000px) {
+  .mapa {
+    width: calc(100vw - 17px); } }
 .margen_contenedores_indexr1 {
   margin: 0 5%; }
 

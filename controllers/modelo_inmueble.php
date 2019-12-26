@@ -27,17 +27,17 @@ function modelo_inmueble_destacadas($r, $cantidad_inmuebles)
                 echo'
                 </p>
             </div>
-            <div style="margin: 0 1%;" class="card-body">
+            <div style="margin: 0 1%;" class="card-body p-0">
 
 
                 <li class="mt-3 mb-3 centrar_v d-flex"> <i class="fas fa-map-marker-alt"></i> <span class="ml-2"> ' . $api['Barrio'] . ', ' . $api['Ciudad'] . ' </span> </li>
                 <p class="text-muted"> Código : '. $codigo .' </p>
 
-                <ul class="padding_left_0 d-flex flex-wrap align-items-center justify-content-around">
-                    <li class="mr-2 d-flex align-items-center"> <i class="fas fa-chart-area"></i> <span class="ml-2"> ' . $api['AreaConstruida'] . 'm<sup>2</span> </li>
-                    <li class="mr-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> ' . $api['banios'] . ' </span> </li>
-                    <li class="mr-2 d-flex align-items-center"> <i class="fa fa-bed"></i> <span class="ml-2"> ' . $api['Alcobas'] . ' </span> </li>
-                    <li class="mr-2 d-flex align-items-center"> <i class="fa fa-car"></i> <span class="ml-2">' . $api['garaje'] . ' </span> </li>
+                <ul class="padding_left_0 d-flex flex-wrap align-items-center justify-content-between">
+                    <li class="mr-1 mr-md-2 mr-lg-2 mr-xl-2 d-flex align-items-center"> <i class="fas fa-chart-area"></i> <span class="ml-2"> ' . $api['AreaConstruida'] . 'm<sup>2</span> </li>
+                    <li class="mr-1 mr-md-2 mr-lg-2 mr-xl-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> ' . $api['banios'] . ' </span> </li>
+                    <li class="mr-1 mr-md-2 mr-lg-2 mr-xl-2 d-flex align-items-center"> <i class="fa fa-bed"></i> <span class="ml-2"> ' . $api['Alcobas'] . ' </span> </li>
+                    <li class="mr-1 mr-md-2 mr-lg-2 mr-xl-2 d-flex align-items-center"> <i class="fa fa-car"></i> <span class="ml-2">' . $api['garaje'] . ' </span> </li>
                 </ul>
 
             </div>
@@ -84,17 +84,17 @@ function modelo_inmueble($r)
                     echo'
                     </p>
                 </div>
-                <div style="margin: 0 1%;" class="card-body">
+                <div style="margin: 0 1%;" class="card-body p-0">
 
 
                     <li class="mt-3 mb-3 centrar_v d-flex"> <i class="fas fa-map-marker-alt"></i> <span class="ml-2"> ' . $api['Barrio'] . ', ' . $api['Ciudad'] . ' </span> </li>
                     <p class="text-muted"> Código : '. $codigo .' </p>
 
-                    <ul class="padding_left_0 d-flex flex-wrap align-items-center justify-content-around">
-                        <li class="mr-2 d-flex align-items-center"> <i class="fas fa-chart-area"></i> <span class="ml-2"> ' . $api['AreaConstruida'] . 'm<sup>2</span> </li>
-                        <li class="mr-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> ' . $api['banios'] . ' </span> </li>
-                        <li class="mr-2 d-flex align-items-center"> <i class="fa fa-bed"></i> <span class="ml-2"> ' . $api['Alcobas'] . ' </span> </li>
-                        <li class="mr-2 d-flex align-items-center"> <i class="fa fa-car"></i> <span class="ml-2">' . $api['garaje'] . ' </span> </li>
+                    <ul class="padding_left_0 d-flex flex-wrap align-items-center justify-content-between">
+                        <li class="mr-1 mr-md-2 mr-lg-2 mr-xl-2 d-flex align-items-center"> <i class="fas fa-chart-area"></i> <span class="ml-2"> ' . $api['AreaConstruida'] . 'm<sup>2</span> </li>
+                        <li class="mr-1 mr-md-2 mr-lg-2 mr-xl-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> ' . $api['banios'] . ' </span> </li>
+                        <li class="mr-1 mr-md-2 mr-lg-2 mr-xl-2 d-flex align-items-center"> <i class="fa fa-bed"></i> <span class="ml-2"> ' . $api['Alcobas'] . ' </span> </li>
+                        <li class="mr-1 mr-md-2 mr-lg-2 mr-xl-2 d-flex align-items-center"> <i class="fa fa-car"></i> <span class="ml-2">' . $api['garaje'] . ' </span> </li>
                     </ul>
 
                 </div>
@@ -143,17 +143,17 @@ function modelo_inmueble_similares($r)
                     echo'
                     </p>
                 </div>
-                <div style="margin: 0 1%;" class="card-body">
+                <div style="margin: 0 1%;" class="card-body p-0">
 
 
                     <li class="mt-3 mb-3 centrar_v d-flex"> <i class="fas fa-map-marker-alt"></i> <span class="ml-2"> ' . $api['Barrio'] . ', ' . $api['Ciudad'] . ' </span> </li>
                     <p class="text-muted"> Código : '. $codigo .' </p>
 
-                    <ul class="padding_left_0 d-flex flex-wrap align-items-center justify-content-around">
-                        <li class="mr-2 d-flex align-items-center"> <i class="fas fa-chart-area"></i> <span class="ml-2"> ' . $api['AreaConstruida'] . 'm<sup>2</span> </li>
-                        <li class="mr-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> ' . $api['banios'] . ' </span> </li>
-                        <li class="mr-2 d-flex align-items-center"> <i class="fa fa-bed"></i> <span class="ml-2"> ' . $api['Alcobas'] . ' </span> </li>
-                        <li class="mr-2 d-flex align-items-center"> <i class="fa fa-car"></i> <span class="ml-2">' . $api['garaje'] . ' </span> </li>
+                    <ul class="padding_left_0 d-flex flex-wrap align-items-center justify-content-between">
+                        <li class="mr-1 mr-md-2 mr-lg-2 mr-xl-2 d-flex align-items-center"> <i class="fas fa-chart-area"></i> <span class="ml-2"> ' . $api['AreaConstruida'] . 'm<sup>2</span> </li>
+                        <li class="mr-1 mr-md-2 mr-lg-2 mr-xl-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> ' . $api['banios'] . ' </span> </li>
+                        <li class="mr-1 mr-md-2 mr-lg-2 mr-xl-2 d-flex align-items-center"> <i class="fa fa-bed"></i> <span class="ml-2"> ' . $api['Alcobas'] . ' </span> </li>
+                        <li class="mr-1 mr-md-2 mr-lg-2 mr-xl-2 d-flex align-items-center"> <i class="fa fa-car"></i> <span class="ml-2">' . $api['garaje'] . ' </span> </li>
                     </ul>
 
                 </div>
@@ -164,29 +164,5 @@ function modelo_inmueble_similares($r)
     ';
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ?>
