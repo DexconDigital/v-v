@@ -56,31 +56,31 @@
                 <div class="col-12">
                     <div class="row justify-content-around align-items-center">
 
-                        <div class="mr-3">
+                        <div class="m-0 mr-md-3 mr-lg-3 mr-xl-3">
                             <a class="d-flex align-items-center" href="tel:<?php echo $datos_contacto['bogota']['telefono_fijo']['link'] ?>">
-                                <i class="mr-2 <?php echo $datos_contacto['bogota']['telefono_fijo']['icono'] ?>"> </i>
+                                <i class="mr-0 mr-md-2 mr-lg-2 mr-xl-2 <?php echo $datos_contacto['bogota']['telefono_fijo']['icono'] ?>"> </i>
                                 <div class="celular1"> <?php echo $datos_contacto['bogota']['telefono_fijo']['imprimir'] ?> </div>
                             </a>
                         </div>
 
-                        <div class="mr-3"> <a class="d-flex align-items-center" href="tel:<?php echo $datos_contacto['bogota']['celular']['link'] ?>"> <i class="mr-2 <?php echo $datos_contacto['bogota']['celular']['icono'] ?>"> </i>
+                        <div class="m-0 mr-md-3 mr-lg-3 mr-xl-3"> <a class="d-flex align-items-center" href="tel:<?php echo $datos_contacto['bogota']['celular']['link'] ?>"> <i class="mr-0 mr-md-2 mr-lg-2 mr-xl-2 <?php echo $datos_contacto['bogota']['celular']['icono'] ?>"> </i>
                                 <div class="celular1"><?php echo $datos_contacto['bogota']['celular']['imprimir'] ?></div>
                             </a>
                         </div>
 
-                        <div class="mr-3"> <a class="d-flex align-items-center" href="tel:<?php echo $datos_contacto['bogota']['celular2']['link'] ?>"> <i class="mr-2 <?php echo $datos_contacto['bogota']['celular2']['icono'] ?>"> </i>
+                        <div class="m-0 mr-md-3 mr-lg-3 mr-xl-3"> <a class="d-flex align-items-center" href="tel:<?php echo $datos_contacto['bogota']['celular2']['link'] ?>"> <i class="mr-0 mr-md-2 mr-lg-2 mr-xl-2 <?php echo $datos_contacto['bogota']['celular2']['icono'] ?>"> </i>
                                 <div class="celular1"> <?php echo $datos_contacto['bogota']['celular2']['imprimir'] ?> </div>
                             </a>
                         </div>
 
-                        <div class="mr-3">
-                            <a class="d-flex align-items-center" target="_blank" href="<?php echo $datos_contacto['bogota']['whatsapp']['link'] ?>"> <i class="mr-2 <?php echo $datos_contacto['bogota']['whatsapp']['icono'] ?>"> </i>
+                        <div class="m-0 mr-md-3 mr-lg-3 mr-xl-3">
+                            <a class="d-flex align-items-center" target="_blank" href="<?php echo $datos_contacto['bogota']['whatsapp']['link'] ?>"> <i class="mr-0 mr-md-2 mr-lg-2 mr-xl-2 <?php echo $datos_contacto['bogota']['whatsapp']['icono'] ?>"> </i>
                                 <div class="celular1"> <?php echo $datos_contacto['bogota']['whatsapp']['imprimir'] ?></div>
                             </a>
                         </div>
 
-                        <div class="mr-3">
-                            <a class="d-flex align-items-center" href="mailto:<?php echo $datos_contacto['bogota']['correo']['correo'] ?>"> <i class="mr-2 <?php echo $datos_contacto['bogota']['correo']['icono'] ?>"> </i>
+                        <div class="m-0 mr-md-3 mr-lg-3 mr-xl-3">
+                            <a class="d-flex align-items-center" href="mailto:<?php echo $datos_contacto['bogota']['correo']['correo'] ?>"> <i class="mr-0 mr-md-2 mr-lg-2 mr-xl-2 <?php echo $datos_contacto['bogota']['correo']['icono'] ?>"> </i>
                                 <div class="celular1"> <?php echo $datos_contacto['bogota']['correo']['correo'] ?> </div>
                             </a>
                         </div>

@@ -80,6 +80,14 @@ li {
     margin: 100px;
 }
 
+.carousel-control-prev {
+    z-index:500;
+}
+
+.carousel-control-next {
+    z-index:500;
+}
+
 
 
 #header_numeros{
@@ -234,6 +242,7 @@ li {
         height: 100%;
         top: 0;
         left: 0;
+        z-index: 400;
     }
 
     .carousel-item {
@@ -254,6 +263,24 @@ li {
         font-size: 40px;
         bottom: 100px;
         animation: texto_animado1 1.5s ease-in-out both;
+        opacity: 0;
+
+
+        @keyframes texto_animado1 {
+            0%{
+
+            }
+            100%{
+                bottom: 0%;
+                opacity: 1;
+            }
+        }
+    }
+
+    .animacion_texto1 {
+        font-size: 40px;
+        bottom: 100px;
+        animation: texto_animado1 1.5s 1s ease-in-out both;
         opacity: 0;
 
 
@@ -328,8 +355,8 @@ li {
     }
 
     &:active {
-        background-color: green;
-        border-color: green;
+        background-color: #a11216db;
+        border-color: #a11216db;
         color: white;
     }
 
@@ -704,15 +731,78 @@ footer {
     height: 1101px;
 }
 
-.mapa {
-    position: absolute;
-    border: 0;
-    left: calc(-210% + 2px);
-    width: calc(100vw - 17px);
-    height: 344px;
-    top: 411px;
-    border-top: 1px solid darkgray;
-    border-bottom: 1px solid darkgray;
+@media (min-width:320px) and (max-width:375px) {
+    
+    .mapa {
+        border: 0;
+        position: absolute;
+        width: 100vw;
+        height: 200px;
+        bottom: -200px;
+        left: -10px;
+    }
+}
+
+@media (min-width:375px) and (max-width:425px) {
+    
+    .mapa {
+        border: 0;
+        position: absolute;
+        width: 100vw;
+        height: 200px;
+        bottom: -200px;
+        left: -11px;
+    }
+}
+
+@media (min-width: 425px) and (max-width:768px) {
+    
+    .mapa {
+        border: 0;
+        position: absolute;
+        width: 100vw;
+        height: 200px;
+        bottom: -200px;
+        left: -13px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    
+    .mapa {
+        border: 0;
+        position: absolute;
+        width: 100vw;
+        height: 200px;
+        bottom: -200px;
+        left: -23px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1440px) {
+    
+    .mapa {
+        border: 0;
+        border: 0;
+        position: absolute;
+        width: 100vw;
+        height: 200px;
+        bottom: -200px;
+        left: -672px;
+    }
+}
+
+@media (min-width:1440px) and (max-width:2560px) {
+    
+    .mapa {
+        border: 0;
+        border: 0;
+        position: absolute;
+        width: 100vw;
+        height: 200px;
+        bottom: -200px;
+        left: -946px;
+    }
 }
 
 #banner {

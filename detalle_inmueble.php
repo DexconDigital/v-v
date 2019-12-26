@@ -61,7 +61,7 @@ require 'controllers/detalleInmuebleController.php';
     </section>
 
     <section id="banner" class="align-content-center align-items-center d-flex justify-content-center">
-        <div class="align-items-center d-flex flex-column titulos">
+        <div class="text-center align-items-center d-flex flex-column titulos">
             <h1> Detalle de Inmueble </h1>
         </div>
         <div id="banner_detalle_inmueble" class="imagen_detalles"></div>
@@ -73,7 +73,7 @@ require 'controllers/detalleInmuebleController.php';
         <div class="margen_contenedores_indexr1">
             <div class="row">
 
-                <div id="accordion" class="col-8">
+                <div id="accordion" class="col-12 col-md-8 col-lg-8 col-l-8">
                     <div class="container">
                         <div class="col-12 ">
 
@@ -81,12 +81,12 @@ require 'controllers/detalleInmuebleController.php';
 
                                 <div class="row">
 
-                                    <div class="col-6">
+                                    <div class="col-12 col-md-6 col-lg-6 col-xl-6">
                                         <h5 class="font-weight-bold"> <?php echo $r['Tipo_Inmueble'] . ' en ' . $r['Gestion']; ?> </p>
                                     </div>
 
-                                    <div class="col-6">
-                                        <h5 class="font-weight-bold color_azul text-right"> PRECIO:
+                                    <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                                        <h5 class="font-weight-bold color_azul text-left text-md-right text-lg-right text-xl-right"> PRECIO:
                                             <?php if ($r['Gestion'] == 'Arriendo') {
                                                 echo '<span class="precio">$ ' . $r['ValorCanon'] . '</span>';
                                             } else if ($r['Gestion'] == 'Venta') {
@@ -109,14 +109,14 @@ require 'controllers/detalleInmuebleController.php';
                                     </div>
 
                                     <div class="text-muted">
-                                        <p class=""> Código: <span> <?php echo $co; ?></span> </p>
+                                        <p class="ml-3 ml-md-0 ml-lg-0 ml-xl-0  "> Código: <span> <?php echo $co; ?></span> </p>
                                     </div>
 
-                                    
+
 
                                 </div>
 
-                                <?php echo 
+                                <?php echo
                                     '<ul class="padding_left_0 d-flex flex-wrap align-items-center justify-content-start">
                                         <li class="mr-2 d-flex align-items-center"> <i class="fas fa-chart-area"></i> <span class="ml-2"> ' . $r['AreaConstruida'] . 'm<sup>2</span> </li>
                                         <li class="mr-2 d-flex align-items-center"> <i class="fas fa-bath"></i> <span class="ml-2"> ' . $r['banos'] . ' </span> </li>
@@ -171,46 +171,46 @@ require 'controllers/detalleInmuebleController.php';
 
                             <!----------BOTONES---------->
 
-                            <div class="container">
+                            <div class="container contenedor_botones">
 
-                                <div class="col-12 m-0 p-0">
+                                <div class="col-custom m-0 p-0">
                                     <div class="row mb-5 justify-content-between">
 
-                                        <div>
+                                        <div class="p-0 col-custom">
 
-                                            <button class="btn boton_detalle_inmueble collapsed" data-toggle="collapse" data-target="#uno" aria-expanded="false" aria-controls="collapseExample">
+                                            <button class="btn boton_detalle_inmueble col-custom collapsed" data-toggle="collapse" data-target="#uno" aria-expanded="false" aria-controls="collapseExample">
                                                 Descripción
                                             </button>
 
                                         </div>
 
-                                        <div>
+                                        <div class="p-0 col-custom">
 
-                                            <button class="w_200px btn boton_detalle_inmueble collapsed boton_venta" data-toggle="collapse" data-target="#dos" aria-expanded="true" aria-controls="dos">
+                                            <button class="btn boton_detalle_inmueble col-custom collapsed boton_venta" data-toggle="collapse" data-target="#dos" aria-expanded="true" aria-controls="dos">
                                                 Características Internas
                                             </button>
 
                                         </div>
 
-                                        <div>
+                                        <div class="p-0 col-custom">
 
-                                            <button class="w_200px btn boton_detalle_inmueble collapsed" data-toggle="collapse" data-target="#tres" aria-expanded="true" aria-controls="collapseExample">
+                                            <button class="btn boton_detalle_inmueble col-custom collapsed" data-toggle="collapse" data-target="#tres" aria-expanded="true" aria-controls="collapseExample">
                                                 Características Exteriores
                                             </button>
 
                                         </div>
 
-                                        <div>
+                                        <div class="p-0 col-custom">
 
-                                            <button class="w_200px btn boton_detalle_inmueble collapsed" data-toggle="collapse" data-target="#cuatro" aria-expanded="false" aria-controls="collapseExample">
+                                            <button class="btn boton_detalle_inmueble col-custom collapsed" data-toggle="collapse" data-target="#cuatro" aria-expanded="false" aria-controls="collapseExample">
                                                 Características Alrededores
                                             </button>
 
                                         </div>
 
-                                        <div>
+                                        <div class="p-0 col-custom">
 
-                                            <button class="btn boton_detalle_inmueble collapsed" type="button" data-toggle="collapse" data-target="#cinco" aria-expanded="false" aria-controls="collapseExample">
+                                            <button class="btn boton_detalle_inmueble col-12 collapsed" type="button" data-toggle="collapse" data-target="#cinco" aria-expanded="false" aria-controls="collapseExample">
                                                 Video
                                             </button>
 
@@ -229,7 +229,7 @@ require 'controllers/detalleInmuebleController.php';
                             <div class="margen_contenedor ml-0">
 
                                 <div id="uno" class="ollapse show" aria-labelledby="uno" data-parent="#accordion">
-
+                                    <h4 class="property-single-detail-title"><strong> Descripción </strong></h4>
                                     <p style="text-align: justify;"><?php echo $descripcion ?></p>
 
                                 </div>
@@ -345,7 +345,7 @@ require 'controllers/detalleInmuebleController.php';
 
                 </div>
 
-                <div class="rounded col-4">
+                <div class="rounded col-12 col-md-4 col-lg-4 col-l-4">
 
                     <div class="row align-items-center justify-content-center my-3">
                         <div class="">
@@ -398,7 +398,7 @@ require 'controllers/detalleInmuebleController.php';
                             <input type="email" class="my-2 border codigo_input form-control" id="exampleFormControlInput1" placeholder="Correo Electrónico">
                             <input type="number" class="my-2 border codigo_input form-control" id="exampleFormControlInput1" placeholder="Telefono Celular">
                             <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensaje" rows="3"></textarea>
-                            <div class="ml-3 form-group form-check">
+                            <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
                                 <label class="form-check-label" for="exampleCheck1"> Confimo que he leído, entendido y acepto la <a class="a_politica" href="POLITICA_DE_PROTECCION_DE_DATOS.pdf" download="POLITICA_DE_PROTECCION_DE_DATOS.pdf">política de tratamiento de datos personales.</a> </label>
                             </div>
@@ -411,9 +411,6 @@ require 'controllers/detalleInmuebleController.php';
 
 
                 </div>
-
-
-
 
             </div>
         </div>

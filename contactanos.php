@@ -32,33 +32,35 @@
 
 
         <div style="margin: 100px 0 100px 0;" class="">
+
+        
             <div class="col-12">
                 <div class="row">
 
-                    <div class="col-8">
+                    <div class="col-12 col-lg-8 col-xl-8">
 
                         <section id="formulario2">
                             <form action="" class="margen_contenedores_index">
 
                                 <div class="text-center row">
 
-                                    <div class="my-3 col-6">
+                                    <div class="my-3 col-12 col-md-6 col-lg-6 col-xl-6">
                                         <input type="text" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre completo" required>
                                     </div>
 
-                                    <div class="my-3 col-6">
+                                    <div class="my-3 col-12 col-md-6 col-lg-6 col-xl-6">
                                         <input type="text" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico" required>
                                     </div>
 
-                                    <div class="my-3 col-6">
+                                    <div class="mb-3 col-12 col-md-6 col-lg-6 col-xl-6">
                                         <input type="text" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Asunto del mensaje" required>
                                     </div>
 
-                                    <div class="my-3 col-6">
+                                    <div class="mb-3 col-12 col-md-6 col-lg-6 col-xl-6">
                                         <input type="text" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Número de contacto" required>
                                     </div>
 
-                                    <div class="my-3 col-12 form-group">
+                                    <div class="mb-3 col-12 form-group d-flex align-items-start">
                                         <label for="exampleFormControlTextarea1"></label>
                                         <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Ingresa tu mensaje" rows="3"></textarea>
                                     </div>
@@ -69,7 +71,7 @@
                                     </div>
 
 
-                                    <div class="col-12 m-0 my-3 row">
+                                    <div class="m-0 justify-content-center justify-content-lg-start justify-content-xl-start col-12 mb-3 row">
                                         <input class="boton_buscar btn" type="button" value="Enviar">
                                     </div>
 
@@ -79,14 +81,14 @@
 
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4 col-xl-4">
 
                         <!--------- SECCION 1 -------------- --  -->
 
                         <div class="justify-content-center row">
                             <div class="flex-row list-group" id="list-tab" role="tablist">
-                                <a class="text-center m-4 btn boton_buscar2 list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Bogotá</a>
-                                <a class="text-center m-4 btn boton_buscar2 list-group-item list-group-item-action " id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Ibagué</a>
+                                <a class="text-center my-4 mx-1 btn boton_buscar list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Bogotá</a>
+                                <a class="text-center my-4 mx-1 btn boton_buscar list-group-item list-group-item-action " id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Ibagué</a>
                             </div>
 
                         </div>
@@ -184,6 +186,7 @@
                         </div>
 
                     </div>
+
                 </div>
             </div>
 
@@ -193,7 +196,7 @@
 
 
     <section>
-        <div style="width:100%; height: 263px">
+        <div style="width:100%; height: 100px">
 
         </div>
     </section>
