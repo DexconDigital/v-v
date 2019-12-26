@@ -278,22 +278,12 @@ li {
     }
 
     .animacion_texto1 {
-        font-size: 40px;
-        bottom: 100px;
+
         animation: texto_animado1 1.5s 1s ease-in-out both;
-        opacity: 0;
 
-
-        @keyframes texto_animado1 {
-            0%{
-
-            }
-            100%{
-                bottom: 0%;
-                opacity: 1;
-            }
-        }
     }
+        
+
 
     @media (min-width:0px) and (max-width:720px) {
         .animacion_texto {

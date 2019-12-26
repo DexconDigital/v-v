@@ -35,7 +35,7 @@ require 'variables/variables.php';
                     <div class="carousel-item active">
                         <img src="images/slide_3.jpg" class="d-block w-100" alt="Imagen carrusel principal">
                         <div class="div_carrusel_estilo align-items-center carousel-caption d-md-block col-12 d-flex d-none justify-content-center m-0 p-0 position-absolute text-center">
-                            <h5 class="w-100 h-100 animacion_texto1 align-items-center col-12 d-flex justify-content-center text-uppercase"> Bienvenido a nuestro sitio web </h5>
+                            <h5 class="w-100 h-100 animacion_texto animacion_texto1 align-items-center col-12 d-flex justify-content-center text-uppercase"> Bienvenido a nuestro sitio web </h5>
                         </div>
                     </div>
 
@@ -43,7 +43,7 @@ require 'variables/variables.php';
                     <div class="carousel-item">
                         <img src="images/slide_2.jpg" class="d-block w-100" alt="Imagen carrusel principal">
                         <div class="div_carrusel_estilo align-items-center carousel-caption d-md-block col-12 d-flex d-none justify-content-center m-0 p-0 position-absolute text-center">
-                            <h5 class="w-100 h-100 animacion_texto align-items-center col-12 d-flex justify-content-center text-uppercase"> El mejor lugar para encontrar tu Inmueble Ideal </h5>
+                            <h5 class="w-100 h-100 animacion_texto align-items-center col-12 d-flex justify-content-center text-uppercase"> El mejor lugar para encontrar <br> tu inmueble ideal </h5>
                         </div>
                     </div>
 
