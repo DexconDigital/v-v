@@ -15,7 +15,7 @@
 
                 <div class="row">
 
-                    <div class="order-2 order-md-1 order-lg-1 order-xl-1 col-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="order-2 order-md-2 order-lg-1 order-xl-1 col-12 col-md-6 col-lg-4 col-xl-4">
 
                         <h2 class="text-light my-4 text-center text-md-left text-lg-left text-xl-left"> Sede Bogotá D.C </h2>
 
@@ -50,7 +50,7 @@
 
                     </div>
 
-                    <div class="order-3 order-md-1 order-lg-2 order-xl-2 col-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="order-3 order-md-3 order-lg-2 order-xl-2 col-12 col-md-6 col-lg-4 col-xl-4">
 
                         <h2 class="text-light my-4 text-center text-md-left text-lg-left text-xl-left"> Sede Ibagué </h2>
 
@@ -84,7 +84,7 @@
                         </ul>
                     </div>
 
-                    <div class="order-1 order-md-1 order-lg-3 order-xl-3 col-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="order-1 order-md-1 order-lg-3 order-xl-3 col-12 col-md-12 col-lg-4 col-xl-4 d-md-flex flex-md-column align-items-md-center align-items-lg-start align-items-xl-start">
 
                         <h2 class="text-light my-4 text-center text-md-left text-lg-left text-xl-left"> Nuestros Horarios </h2>
 

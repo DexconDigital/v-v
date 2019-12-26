@@ -126,7 +126,7 @@ function modelo_inmueble_similares($r)
 
     echo '
 
-    <div class="border mb-5 rounded">
+    <div class="mb-5 rounded col-12 col-md-6 col-lg-4 col-xl-4 mb-5">
             <a href="detalle_inmueble.php?co=' . $codigo . '">
                 <div class="card" style="width: 100%; height:300px">
                     <img style="height:100%" src="' . $imagen . '" class="card-img-top" alt="...">

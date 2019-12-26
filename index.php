@@ -72,23 +72,23 @@ require 'variables/variables.php';
 
             <div class="text-center row align-items-center justify-content-center">
 
-                <div class="col-lg-2 col-sm-12 col-md-12">
+                <div class="col-lg-2 col-sm-12 col-md-6">
                     <input type="number" class="w-100 buscador codigo_input form-control" id="codigo_buscar" aria-describedby="emailHelp" placeholder="Código">
                 </div>
 
-                <div class="col-lg-2 col-sm-12 col-md-12">
+                <div class="col-lg-2 col-sm-12 col-md-6">
                     <select class="w-100 buscador codigo_input form-control" id="tipo_inmueble_buscar" select default>
                         <option value="0"> Tipo de Inmueble </option>
                     </select>
                 </div>
 
-                <div class="col-lg-2 col-sm-12 col-md-12">
+                <div class="col-lg-2 col-sm-12 col-md-6">
                     <select class=" w-100 buscador codigo_input form-control" id="tipo_gestion_buscar" select default>
                         <option value="0"> Tipo de Gestión </option>
                     </select>
                 </div>
 
-                <div class="col-lg-2 col-sm-12 col-md-12">
+                <div class="col-lg-2 col-sm-12 col-md-6">
                     <select class="w-100 buscador codigo_input form-control" id="ciudad_buscar" select default>
                         <option value=""> Ciudad </option>
                     </select>

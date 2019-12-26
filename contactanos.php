@@ -24,20 +24,20 @@
         <div class="align-items-center d-flex flex-column titulos">
             <h1> Contáctanos </h1>
         </div>
-        <div id="banner_contactanos"class="imagen_detalles"></div>
+        <div id="banner_contactanos" class="imagen_detalles"></div>
     </section>
 
     <section id="Contactanos_body" class=" margen_contenedores_index">
 
 
 
-        <div style="margin: 100px 0 100px 0;" class="">
+        <div>
 
-        
+
             <div class="col-12">
-                <div class="row">
+                <div class="row flex-column">
 
-                    <div class="col-12 col-lg-8 col-xl-8">
+                    <div class="col-12 ">
 
                         <section id="formulario2">
                             <form action="" class="margen_contenedores_index">
@@ -81,9 +81,11 @@
 
                     </div>
 
-                    <div class="col-12 col-lg-4 col-xl-4">
+                    <!-- BOTONES Y MAPA -->
 
-                        <!--------- SECCION 1 -------------- --  -->
+                    <div class="col-12">
+
+                        <!--------- BOTONES -------------- --  -->
 
                         <div class="justify-content-center row">
                             <div class="flex-row list-group" id="list-tab" role="tablist">
@@ -93,16 +95,21 @@
 
                         </div>
 
-                        <!-- ------- SECCION 1 -------------- -->
+                        <!-- ------- BOTONES -------------- -->
 
-                        <!-- ------- SECCION 2 -------------- -->
 
-                        <div class="d-flex justify-content-center tab-content" id="nav-tabContent">
+
+                        <!-- ------- TEXTO Y MAPA -------------- -->
+
+                        <div class="d-flex justify-content-center tab-content texto_y_mapa" id="nav-tabContent">
+
+
+                            <!-- TEXTO BOTON1 -->
 
                             <div class="fade tab-pane active show" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
 
-                                <div class="col-12">
-                                    <div class="row">
+                                <div class="col-12 p-0">
+                                    <div class="row justify-content-center w-100">
                                         <ul class="p-0">
 
                                             <li class="py-2 text-left text-dark">
@@ -133,17 +140,19 @@
                                     </div>
                                 </div>
 
-                                <div> <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4482482814847!2d-74.06805103769926!3d4.691905941069607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9adad974c0d7%3A0x4afb1aa35688bda!2sTv.%2058%20%23106-36%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1575212870316!5m2!1ses!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
-
+                                <div class="mapa_bottom col-12 p-0"><iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4482482814847!2d-74.06805103769926!3d4.691905941069607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9adad974c0d7%3A0x4afb1aa35688bda!2sTv.%2058%20%23106-36%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1575212870316!5m2!1ses!2sco" width="600" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
 
                             </div>
 
+                            <!-- TEXTO BOTON1 -->
 
+
+                            <!-- TEXTO BOTON2 -->
 
                             <div class="fade tab-pane" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
 
-                                <div class="col-12">
-                                    <div class="row">
+                                <div class="col-12 p-0 pl-2">
+                                    <div class="row justify-content-center w-100">
                                         <ul class="p-0">
 
                                             <li class="py-2 text-left text-dark">
@@ -175,30 +184,25 @@
                                 </div>
 
 
-                                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.4615853917153!2d-75.22373467078775!3d4.439690499798367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38c4ed1fb630eb%3A0xaaa94d9591fd6b43!2sCra.%205%20%2329-32%2C%20Ibagu%C3%A9%2C%20Tolima!5e0!3m2!1ses!2sco!4v1575210850711!5m2!1ses!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                <div class="mapa_bottom col-12 p-0"><iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.4615853917153!2d-75.22373467078775!3d4.439690499798367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38c4ed1fb630eb%3A0xaaa94d9591fd6b43!2sCra.%205%20%2329-32%2C%20Ibagu%C3%A9%2C%20Tolima!5e0!3m2!1ses!2sco!4v1575210850711!5m2!1ses!2sco" width="" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
 
 
                             </div>
 
-
-
+                            <!-- TEXTO BOTON2 -->
 
                         </div>
 
+                        <!-- ------- TEXTO Y MAPA -------------- -->
+
                     </div>
+
+                    <!-- BOTONES Y MAPA -->
 
                 </div>
             </div>
 
 
-    </section>
-
-
-
-    <section>
-        <div style="width:100%; height: 100px">
-
-        </div>
     </section>
 
 

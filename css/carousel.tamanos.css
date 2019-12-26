@@ -25,6 +25,19 @@
     margin: auto !important;
     background-color: aliceblue;
 }
+
+@media (max-width: 425px) {
+
+    #slide-detalle img{
+        filter: brightness(0.8);
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        margin: auto !important;
+        background-color: aliceblue;
+    }
+}
+
 .carousel-item img{
     height: 100%;
 }

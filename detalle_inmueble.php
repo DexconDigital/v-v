@@ -73,7 +73,7 @@ require 'controllers/detalleInmuebleController.php';
         <div class="margen_contenedores_indexr1">
             <div class="row">
 
-                <div id="accordion" class="col-12 col-md-8 col-lg-8 col-l-8">
+                <div id="accordion" class="m-0 p-0 col-12 col-md-7 col-lg-8 col-l-8">
                     <div class="container">
                         <div class="col-12 ">
 
@@ -176,7 +176,7 @@ require 'controllers/detalleInmuebleController.php';
                                 <div class="col-custom m-0 p-0">
                                     <div class="row mb-5 justify-content-between">
 
-                                        <div class="p-0 col-custom">
+                                        <div class="p-0 mb-1 mb-md-1 mb-lg-1 mb-xl-0 col-custom">
 
                                             <button class="btn boton_detalle_inmueble col-custom collapsed" data-toggle="collapse" data-target="#uno" aria-expanded="false" aria-controls="collapseExample">
                                                 Descripción
@@ -184,7 +184,7 @@ require 'controllers/detalleInmuebleController.php';
 
                                         </div>
 
-                                        <div class="p-0 col-custom">
+                                        <div class="p-0 mb-1 mb-md-1 mb-lg-1 mb-xl-0 col-custom">
 
                                             <button class="btn boton_detalle_inmueble col-custom collapsed boton_venta" data-toggle="collapse" data-target="#dos" aria-expanded="true" aria-controls="dos">
                                                 Características Internas
@@ -192,7 +192,7 @@ require 'controllers/detalleInmuebleController.php';
 
                                         </div>
 
-                                        <div class="p-0 col-custom">
+                                        <div class="p-0 mb-1 mb-md-1 mb-lg-1 mb-xl-0 col-custom">
 
                                             <button class="btn boton_detalle_inmueble col-custom collapsed" data-toggle="collapse" data-target="#tres" aria-expanded="true" aria-controls="collapseExample">
                                                 Características Exteriores
@@ -200,7 +200,7 @@ require 'controllers/detalleInmuebleController.php';
 
                                         </div>
 
-                                        <div class="p-0 col-custom">
+                                        <div class="p-0 mb-1 mb-md-1 mb-lg-1 mb-xl-0 col-custom">
 
                                             <button class="btn boton_detalle_inmueble col-custom collapsed" data-toggle="collapse" data-target="#cuatro" aria-expanded="false" aria-controls="collapseExample">
                                                 Características Alrededores
@@ -208,7 +208,7 @@ require 'controllers/detalleInmuebleController.php';
 
                                         </div>
 
-                                        <div class="p-0 col-custom">
+                                        <div class="p-0 mb-1 mb-md-1 mb-lg-0 mb-xl-0 col-custom">
 
                                             <button class="btn boton_detalle_inmueble col-12 collapsed" type="button" data-toggle="collapse" data-target="#cinco" aria-expanded="false" aria-controls="collapseExample">
                                                 Video
@@ -333,7 +333,81 @@ require 'controllers/detalleInmuebleController.php';
                     </div>
 
 
-                    <div class="mt-5">
+                   
+
+
+                </div>
+
+                <div class="rounded col-12 col-md-5 col-lg-4 col-l-4">
+                    <div class="margen_contenedores_indexr_responsive">
+    
+                        <div class="row align-items-center justify-content-center my-3">
+                            <div class="">
+                                Comparte en:
+                            </div>
+                            <div class="iconos_detalle_inmueble d-flex ml-3">
+    
+                                <a class="icono_fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.vyvinmobiliaria.com%2FdetalleInmueble%3Fcodigo%3D<?php echo $co; ?>" target="_blank">
+                                    <i class="mr-2 <?php echo $redes_sociales['facebook']['icono'] ?>"></i>
+                                </a>
+    
+                                <a class="icono_tt" href="<?php echo 'https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.vyvinmobiliaria.com%2Fdetalle_inmueble.php%3Fco%3D' . $co . '&text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] ?>" target="_blank">
+                                    <i class="mr-2 fab fa-twitter"></i>
+                                </a>
+    
+                                <a class="icono_w" href="<?php echo 'https://wa.me/?text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] . '%20www.vyvinmobiliaria.comdetalleInmueble.php?codigo%3d' . $co ?>" target="_blank">
+                                    <i class="mr-2 <?php echo $datos_contacto['bogota']['whatsapp']['icono'] ?>"></i>
+                                </a>
+    
+                            </div>
+                        </div>
+    
+                        <div class="row justify-content-center">
+                            <a href="https://simicrm.app/mcomercialweb/fichas_tecnicas/fichatec3.php?reg=116-<?php echo $co ?>" target="_blank"><button class="btn boton_ficha"> Descargar Ficha </button> </a>
+                        </div>
+    
+                        <div class="border-top mt-3 row">
+    
+                            <h5 class="text-center col-12 mt-3"> Contáctate con el Asesor </h5>
+    
+                            <div class="align-items-center col-12 justify-content-center m-0 mt-3 p-0 row">
+    
+                                <div class="col-7 imagen_asesor">
+                                    <img src="<?php echo $asesor['FotoAsesor']; ?>" alt="">
+                                </div>
+    
+                                <div class="col-12 parrafos_asesor mt-3">
+    
+                                    <p><i class="iconos_asesor fas fa-user"></i> <?php echo $asesor['ntercero']; ?></p>
+                                    <p><i class="iconos_asesor fas fa-mobile-alt"></i> <a class="color_asesor" href="tel:+57<?php echo $asesor['celular']; ?>"><?php echo $asesor['celular']; ?></a></p>
+                                    <p><i class="iconos_asesor fas fa-envelope"></i> <a class="color_asesor" href="mailto:<?php echo $asesor['correo']; ?>"><?php echo $asesor['correo']; ?></a></p>
+                                </div>
+                            </div>
+    
+    
+    
+                            <div class="col-12 mb-3">
+    
+                                <input type="text" class="my-2 border codigo_input form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido">
+                                <input type="email" class="my-2 border codigo_input form-control" id="exampleFormControlInput1" placeholder="Correo Electrónico">
+                                <input type="number" class="my-2 border codigo_input form-control" id="exampleFormControlInput1" placeholder="Telefono Celular">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensaje" rows="3"></textarea>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                                    <label class="form-check-label" for="exampleCheck1"> Confimo que he leído, entendido y acepto la <a class="a_politica" href="POLITICA_DE_PROTECCION_DE_DATOS.pdf" download="POLITICA_DE_PROTECCION_DE_DATOS.pdf">política de tratamiento de datos personales.</a> </label>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <button class="col-3 btn boton_ficha"> Enviar </button>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+    
+                    </div>
+                </div>
+
+                <div class="mt-5">
                         <h2 class="text-center mb-5"> Ubicación del inmueble </h2>
                         <div class="card mapa_tamaño">
                             <div class="">
@@ -341,76 +415,6 @@ require 'controllers/detalleInmuebleController.php';
                             </div>
                         </div>
                     </div>
-
-
-                </div>
-
-                <div class="rounded col-12 col-md-4 col-lg-4 col-l-4">
-
-                    <div class="row align-items-center justify-content-center my-3">
-                        <div class="">
-                            Comparte en:
-                        </div>
-                        <div class="iconos_detalle_inmueble d-flex ml-3">
-
-                            <a class="icono_fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.vyvinmobiliaria.com%2FdetalleInmueble%3Fcodigo%3D<?php echo $co; ?>" target="_blank">
-                                <i class="mr-2 <?php echo $redes_sociales['facebook']['icono'] ?>"></i>
-                            </a>
-
-                            <a class="icono_tt" href="<?php echo 'https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.vyvinmobiliaria.com%2Fdetalle_inmueble.php%3Fco%3D' . $co . '&text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] ?>" target="_blank">
-                                <i class="mr-2 fab fa-twitter"></i>
-                            </a>
-
-                            <a class="icono_w" href="<?php echo 'https://wa.me/?text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] . '%20www.vyvinmobiliaria.comdetalleInmueble.php?codigo%3d' . $co ?>" target="_blank">
-                                <i class="mr-2 <?php echo $datos_contacto['bogota']['whatsapp']['icono'] ?>"></i>
-                            </a>
-
-                        </div>
-                    </div>
-
-                    <div class="row justify-content-center">
-                        <a href="https://simicrm.app/mcomercialweb/fichas_tecnicas/fichatec3.php?reg=116-<?php echo $co ?>" target="_blank"><button class="btn boton_ficha"> Descargar Ficha </button> </a>
-                    </div>
-
-                    <div class="border-top mt-3 row">
-
-                        <h5 class="text-center col-12 mt-3"> Contáctate con el Asesor </h5>
-
-                        <div class="align-items-center col-12 justify-content-center m-0 mt-3 p-0 row">
-
-                            <div class="col-7 imagen_asesor">
-                                <img src="<?php echo $asesor['FotoAsesor']; ?>" alt="">
-                            </div>
-
-                            <div class="col-12 parrafos_asesor mt-3">
-
-                                <p><i class="iconos_asesor fas fa-user"></i> <?php echo $asesor['ntercero']; ?></p>
-                                <p><i class="iconos_asesor fas fa-mobile-alt"></i> <a class="color_asesor" href="tel:+57<?php echo $asesor['celular']; ?>"><?php echo $asesor['celular']; ?></a></p>
-                                <p><i class="iconos_asesor fas fa-envelope"></i> <a class="color_asesor" href="mailto:<?php echo $asesor['correo']; ?>"><?php echo $asesor['correo']; ?></a></p>
-                            </div>
-                        </div>
-
-
-
-                        <div class="col-12 mb-3">
-
-                            <input type="text" class="my-2 border codigo_input form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido">
-                            <input type="email" class="my-2 border codigo_input form-control" id="exampleFormControlInput1" placeholder="Correo Electrónico">
-                            <input type="number" class="my-2 border codigo_input form-control" id="exampleFormControlInput1" placeholder="Telefono Celular">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensaje" rows="3"></textarea>
-                            <div class="form-group form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-                                <label class="form-check-label" for="exampleCheck1"> Confimo que he leído, entendido y acepto la <a class="a_politica" href="POLITICA_DE_PROTECCION_DE_DATOS.pdf" download="POLITICA_DE_PROTECCION_DE_DATOS.pdf">política de tratamiento de datos personales.</a> </label>
-                            </div>
-                            <div class="row justify-content-center">
-                                <button class="col-3 btn boton_ficha"> Enviar </button>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                </div>
 
             </div>
         </div>
