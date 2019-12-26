@@ -48,7 +48,7 @@
                                         <input type="text" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre completo" required>
                                     </div>
 
-                                    <div class="my-3 col-12 col-md-6 col-lg-6 col-xl-6">
+                                    <div class="mb-3 mb-md-0 mb-lg-0 mb-xl-0 align-items-center d-flex col-12 col-md-6 col-lg-6 col-xl-6">
                                         <input type="text" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico" required>
                                     </div>
 
