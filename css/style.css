@@ -1438,7 +1438,7 @@ pre {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: black;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -1456,7 +1456,7 @@ pre {
     outline: 0 none;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
   .form-control::placeholder {
-    color: #6c757d;
+    color: black;
     opacity: 1; }
   .form-control:disabled, .form-control[readonly] {
     background-color: #e9ecef;
@@ -7671,6 +7671,9 @@ li {
 .carousel-control-next {
   z-index: 500; }
 
+::placeholder {
+  color: orange; }
+
 #header_numeros {
   background-color: #010D5A;
   width: 100%;
@@ -7985,7 +7988,7 @@ footer {
     margin: 50px 0; }
   footer .padding_copyright a {
     transition: all 150ms ease-in-out;
-    color: #d0262b; }
+    color: gray; }
     footer .padding_copyright a:hover {
       color: #A11216 !important; }
   footer .justificar {
@@ -7998,6 +8001,9 @@ footer {
     position: absolute;
     width: 100%; }
 
+@media (max-width: 849px) {
+  .span_todos_los_derechos {
+    display: block; } }
 #portafolio_servicios {
   background-image: url("../images/banner_servicios2.jpg");
   background-size: cover;

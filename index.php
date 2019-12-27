@@ -359,7 +359,7 @@ require 'variables/variables.php';
                     </div>
                     <a target="_blank" href="FORMATO_DE_CONSIGNACION.pdf" style="width:200px" class="boton_buscar btn text-decoration-none text-white"> Descargar formulario </a>
                 </div>
-                <div class="mt-2 mt-xl-0 mt-lg-0 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column align-items-center justify-content-center">
+                <div class="mt-5 mt-xl-0 mt-lg-0 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column align-items-center justify-content-center">
                     <img class="imagen" src="images/icono_pdf.png" alt="">
                     <div class="color_azul">
                         <h2 class="text-center" style="margin: 10px 0;font-size:20px;"> Descargar Formulario de Aseguradoras </h2>
