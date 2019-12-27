@@ -132,6 +132,7 @@ require 'controllers/detalleInmuebleController.php';
                                 <div>
                                     <!-- main slider carousel items -->
                                     <section class="mt-3" id="slide-detalle">
+                                    
                                         <?php
                                         if (isset($r['fotos'])) {
                                             for ($i = 0; $i < count($r['fotos']); $i++) {
