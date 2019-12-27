@@ -7983,13 +7983,11 @@ footer {
     /* bottom: -140px;   */ }
   footer h2 {
     margin: 50px 0; }
-  footer .padding_copyright {
-    border-top: 1px solid #80808036;
-    padding: 20px 0px; }
-    footer .padding_copyright a {
-      color: darkgray; }
-      footer .padding_copyright a:hover {
-        color: #A11216 !important; }
+  footer .padding_copyright a {
+    transition: all 150ms ease-in-out;
+    color: #d0262b; }
+    footer .padding_copyright a:hover {
+      color: #A11216 !important; }
   footer .justificar {
     text-align: justify; }
   footer .margenx {

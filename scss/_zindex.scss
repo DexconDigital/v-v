@@ -657,15 +657,16 @@ footer {
     }
 
     .padding_copyright {
+
         a {
-            color: darkgray;
+            transition: all 150ms ease-in-out;
+            color: #d0262b;
 
             &:hover {
                 color: $color_rojo!important;
             }
         }
-        border-top: 1px solid #80808036;
-        padding: 20px 0px;
+        
     }
 
     .justificar {

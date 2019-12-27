@@ -5,8 +5,6 @@
 
         <div class="container">
 
-
-
             <div class="col-12">
 
                 <div class="col-12">
@@ -99,6 +97,14 @@
             </div>
 
         </div>
+
+    </section>
+
+    <section>
+
+        <p class="border-top col-12 m-0 py-3  text-center padding_copyright"> Diseñado y Desarrollado por <a target="blank" href="https://www.dexcondigital.com/">Dexcon Digital</a> ©Copyright 2019 para V&V
+            Inmobiliaria. Todos los derechos reservados 
+        </p>
 
     </section>
 
