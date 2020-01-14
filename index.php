@@ -396,7 +396,7 @@ require 'variables/variables.php';
 
             </div>
         </div>
-    </div class="containe">
+    </div>
 
 
 
