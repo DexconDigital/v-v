@@ -13,6 +13,22 @@
 
                 <div class="row">
 
+                    <div class="align-items center justify-content-center redes_footer order-1 order-md-1 order-lg-1 order-xl-1 col-12">
+
+                        <div class="alinear_izquierda_iconos row align-items-center justify-content-start m-0">
+
+                            <div style="height: 50px; " class="d-flex align-items-center justify-content-center">
+                                <a target="_blank" href="<?php echo $redes_sociales['facebook']['link'] ?>"><i style="width: 22px; height: 80%;" class="icono_facebook <?php echo $redes_sociales['facebook']['icono'] ?>"></i></a>
+                            </div>
+
+                            <div class="div_insta ml-2 mr-1" style="width: 42px;" class="justify-content-center align-items-center d-flex margenx px-2 mr-2">
+                                <a target="_blank" href="<?php echo $redes_sociales['instagram']['link'] ?>"> <img style="width:100%" src="images/insta_logo.png" alt=""> </i></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
                     <div class="order-2 order-md-2 order-lg-1 order-xl-1 col-12 col-md-6 col-lg-4 col-xl-4">
 
                         <h2 class="text-light my-4 text-center text-md-left text-lg-left text-xl-left"> Sede Bogotá D.C </h2>

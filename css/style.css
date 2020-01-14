@@ -8086,6 +8086,12 @@ footer {
   .div_insta:hover {
     transform: scale(1.1); }
 
+.redes_footer {
+  display: none !important; }
+
+@media (max-width: 768px) {
+  .redes_footer {
+    display: flex !important; } }
 p {
   text-align: justify; }
 

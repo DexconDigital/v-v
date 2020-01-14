@@ -840,5 +840,16 @@ footer {
      
  }
 
+ .redes_footer {
+     display: none!important;
+ }
+
+ @media (max-width: 768px) {
+    .redes_footer {
+        display: flex!important;
+    }
+     
+ }
+
  
 
