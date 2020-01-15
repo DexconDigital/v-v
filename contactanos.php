@@ -33,7 +33,6 @@
 
         <div>
 
-
             <div class="col-12">
                 <div class="row flex-column">
 
@@ -109,34 +108,40 @@
                             <div class="fade tab-pane active show" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
 
                                 <div class="col-12 p-0">
-                                    <div class="row justify-content-center w-100">
-                                        <ul class="p-0">
+                                    <div class="row justify-content-center w-100 m-0 flex-column flex-lg-row flex-xl-row">
 
-                                            <li class="py-2 text-left text-dark">
+                                        <div class="col-12 col-lg-4 col-xl-4 align-items-center justify-content-center d-flex flex-column">
+                                            <p style="width:272px" class="py-2 text-left text-dark">
                                                 <i class="color_rojo <?php echo $datos_contacto['bogota']['direccion']['icono'] ?>"> </i> <?php echo $datos_contacto['bogota']['direccion']['direccion'] ?>
-                                            </li>
+                                            </p>
 
-                                            <li class="py-2 text-left">
+                                            <p style="width:272px" class="py-2 text-left">
                                                 <a class="text-dark text-decoration-none" href="tel: <?php echo $datos_contacto['bogota']['telefono_fijo']['link'] ?>"> <i class="color_rojo <?php echo $datos_contacto['bogota']['telefono_fijo']['icono'] ?>"> </i> <?php echo $datos_contacto['bogota']['telefono_fijo']['imprimir'] ?></a>
-                                            </li>
+                                            </p>
+                                        </div>
 
-                                            <li class="py-2 text-left text-dark text-decoration-none">
+                                        <div class="col-12 col-lg-4 col-xl-4 align-items-center justify-content-center d-flex flex-column">
+                                            <p style="width:272px" class="py-2 text-left text-dark text-decoration-none">
                                                 <a class="text-decoration-none text-dark" href="mailto: vyvinmobiliarias@gmail.com"><i class="color_rojo <?php echo $datos_contacto['bogota']['correo']['icono'] ?>"> </i> <?php echo $datos_contacto['bogota']['correo']['correo'] ?></a>
-                                            </li>
+                                            </p>
 
-                                            <li class="py-2 text-left">
+                                            <p style="width:272px" class="py-2 text-left">
                                                 <a class=" text-dark text-decoration-none" href="tel: <?php echo $datos_contacto['bogota']['celular2']['link'] ?>"><i class="color_rojo <?php echo $datos_contacto['bogota']['celular2']['icono'] ?>"> </i> <?php echo $datos_contacto['bogota']['celular2']['imprimir'] ?></a>
-                                            </li>
+                                            </p>
 
-                                            <li class="py-2 text-left">
+                                        </div>
+
+                                        <div class="col-12 col-lg-4 col-xl-4 align-items-center justify-content-center d-flex flex-column">
+                                            <p style="width:272px" class="py-2 text-left">
                                                 <a class=" text-dark text-decoration-none" href="tel: <?php echo $datos_contacto['bogota']['celular']['link'] ?>"><i class="color_rojo <?php echo $datos_contacto['bogota']['celular']['icono'] ?>"> </i> <?php echo $datos_contacto['bogota']['celular']['imprimir'] ?></a>
-                                            </li>
+                                            </p>
 
-                                            <li class="py-2 text-left">
+                                            <p style="width:272px" class="py-2 text-left">
                                                 <a class=" text-dark text-decoration-none" href="tel: <?php echo $datos_contacto['bogota']['whatsapp']['link'] ?>"><i class="color_rojo <?php echo $datos_contacto['bogota']['whatsapp']['icono'] ?>"> </i> <?php echo $datos_contacto['bogota']['whatsapp']['imprimir'] ?></a>
-                                            </li>
+                                            </p>
 
-                                        </ul>
+                                        </div>
+
                                     </div>
                                 </div>
 
@@ -149,37 +154,45 @@
 
                             <!-- TEXTO BOTON2 -->
 
+
                             <div class="fade tab-pane" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
 
                                 <div class="col-12 p-0 pl-2">
-                                    <div class="row justify-content-center w-100">
-                                        <ul class="p-0">
+                                    <div class="row justify-content-center w-100 m-0 flex-column flex-lg-row flex-xl-row">
 
-                                            <li class="py-2 text-left text-dark">
-                                                <i class="color_azul <?php echo $datos_contacto['ibague']['direccion']['icono'] ?>"> </i> CR 5 No. 29 – 32 LC 231 COMERCIAL <br> LA QUINTA
-                                            </li>
+                                        <div class="col-12 col-lg-4 col-xl-4 align-items-center justify-content-center d-flex flex-column">
 
-                                            <li class="py-2 text-left">
+                                            <p style="width:272px" class="py-2 text-left text-dark mb-2 mb-lg-0 mb-xl-0">
+                                                <i class="color_azul <?php echo $datos_contacto['ibague']['direccion']['icono'] ?>"> </i> CR 5 No. 29 – 32 LC 231 COMERCIAL LA QUINTA
+                                            </p>
+
+                                            <p style="width:272px" class="py-2 text-left">
                                                 <a class="text-dark text-decoration-none" href="tel: <?php echo $datos_contacto['ibague']['telefono_fijo']['link'] ?>"> <i class="color_azul <?php echo $datos_contacto['ibague']['telefono_fijo']['icono'] ?>"> </i> <?php echo $datos_contacto['ibague']['telefono_fijo']['imprimir'] ?></a>
-                                            </li>
+                                            </p>
+                                        </div>
 
-                                            <li class="py-2 text-left text-dark text-decoration-none">
+                                        <div class="col-12 col-lg-4 col-xl-4 align-items-center justify-content-center d-flex flex-column">
+
+                                            <p style="width:272px" class="py-2 text-left text-dark text-decoration-none">
                                                 <a class="text-decoration-none text-dark" href="mailto: vyvinmobiliarias@gmail.com"><i class="color_azul <?php echo $datos_contacto['ibague']['correo']['icono'] ?>"> </i> <?php echo $datos_contacto['ibague']['correo']['correo'] ?></a>
-                                            </li>
+                                            </p>
 
-                                            <li class="py-2 text-left">
+                                            <p style="width:272px" class="py-2 text-left">
                                                 <a class=" text-dark text-decoration-none" href="tel: <?php echo $datos_contacto['ibague']['celular2']['link'] ?>"><i class="color_azul <?php echo $datos_contacto['ibague']['celular2']['icono'] ?>"> </i> <?php echo $datos_contacto['ibague']['celular2']['imprimir'] ?></a>
-                                            </li>
+                                            </p>
+                                        </div>
 
-                                            <li class="py-2 text-left">
+                                        <div class="col-12 col-lg-4 col-xl-4 align-items-center justify-content-center d-flex flex-column">
+
+                                            <p style="width:272px" class="py-2 text-left">
                                                 <a class=" text-dark text-decoration-none" href="tel: <?php echo $datos_contacto['ibague']['celular']['link'] ?>"><i class="color_azul <?php echo $datos_contacto['ibague']['celular']['icono'] ?>"> </i> <?php echo $datos_contacto['ibague']['celular']['imprimir'] ?></a>
-                                            </li>
+                                            </p>
 
-                                            <li class="py-2 text-left">
+                                            <p style="width:272px" class="py-2 text-left">
                                                 <a class=" text-dark text-decoration-none" href="tel: <?php echo $datos_contacto['ibague']['whatsapp']['link'] ?>"><i class="color_azul <?php echo $datos_contacto['ibague']['whatsapp']['icono'] ?>"> </i> <?php echo $datos_contacto['ibague']['whatsapp']['imprimir'] ?></a>
-                                            </li>
+                                            </p>
+                                        </div>
 
-                                        </ul>
                                     </div>
                                 </div>
 
