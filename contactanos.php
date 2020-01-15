@@ -40,39 +40,39 @@
                     <div class="col-12 ">
 
                         <section id="formulario2">
-                            <form action="" class="margen_contenedores_index">
+                            <form action="email/enviarCorreo.php" method="POST" class="margen_contenedores_index">
 
                                 <div class="text-center row">
 
                                     <div class="my-3 col-12 col-md-6 col-lg-6 col-xl-6">
-                                        <input type="text" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre completo" required>
+                                        <input type="text" class="border codigo_input form-control" id="" name="name" aria-describedby="emailHelp" placeholder="Nombre completo" required>
                                     </div>
 
                                     <div class="mb-3 mb-md-0 mb-lg-0 mb-xl-0 align-items-center d-flex col-12 col-md-6 col-lg-6 col-xl-6">
-                                        <input type="text" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico" required>
+                                        <input type="text" class="border codigo_input form-control" name="email" aria-describedby="emailHelp" placeholder="Correo electrónico" required>
                                     </div>
 
                                     <div class="mb-3 col-12 col-md-6 col-lg-6 col-xl-6">
-                                        <input type="text" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Asunto del mensaje" required>
+                                        <input type="text" class="border codigo_input form-control" name="asunto" aria-describedby="emailHelp" placeholder="Asunto del mensaje" required>
                                     </div>
 
                                     <div class="mb-3 col-12 col-md-6 col-lg-6 col-xl-6">
-                                        <input type="text" class="border codigo_input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Número de contacto" required>
+                                        <input type="text" class="border codigo_input form-control" name="telefono" aria-describedby="emailHelp" placeholder="Número de contacto" required>
                                     </div>
 
                                     <div class="mb-3 col-12 form-group d-flex align-items-start">
                                         <label for="exampleFormControlTextarea1"></label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Ingresa tu mensaje" rows="3"></textarea>
+                                        <textarea class="form-control" name="message" placeholder="Ingresa tu mensaje" rows="3"></textarea>
                                     </div>
 
                                     <div class="ml-3 form-group form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                                        <input type="checkbox" class="form-check-input" required>
                                         <label class="form-check-label" for="exampleCheck1"> Confimo que he leído, entendido y acepto la <span class="tratamiento"><a href="POLITICA_DE_PROTECCION_DE_DATOS.pdf" download="POLITICA_DE_PROTECCION_DE_DATOS.pdf"></span>política de tratamiento de datos personales.</a> </label>
                                     </div>
 
 
                                     <div class="m-0 justify-content-center justify-content-lg-start justify-content-xl-start col-12 mb-3 row">
-                                        <input class="boton_buscar btn" type="button" value="Enviar">
+                                        <input class="boton_buscar btn" type="submit" value="Enviar">
                                     </div>
 
                                 </div>
