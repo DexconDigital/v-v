@@ -473,18 +473,21 @@ require 'variables/variables.php';
 
         <div class="d-flex flex-column margen_contenedores_index">
             <div class="col-12 d-flex flex-wrap justify-content-around">
-                <div class="col-6 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/libertador.png" alt="..."> </div>
-                <div class="col-6 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/afiansa.png" alt="..."> </div>
-                <div class="col-6 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/fianzacredito.png" alt="..."> </div>
-                <div class="col-6 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/simi.png" alt="..."> </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/libertador.png" alt="..."> </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/afiansa.png" alt="..."> </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/fianzacredito.png" alt="..."> </div>
             </div>
 
             <div class="col-12 d-flex flex-wrap justify-content-around">
-                <div class="col-6 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/olx.png" alt="..."> </div>
-                <div class="col-6 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/ciencuadras.png" alt="..."> </div>
-                <div class="col-6 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/mercadolibre.png" alt="..."> </div>
-                <div class="col-6 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/prelegalassist.png" alt="..."> </div>
+				<div class="col-12 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/simi.png" alt="..."> </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/olx.png" alt="..."> </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/ciencuadras.png" alt="..."> </div>
             </div>
+			<div class="col-12 d-flex flex-wrap justify-content-around">
+				<div class="col-12 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/mercadolibre.png" alt="..."> </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/prelegalassist.png" alt="..."> </div>
+				<div class="col-12 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/fincaraiz.png" alt="..."> </div>
+			</div>
         </div>
 
     </section>
