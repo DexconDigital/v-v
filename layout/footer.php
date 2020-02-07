@@ -118,7 +118,7 @@
 
     <section>
 
-        <p class="border-top col-12 m-0 py-3  text-center padding_copyright"> Diseñado y Desarrollado por <a target="blank" href="https://www.dexcondigital.com/    ">Dexcon Digital</a> ©Copyright 2019 para V&V
+        <p class="border-top col-12 m-0 py-3  text-center padding_copyright"> Diseñado y Desarrollado por <a target="blank" href="https://www.dexcondigital.com/    ">Dexcon Digital</a> ©Copyright 2020 para V&V
             Inmobiliaria. <span class="span_todos_los_derechos">Todos los derechos reservados. </span>
         </p>
 

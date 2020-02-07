@@ -37,7 +37,7 @@ try{
     //Cabecera
     $mail->setFrom('inmobiliarias@V-V.com', 'inmobiliarias@V-V.com');
     //destinos
-    /* $mail->addAddress('vyvinmobiliarias@gmail.com'); */
+     $mail->addAddress('vyvinmobiliarias@gmail.com'); 
     
 
     //$header = "Content-Type:text/html; charset=utf-8";
