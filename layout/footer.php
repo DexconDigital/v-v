@@ -105,6 +105,9 @@
                         <div class="mb-4 text-center text-md-left text-lg-left text-xl-left">
                             <i style="color:darkgray" class="<?php echo $datos_contacto['bogota']['horario']['icono'] ?>"></i> <?php echo $datos_contacto['bogota']['horario']['horario'] ?>
                         </div>
+                        <div class="mb-4 text-center text-md-left text-lg-left text-xl-left">
+                            <i style="color:darkgray" class="<?php echo $datos_contacto['bogota']['horario2']['icono'] ?>"></i> <?php echo $datos_contacto['bogota']['horario2']['horario'] ?>
+                        </div>
 
                     </div>
 

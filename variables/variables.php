@@ -67,6 +67,10 @@ $datos_contacto = [
 			"horario" => "Lunes a viernes de <br> 08:00 am a 01:00 pm <br> 02:00 pm a 05:00 pm",
 			"icono" => "fas fa-calendar-alt",
 		],
+		"horario2" => [
+			"horario" => "Sábados de <br> 08:00 am a 01:00 pm",
+			"icono" => "fas fa-calendar-alt",
+		],
 	],
 	"ibague" => [
 		"nombre_sede" => "Ibagué, Tolima",
