@@ -86,7 +86,7 @@ require 'controllers/detalleInmuebleController.php';
                                     </div>
 
                                     <div class="col-12 col-md-6 col-lg-6 col-xl-6">
-                                        <h5 class="font-weight-bold color_azul text-left text-md-right text-lg-right text-xl-right"> PRECIO:
+                                        <h5 class="font-weight-bold color_azul text-left text-md-right text-lg-right text-xl-right">
                                             <?php if ($r['Gestion'] == 'Arriendo') {
                                                 echo '<span class="precio">$ ' . $r['ValorCanon'] . '</span>';
                                             } else if ($r['Gestion'] == 'Venta') {
@@ -103,14 +103,47 @@ require 'controllers/detalleInmuebleController.php';
 
                                 <div class="row">
 
-                                    <div class="ml-3 pr-5 row">
-                                        <i class="mr-2 <?php echo $datos_contacto['bogota']['direccion']['icono'] ?>"> </i>
-                                        <p> <?php echo $r['barrio'] . ', ' . $r['ciudad'] ?></p>
+                                    <div class="col-12 p-0 d-flex">
+                                        <div class="col-lg-6 col-md-12 col-12 d-flex p-0">
+                                            <div class="ml-3 pr-5">
+                                                <p> <i class="mr-2 <?php echo $datos_contacto['bogota']['direccion']['icono'] ?>"> </i> <?php echo $r['barrio'] . ', ' . $r['ciudad'] ?></p>
+                                            </div>
+
+                                            <div class="text-muted">
+                                                <p class="ml-3 ml-md-0 ml-lg-0 ml-xl-0  "> Código: <span> <?php echo $co; ?></span> </p>
+                                            </div>
+
+                                        </div>
+                                        <!-- <div class="col-6">
+                                            <div class="">
+                                                <h5 class="font-weight-bold color_azul text-left text-md-right text-lg-right text-xl-right">
+                                                    <?php if ($r['Gestion'] == 'Venta') {
+                                                        echo
+                                                            '<tr>
+                                                    <th class=text-left" scope="row">Administracion:</th>
+                                                    <td class="text-right">$ ' . number_format($r['Administracion']) . '</td>
+                                                </tr>';
+                                                    } else if ($r['Gestion'] == "Arriendo") {
+                                                        echo
+                                                            '<tr>
+                                                    <th class=text-left" scope="row">Administracion:</th>
+                                                    <td class="text-right">$ ' . number_format($r['Administracion']) . '</td>
+                                                </tr>';
+                                                    } else {
+                                                        echo
+                                                            '<tr>
+                                                    <th class=text-left" scope="row">Administracion:</th>
+                                                    <td class="text-right">$ ' . number_format($r['ValorVenta']) . '</td>
+                                                </tr>';
+                                                    }
+                                                    ?>
+
+                                                    </p>
+                                                </h5>
+                                            </div>
+                                        </div> -->
                                     </div>
 
-                                    <div class="text-muted">
-                                        <p class="ml-3 ml-md-0 ml-lg-0 ml-xl-0  "> Código: <span> <?php echo $co; ?></span> </p>
-                                    </div>
 
 
 
@@ -132,7 +165,7 @@ require 'controllers/detalleInmuebleController.php';
                                 <div>
                                     <!-- main slider carousel items -->
                                     <section class="mt-3" id="slide-detalle">
-                                    
+
                                         <?php
                                         if (isset($r['fotos'])) {
                                             for ($i = 0; $i < count($r['fotos']); $i++) {
@@ -334,61 +367,61 @@ require 'controllers/detalleInmuebleController.php';
                     </div>
 
 
-                   
+
 
 
                 </div>
 
                 <div class="rounded col-12 col-md-5 col-lg-4 col-l-4">
                     <div class="margen_contenedores_indexr_responsive">
-    
+
                         <div class="row align-items-center justify-content-center my-3">
                             <div class="">
                                 Comparte en:
                             </div>
                             <div class="iconos_detalle_inmueble d-flex ml-3">
-    
+
                                 <a class="icono_fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.vyvinmobiliaria.com%2FdetalleInmueble%3Fcodigo%3D<?php echo $co; ?>" target="_blank">
                                     <i class="mr-2 <?php echo $redes_sociales['facebook']['icono'] ?>"></i>
                                 </a>
-    
+
                                 <a class="icono_tt" href="<?php echo 'https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.vyvinmobiliaria.com%2Fdetalle_inmueble.php%3Fco%3D' . $co . '&text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] ?>" target="_blank">
                                     <i class="mr-2 fab fa-twitter"></i>
                                 </a>
-    
+
                                 <a class="icono_w" href="<?php echo 'https://wa.me/?text=' . $r['Tipo_Inmueble'] . '%20en%20' . $r['Gestion'] . '%20en%20' . $r['ciudad'] . '-' . $r['depto'] . '%20www.vyvinmobiliaria.comdetalleInmueble.php?codigo%3d' . $co ?>" target="_blank">
                                     <i class="mr-2 <?php echo $datos_contacto['bogota']['whatsapp']['icono'] ?>"></i>
                                 </a>
-    
+
                             </div>
                         </div>
-    
+
                         <div class="row justify-content-center">
                             <a href="https://simicrm.app/mcomercialweb/fichas_tecnicas/fichatec3.php?reg=116-<?php echo $co ?>" target="_blank"><button class="btn boton_ficha"> Descargar Ficha </button> </a>
                         </div>
-    
+
                         <div class="border-top mt-3 row">
-    
+
                             <h5 class="text-center col-12 mt-3"> Contáctate con el Asesor </h5>
-    
+
                             <div class="align-items-center col-12 justify-content-center m-0 mt-3 p-0 row">
-    
+
                                 <div class="col-7 imagen_asesor">
                                     <img src="<?php echo $asesor['FotoAsesor']; ?>" alt="">
                                 </div>
-    
+
                                 <div class="col-12 parrafos_asesor mt-3">
-    
+
                                     <p><i class="iconos_asesor fas fa-user"></i> <?php echo $asesor['ntercero']; ?></p>
                                     <p><i class="iconos_asesor fas fa-mobile-alt"></i> <a class="color_asesor" href="tel:+57<?php echo $asesor['celular']; ?>"><?php echo $asesor['celular']; ?></a></p>
                                     <p><i class="iconos_asesor fas fa-envelope"></i> <a class="color_asesor" href="mailto:<?php echo $asesor['correo']; ?>"><?php echo $asesor['correo']; ?></a></p>
                                 </div>
                             </div>
-    
-    
-    
+
+
+
                             <div class="col-12 mb-3">
-    
+
                                 <input type="text" class="my-2 border codigo_input form-control" id="exampleFormControlInput1" placeholder="Nombre y Apellido">
                                 <input type="email" class="my-2 border codigo_input form-control" id="exampleFormControlInput1" placeholder="Correo Electrónico">
                                 <input type="number" class="my-2 border codigo_input form-control" id="exampleFormControlInput1" placeholder="Telefono Celular">
@@ -401,21 +434,21 @@ require 'controllers/detalleInmuebleController.php';
                                     <button class="col-3 btn boton_ficha"> Enviar </button>
                                 </div>
                             </div>
-    
+
                         </div>
-    
-    
+
+
                     </div>
                 </div>
 
                 <div class="col-12 mt-5">
-                        <h2 class="text-center mb-5"> Ubicación del inmueble </h2>
-                        <div class="card mapa_tamaño">
-                            <div class="">
-                                <div id="map" class="w-100"></div>
-                            </div>
+                    <h2 class="text-center mb-5"> Ubicación del inmueble </h2>
+                    <div class="card mapa_tamaño">
+                        <div class="">
+                            <div id="map" class="w-100"></div>
                         </div>
                     </div>
+                </div>
 
             </div>
         </div>
