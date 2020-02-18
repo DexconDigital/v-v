@@ -47,13 +47,28 @@ body {
     color: $color_rojo
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
     .margen_contenedores_indexr_responsive {
 
         margin: 0 5%;
 
     }
+
+    .el_libertador {
+        height: 55px!important;
+        width: 200px!important;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width:425px) {
+
+    .el_libertador {
+        width: 100%!important;
+        height: initial!important;
+    }
+    
     
 }
 

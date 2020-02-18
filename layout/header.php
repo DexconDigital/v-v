@@ -98,7 +98,7 @@
 
         <nav class="barra_navegadora2 margen_contenedores_index navbar navbar-expand-lg navbar-light">
 
-            <div><a class="navbar-brand" href="index.php"> <img style="width: 160px;" src="images/Logo.png" alt="Logo V&V Inmobiliaria"> </a></div>
+            <div><a class="navbar-brand" href="index.php"> <img style="width: 160px;" src="images/logo.png" alt="Logo V&V Inmobiliaria"> </a></div>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

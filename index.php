@@ -467,27 +467,50 @@ require 'variables/variables.php';
 
 
 
-    <section id="nuestros_aliados" class="fondo_gris">
+    <section id="nuestros_aliados" class="fondo_gris pb-5">
 
         <h2 style="padding: 50px 0 0 0;" class="text-center"> Nuestros Aliados </h2>
 
-        <div class="d-flex flex-column margen_contenedores_index">
-            <div class="col-12 d-flex flex-wrap justify-content-around">
-                <div class="col-12 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/libertador.png" alt="..."> </div>
-                <div class="col-12 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/afiansa.png" alt="..."> </div>
-                <div class="col-12 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/fianzacredito.png" alt="..."> </div>
+        <div class="d-flex flex margen_contenedores_index flex-wrap align-items-center justify-content-around">
+
+            <div style="width:150px; height:150px"  class=" d-flex align-items-center justify-content-center col-12 col-md-3 col-lg-3 mx-2 col-xl-3">
+                <img class="el_libertador w-100" src="images/libertador.png" alt="...">
             </div>
 
-            <div class="col-12 d-flex flex-wrap justify-content-around">
-				<div class="col-12 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/simi.png" alt="..."> </div>
-                <div class="col-12 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/olx.png" alt="..."> </div>
-                <div class="col-12 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/ciencuadras.png" alt="..."> </div>
+            <div style="width:150px; height:150px"  class="d-flex align-items-center justify-content-center col-12 col-md-3 col-lg-3 mx-2 col-xl-3">
+                <img class="w-100" src="images/afiansa.png" alt="...">
             </div>
-			<div class="col-12 d-flex flex-wrap justify-content-around">
-				<div class="col-12 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/mercadolibre.png" alt="..."> </div>
-                <div class="col-12 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/prelegalassist.png" alt="..."> </div>
-				<div class="col-12 col-md-3 col-lg-3 col-xl-3"> <img style="width:100%;" src="images/fincaraiz.png" alt="..."> </div>
-			</div>
+
+            <div style="width:150px; height:150px"  class="d-flex align-items-center justify-content-center col-12 col-md-3 col-lg-3 mx-2 col-xl-3">
+                <img class="w-100" src="images/fianzacredito.png" alt="...">
+            </div>
+
+            <div style="width:150px; height:150px"  class="d-flex align-items-center justify-content-center col-12 col-md-3 col-lg-3 mx-2 col-xl-3">
+                <img class="w-100" src="images/simi.png" alt="...">
+            </div>
+
+            <div style="width:150px; height:150px"  class="d-flex align-items-center justify-content-center col-12 col-md-3 col-lg-3 mx-2 col-xl-3">
+                <img class="w-100" src="images/olx.png" alt="...">
+            </div>
+
+            <div style="width:150px; height:150px"  class="d-flex align-items-center justify-content-center col-12 col-md-3 col-lg-3 mx-2 col-xl-3">
+                <img class="w-100" src="images/ciencuadras.png" alt="...">
+            </div>
+
+
+            <div style="width:150px; height:150px"  class="d-flex align-items-center justify-content-center col-12 col-md-3 col-lg-3 mx-2 col-xl-3">
+                <img class="w-100" src="images/mercadolibre.png" alt="...">
+            </div>
+
+            <div style="width:150px; height:150px"  class="d-flex align-items-center justify-content-center col-12 col-md-3 col-lg-3 mx-2 col-xl-3">
+                <img class="w-100" src="images/prelegalassist.png" alt="...">
+            </div>
+
+            <div style="width:150px; height:150px"  class="d-flex align-items-center justify-content-center col-12 col-md-3 col-lg-3 mx-2 col-xl-3">
+                <img class="w-100" src="images/fincaraiz.png" alt="...">
+            </div>
+            
+
         </div>
 
     </section>
