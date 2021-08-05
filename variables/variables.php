@@ -49,7 +49,7 @@ $datos_contacto = [
 			"imprimir" => "313 387 0927",
 			"icono" => "fas fa-mobile-alt",
 		],
-	"celular2" => [
+	   "celular2" => [
 			"link"=> "+573212046505",
 			"imprimir" => "321 204 6505",
 			"icono" => "fas fa-mobile-alt",
@@ -173,7 +173,8 @@ $texto_quienes_somos = [
 			0 => "V&V Inmobiliaria es una empresa especializada en la comercialización de bienes raíces y en la prestación de servicios inmobiliarios.",
 			1 => "Realizamos el acompañamiento a nuestros clientes en el proceso de arriendo y venta de sus inmuebles, cuidando y garantizando sus intereses.",
 			2 => "Contamos con un personal altamente calificado que nos permite darle al cliente el mejor servicio posible, creando relaciones duraderas en donde se sientan cómodos, tranquilos y respaldados.",
-	],
+        ]
+    ],
 	"vision" => [
 		"titulo" => "Visión",//en negrita
 		"parrafo" => "Consolidar a V&V Inmobiliaria S.A.S. para el año 2022 como una de las compañías inmobiliarias más sólidas, fuertes y reconocidas del mercado inmobiliario colombiano. Destacándonos por nuestra profesionalidad, transparencia y apoyo incondicional para seguir satisfaciendo las necesidades de nuestros clientes en el mercado nacional.",
@@ -199,7 +200,7 @@ $texto_quienes_somos = [
 			],
 		],
 	],
-],
+];
 
 //textos y banner contador de estadisticas seccion home
 $texto_contador_estadisticas = [
@@ -210,11 +211,11 @@ $texto_contador_estadisticas = [
 		3 => "Inmuebles en Venta",
 		4 => "Inmuebles en Arriendo/Venta",
 		],
-		"imagen" =>[
-			'imagen' => 'images/banner_estadisticas.jpg',
-			'alt' => 'Imagen banner estadisticas'
-		],	
-	],
+    "imagen" =>[
+        'imagen' => 'images/banner_estadisticas.jpg',
+        'alt' => 'Imagen banner estadisticas'
+    ],	
+];
 
 // imaganes varias
 $imagenes = [
@@ -229,7 +230,6 @@ $imagenes = [
 	"inmuebles" => [
 		'imagen' => 'images/banner_inmuebles.jpg',
 		'alt' => 'Imagen'
-	],
 	],
 	"detalle" => [
 		'imagen' => 'images/detalle_banner_inmueble.jpg',
@@ -262,7 +262,7 @@ $texto_servicios = [
 				0 => "Nuestro equipo comercial brinda una total asesoría y acompañamiento en el proceso de arrendamiento, garantizando la tranquilidad del propietario y cuidando su patrimonio.",
 				1 => "Promocionamos los inmuebles de nuestros clientes en diferentes portales inmobiliarios como Finca Raíz y Ciencuadras,  en otras plataformas como OLX y Mercado Libre y en nuestras redes sociales y página web.",
 				2 => "Adicionalmente contamos con pólizas de arrendamiento de las aseguradoras El Libertador y Afianzadora Nacional para garantizarles a los propietarios el pago del canon mensual en el caso que el inquilino no pague.",
-		],
+    ],
 	"ventas" =>[
 		"titulo" => "Venta de Inmuebles",
 		"parrafos" => [
@@ -279,12 +279,12 @@ $texto_servicios = [
 	],
 	"asesoria" =>[
 		"titulo" => "Asesoría Jurídica",
-		"parrafos" => "Junto a nuestro aliado Pre Legal Assist, ofrecemos el servicio de asesoría jurídica para nuestros clientes para apoyarlos en lo que necesiten.",
-		],
+		"parrafos" => "Junto a nuestro aliado Consult Group Legal, ofrecemos el servicio de asesoría jurídica para nuestros clientes para apoyarlos en lo que necesiten.",
+    ],
 	"corretaje" =>[
 			"titulo" => "Corretaje",
 			"parrafo" => "Ayudamos a nuestros clientes a encontrar su inmueble soñado en Bogotá, Ibagué y Santa Marta.",
-		],	
+    ],	
 	"reparaciones" =>[
 		"titulo" => "Reparaciones Locativas",
 		"parrafos" => "Ofrecemos servicio de reparaciones, mantenimientos y mantenimientos preventivos que requieran nuestros clientes. Contamos con nuestros técnicos certificados para garantizarles mayor seguridad y confianza.",
