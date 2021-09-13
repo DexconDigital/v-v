@@ -40,8 +40,8 @@ $datos_contacto = [
 			"icono" => "fas fa-map-marker-alt",
 		],
 		"telefono_fijo" => [
-			"link"=> "0316130770",
-			"imprimir" => "+57 (1) 613 0770",
+			"link"=> "6016130770",
+			"imprimir" => "(601) 613 0770",
 			"icono" => "fas fa-phone",
 		],
 		"celular" => [
@@ -79,8 +79,8 @@ $datos_contacto = [
 			"icono" => "fas fa-map-marker-alt",
 		],
 		"telefono_fijo" => [
-			"link"=> "0382741157",
-			"imprimir" => "+57 (8) 274 1157",
+			"link"=> "6082741157",
+			"imprimir" => "(608) 274 1157",
 			"icono" => "fas fa-phone",
 		],
 		"celular" => [
